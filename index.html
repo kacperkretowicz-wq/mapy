@@ -108,9 +108,9 @@
                         <div class="filter-group">
                             <label for="gps-sim-select">Lokalizacja GPS:</label>
                             <select id="gps-sim-select">
-                                <option value="device">Urządzenie (Real GPS)</option>
+                                <option value="device" selected>Urządzenie (Real GPS)</option>
                                 <option value="warszawa">Warszawa (Centrum)</option>
-                                <option value="wroclaw" selected>Wrocław (Centrum)</option>
+                                <option value="wroclaw">Wrocław (Centrum)</option>
                                 <option value="krakow">Kraków (Centrum)</option>
                                 <option value="gdansk">Gdańsk (Centrum)</option>
                                 <option value="poznan">Poznań (Centrum)</option>
@@ -162,6 +162,16 @@
                             </button>
                         </div>
                         
+                        <div class="setting-item">
+                            <div class="setting-text">
+                                <span class="setting-title">Pobierz stacje z internetu (OSM)</span>
+                                <span class="setting-desc">Pobiera na żywo najnowsze stacje Orlen z bazy OpenStreetMap dla całej Polski.</span>
+                            </div>
+                            <button id="sync-osm-btn" class="btn btn-primary btn-sm" style="box-shadow: none;">
+                                <i class="fa-solid fa-rotate"></i> Synchronizuj
+                            </button>
+                        </div>
+
                         <div class="setting-item">
                             <div class="setting-text">
                                 <span class="setting-title">Resetuj aplikację</span>
