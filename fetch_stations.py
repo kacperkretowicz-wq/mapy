@@ -138,9 +138,9 @@ out center;"""
             url, 
             data=post_data,
             headers={
-                'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36',
+                'User-Agent': 'Wget/1.21.2',
                 'Content-Type': 'application/x-www-form-urlencoded',
-                'Accept': 'application/json, text/javascript, */*; q=0.01'
+                'Accept': '*/*'
             }
         )
         with urllib.request.urlopen(req, timeout=45) as response:
@@ -165,7 +165,8 @@ out center;"""
             req = urllib.request.Request(
                 get_url,
                 headers={
-                    'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36'
+                    'User-Agent': 'Wget/1.21.2',
+                    'Accept': '*/*'
                 }
             )
             with urllib.request.urlopen(req, timeout=45) as response:

@@ -149,6 +149,7 @@ document.addEventListener('DOMContentLoaded', () => {
     const exportCsvBtn = document.getElementById('export-csv-btn');
     const importCsvFile = document.getElementById('import-csv-file');
     const resetDbBtn = document.getElementById('reset-db-btn');
+    const syncOsmBtn = document.getElementById('sync-osm-btn');
     const toast = document.getElementById('toast');
 
     // Overlay element do Bottom Sheet
@@ -848,6 +849,11 @@ document.addEventListener('DOMContentLoaded', () => {
         exportCsvBtn.addEventListener('click', exportToCSV);
         importCsvFile.addEventListener('change', handleCSVImport);
         
+        // Synchronizacja OSM
+        if (syncOsmBtn) {
+            syncOsmBtn.addEventListener('click', syncOsmData);
+        }
+
         // Reset bazy
         resetDbBtn.addEventListener('click', () => {
             if (confirm("Czy na pewno chcesz zresetować bazę danych do ustawień domyślnych? Stracisz wszystkie zapisane statusy i notatki.")) {
@@ -1028,6 +1034,136 @@ document.addEventListener('DOMContentLoaded', () => {
             
             // Przy symulacji również sprawdzamy, czy "wjechaliśmy" na stację
             checkGeofencing(gpsSimLocation.lat, gpsSimLocation.lon);
+        }
+    }
+
+    // Synchronizacja z OSM
+    async function syncOsmData() {
+        const loadingOverlay = document.getElementById('loading-overlay');
+        const loadingText = document.getElementById('loading-text');
+        if (loadingOverlay) loadingOverlay.style.display = 'flex';
+        if (loadingText) loadingText.textContent = 'Pobieranie bazy stacji...';
+
+        try {
+            const query = `[out:json][timeout:90];area["ISO3166-1"="PL"]->.searchArea;(node["amenity"="fuel"]["brand"~"Orlen",i](area.searchArea);way["amenity"="fuel"]["brand"~"Orlen",i](area.searchArea););out center;`;
+
+            // Ponieważ Overpass wymaga content-type application/x-www-form-urlencoded
+            const response = await fetch('https://overpass-api.de/api/interpreter', {
+                method: 'POST',
+                headers: {
+                    'Content-Type': 'application/x-www-form-urlencoded',
+                },
+                body: 'data=' + encodeURIComponent(query)
+            });
+
+            if (!response.ok) {
+                throw new Error(`HTTP error! status: ${response.status}`);
+            }
+
+            const data = await response.json();
+            const elements = data.elements || [];
+
+            if (elements.length === 0) {
+                throw new Error("Pobrano 0 stacji");
+            }
+
+            if (loadingText) loadingText.textContent = 'Przetwarzanie danych...';
+
+            const newStations = [];
+
+            elements.forEach(elem => {
+                const tags = elem.tags || {};
+                let lat = elem.lat;
+                let lon = elem.lon;
+
+                if (!lat || !lon) {
+                    if (elem.center) {
+                        lat = elem.center.lat;
+                        lon = elem.center.lon;
+                    }
+                }
+
+                if (!lat || !lon) return;
+
+                const osmId = elem.id;
+                const stationId = `ORL-PL-${osmId}`;
+
+                let name = tags.name || 'Orlen';
+                const ref = tags.ref;
+
+                if (ref && !name.includes(ref)) {
+                    name = `Orlen nr ${ref}`;
+                } else if (!name.toLowerCase().includes('orlen')) {
+                    name = `Orlen (${name})`;
+                }
+
+                const addrStreet = tags['addr:street'] || '';
+                const addrHouse = tags['addr:housenumber'] || '';
+                const addrPostcode = tags['addr:postcode'] || '';
+                const addrCity = tags['addr:city'] || '';
+
+                const addressParts = [];
+                if (addrStreet) {
+                    if (addrHouse) {
+                        addressParts.push(`ul. ${addrStreet} ${addrHouse}`);
+                    } else {
+                        addressParts.push(`ul. ${addrStreet}`);
+                    }
+                } else if (addrCity) {
+                    addressParts.push(addrCity);
+                }
+
+                const cityParts = [];
+                if (addrPostcode) cityParts.push(addrPostcode);
+                if (addrCity && addrStreet) cityParts.push(addrCity);
+
+                if (cityParts.length > 0) {
+                    addressParts.push(cityParts.join(' '));
+                }
+
+                let fullAddress = addressParts.join(', ');
+                if (!fullAddress) {
+                    fullAddress = `Stacja Orlen, Polska (współrzędne: ${lat.toFixed(5)}, ${lon.toFixed(5)})`;
+                }
+
+                // Zachowaj stare dane jeśli istnieją
+                const existingStation = stations.find(s => s.ID_Punktu === stationId);
+
+                newStations.push({
+                    ID_Punktu: stationId,
+                    Nazwa_Stacji: existingStation ? existingStation.Nazwa_Stacji : name,
+                    Adres: fullAddress,
+                    Latitude: lat.toFixed(6),
+                    Longitude: lon.toFixed(6),
+                    Handlowiec: existingStation ? existingStation.Handlowiec : '',
+                    Status: existingStation ? existingStation.Status : 'Do zrobienia',
+                    Ostatnia_Aktualizacja: existingStation ? existingStation.Ostatnia_Aktualizacja : '',
+                    Notatki: existingStation ? existingStation.Notatki : ''
+                });
+            });
+
+            // Zachowaj też stacje z bazy, których OSM nie zwrócił, żeby nie zgubić danych (np. były w takcie)
+            const existingIds = new Set(newStations.map(s => s.ID_Punktu));
+            stations.forEach(s => {
+                if (!existingIds.has(s.ID_Punktu) && s.Status !== 'Do zrobienia') {
+                    newStations.push(s);
+                }
+            });
+
+            stations = newStations;
+            saveToLocalStorage();
+
+            updateMapMarkers();
+            updateStationsListView();
+            updateStats();
+
+            showToast(`Pomyślnie pobrano i zaktualizowano ${newStations.length} stacji z OSM!`);
+
+        } catch (error) {
+            console.error("Błąd podczas pobierania danych z OSM:", error);
+            alert("Nie udało się pobrać najnowszych stacji z OSM. Błąd: " + error.message);
+        } finally {
+            if (loadingOverlay) loadingOverlay.style.display = 'none';
         }
     }
 
