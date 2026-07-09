@@ -41,9 +41,9 @@ def main():
     print("  1. Upewnij się, że telefon i ten komputer są w tej samej sieci Wi-Fi.")
     print("  2. Otwórz przeglądarkę w telefonie.")
     print(f"  3. Wpisz następujący adres:")
-    print(f"\n     👉  http://{local_ip}:{PORT}  👈\n")
+    print(f"\n     >>>  http://{local_ip}:{PORT}  <<<\n")
     print("  Na komputerze możesz otworzyć aplikację pod adresem:")
-    print(f"     👉  http://localhost:{PORT}")
+    print(f"     >>>  http://localhost:{PORT}")
     print("------------------------------------------------------------------")
     print("\nNaciśnij Ctrl+C, aby zatrzymać serwer.\n")
     

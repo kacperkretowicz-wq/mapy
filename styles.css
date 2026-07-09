@@ -15,9 +15,9 @@
     --border: #E5E7EB;
     
     /* Kolory statusów (Vibrant & Premium) */
-    --status-todo: #EF4444;    /* Czerwony pin */
-    --status-progress: #F59E0B;/* Żółty pin */
-    --status-done: #10B981;    /* Zielony pin */
+    --status-todo: #FFA1A1;    /* Jasny czerwony pin */
+    --status-progress: #FCD34D;/* Jasny żółty pin */
+    --status-done: #A7F3D0;    /* Jasny zielony pin */
     
     /* Cienie i zaokrąglenia */
     --shadow-sm: 0 1px 3px rgba(0,0,0,0.1);
@@ -359,6 +359,41 @@ input:checked + .slider:before {
 .pin-todo { --color: var(--status-todo); }
 .pin-progress { --color: var(--status-progress); }
 .pin-done { --color: var(--status-done); }
+
+/* Stylizacja stacji pilnego audytu (glowing animation) */
+.pin-urgent .pin-body {
+    background: #ef4444 !important;
+    border: 2.5px solid #fca5a5 !important;
+    animation: pulse-urgent-pin 1.2s infinite alternate !important;
+}
+
+.pin-urgent .pin-inner {
+    background: var(--white) !important;
+    display: flex !important;
+    align-items: center !important;
+    justify-content: center !important;
+    width: 14px !important;
+    height: 14px !important;
+}
+
+.pin-urgent .audit-exclamation {
+    color: #ef4444 !important;
+    font-size: 11px !important;
+    font-weight: 900 !important;
+    display: flex !important;
+    align-items: center !important;
+    justify-content: center !important;
+}
+
+@keyframes pulse-urgent-pin {
+    0% {
+        box-shadow: 0 0 0 0 rgba(239, 68, 68, 0.8), 0 3px 6px rgba(0,0,0,0.25);
+    }
+    100% {
+        box-shadow: 0 0 0 10px rgba(239, 68, 68, 0), 0 3px 6px rgba(0,0,0,0.25);
+    }
+}
+
 
 
 /* ==========================================================================
@@ -1140,5 +1175,167 @@ input:checked + .slider:before {
 @keyframes spin-loading {
     0% { transform: rotate(0deg); }
     100% { transform: rotate(360deg); }
+}
+
+/* ==========================================================================
+   BANER POWIADOMIENIA PROXIMITY GPS
+   ========================================================================== */
+.proximity-alert-banner {
+    position: absolute;
+    top: 75px; /* Tuż pod nagłówkiem */
+    left: 12px;
+    right: 12px;
+    background-color: var(--white);
+    border: 2px solid var(--primary);
+    border-radius: var(--radius-md);
+    box-shadow: var(--shadow-lg);
+    z-index: 2500;
+    padding: 12px 14px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    animation: slideDownProximity 0.4s cubic-bezier(0.16, 1, 0.3, 1);
+    border-left: 5px solid var(--primary);
+}
+
+@keyframes slideDownProximity {
+    from { transform: translateY(-150%); opacity: 0; }
+    to { transform: translateY(0); opacity: 1; }
+}
+
+.proximity-alert-content {
+    display: flex;
+    gap: 12px;
+    align-items: center;
+}
+
+.proximity-alert-content i {
+    font-size: 1.4rem;
+    color: var(--primary);
+}
+
+.proximity-alert-content strong {
+    font-size: 0.85rem;
+    font-weight: 700;
+    color: var(--dark);
+    display: block;
+    margin-bottom: 2px;
+}
+
+.proximity-alert-content p {
+    font-size: 0.75rem;
+    color: var(--dark-muted);
+    font-weight: 500;
+    line-height: 1.25;
+}
+
+.proximity-alert-actions {
+    display: flex;
+    gap: 8px;
+    justify-content: flex-end;
+}
+
+.proximity-alert-actions .btn {
+    padding: 6px 12px;
+    font-size: 0.75rem;
+    border-radius: var(--radius-sm);
+}
+
+/* ==========================================================================
+   STYLOWANIE AUDYTU 2026 i PRIORYTETÓW
+   ========================================================================== */
+.audit-badge {
+    background-color: var(--primary) !important;
+    color: white !important;
+    font-size: 0.65rem !important;
+    padding: 2px 6px !important;
+    border-radius: var(--radius-sm) !important;
+    font-weight: 700 !important;
+    margin-left: 6px !important;
+    display: inline-flex !important;
+    align-items: center !important;
+    gap: 4px !important;
+}
+
+.audit-exclamation {
+    color: var(--primary);
+    font-weight: 900;
+    font-size: 10px;
+    line-height: 12px;
+    display: block;
+    text-align: center;
+}
+
+/* ==========================================================================
+   NAKŁADKA SZYBKIEGO PLANERA TRASY NA MAPIE
+   ========================================================================== */
+.map-route-card {
+    position: absolute;
+    bottom: 85px;
+    right: 24px;
+    width: 290px;
+    background-color: var(--white);
+    border-radius: var(--radius-md);
+    border: 2px solid var(--primary);
+    box-shadow: var(--shadow-lg);
+    z-index: 2000;
+    padding: 14px;
+    animation: slideInRouteCard 0.3s cubic-bezier(0.16, 1, 0.3, 1);
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+@keyframes slideInRouteCard {
+    from { transform: scale(0.9) translateY(20px); opacity: 0; }
+    to { transform: scale(1) translateY(0); opacity: 1; }
+}
+
+@media (max-width: 480px) {
+    .map-route-card {
+        right: 12px;
+        left: 12px;
+        width: auto;
+        bottom: 85px;
+    }
+}
+
+/* Custom Route Playlist styling */
+.route-custom-list-ul {
+    padding: 0;
+    margin: 0;
+}
+
+.route-custom-list-ul li {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 8px;
+    border-bottom: 1px solid var(--border);
+    font-size: 0.8rem;
+    color: var(--dark);
+    gap: 10px;
+}
+
+.route-custom-list-ul li:last-child {
+    border-bottom: none;
+}
+
+.route-custom-list-ul li .remove-btn {
+    background: none;
+    border: none;
+    color: #ef4444;
+    cursor: pointer;
+    font-size: 0.95rem;
+    padding: 6px;
+    border-radius: var(--radius-sm);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: background 0.2s;
+}
+
+.route-custom-list-ul li .remove-btn:hover {
+    background-color: #fee2e2;
 }
 

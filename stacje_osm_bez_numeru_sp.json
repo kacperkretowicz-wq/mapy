@@ -1,0 +1,1602 @@
+[
+  {
+    "OSM_ID": 36449577,
+    "SP": null,
+    "Nazwa": "Orlen",
+    "Adres": "51.75232,21.38500",
+    "Lat": 51.7523209,
+    "Lon": 21.3849953
+  },
+  {
+    "OSM_ID": 82780467,
+    "SP": null,
+    "Nazwa": "Orlen",
+    "Adres": "53.84386,21.22162",
+    "Lat": 53.8438622,
+    "Lon": 21.2216248
+  },
+  {
+    "OSM_ID": 95003080,
+    "SP": null,
+    "Nazwa": "Orlen",
+    "Adres": "52.24442,20.96723",
+    "Lat": 52.2444232,
+    "Lon": 20.9672299
+  },
+  {
+    "OSM_ID": 207628405,
+    "SP": null,
+    "Nazwa": "Orlen",
+    "Adres": "ul. Grzybowska 74",
+    "Lat": 52.2339823,
+    "Lon": 20.9849535
+  },
+  {
+    "OSM_ID": 236101751,
+    "SP": null,
+    "Nazwa": "Orlen",
+    "Adres": "50.08966,19.89310",
+    "Lat": 50.0896573,
+    "Lon": 19.8931029
+  },
+  {
+    "OSM_ID": 243691232,
+    "SP": null,
+    "Nazwa": "Orlen",
+    "Adres": "ul. Zakręty 3, 32-400 Jawornik",
+    "Lat": 49.8658097,
+    "Lon": 19.9113884
+  },
+  {
+    "OSM_ID": 246814960,
+    "SP": null,
+    "Nazwa": "Orlen",
+    "Adres": "52.14800,21.05957",
+    "Lat": 52.1480031,
+    "Lon": 21.0595701
+  },
+  {
+    "OSM_ID": 247286407,
+    "SP": null,
+    "Nazwa": "Orlen",
+    "Adres": "ul. Nasielska 1",
+    "Lat": 52.2442364,
+    "Lon": 21.0961751
+  },
+  {
+    "OSM_ID": 251693230,
+    "SP": null,
+    "Nazwa": "Orlen",
+    "Adres": "50.05512,19.92519",
+    "Lat": 50.055122,
+    "Lon": 19.9251924
+  },
+  {
+    "OSM_ID": 253041827,
+    "SP": null,
+    "Nazwa": "Orlen",
+    "Adres": "ul. Aleja Wyścigowa 2, Warszawa",
+    "Lat": 52.1658681,
+    "Lon": 21.0158993
+  },
+  {
+    "OSM_ID": 254021620,
+    "SP": null,
+    "Nazwa": "Orlen",
+    "Adres": "52.17659,21.04515",
+    "Lat": 52.17659,
+    "Lon": 21.0451493
+  },
+  {
+    "OSM_ID": 254451731,
+    "SP": null,
+    "Nazwa": "Orlen",
+    "Adres": "52.21650,20.99858",
+    "Lat": 52.216499,
+    "Lon": 20.9985763
+  },
+  {
+    "OSM_ID": 255594959,
+    "SP": null,
+    "Nazwa": "Orlen",
+    "Adres": "52.23657,21.08749",
+    "Lat": 52.2365721,
+    "Lon": 21.0874871
+  },
+  {
+    "OSM_ID": 267241999,
+    "SP": null,
+    "Nazwa": "Orlen",
+    "Adres": "53.42499,14.54561",
+    "Lat": 53.4249853,
+    "Lon": 14.5456118
+  },
+  {
+    "OSM_ID": 267242075,
+    "SP": null,
+    "Nazwa": "Orlen",
+    "Adres": "53.43688,14.53235",
+    "Lat": 53.4368776,
+    "Lon": 14.5323492
+  },
+  {
+    "OSM_ID": 267249076,
+    "SP": null,
+    "Nazwa": "Orlen",
+    "Adres": "53.45418,14.53731",
+    "Lat": 53.4541798,
+    "Lon": 14.537315
+  },
+  {
+    "OSM_ID": 267458634,
+    "SP": null,
+    "Nazwa": "Orlen",
+    "Adres": "52.03016,23.11841",
+    "Lat": 52.0301603,
+    "Lon": 23.1184148
+  },
+  {
+    "OSM_ID": 269327980,
+    "SP": null,
+    "Nazwa": "Orlen",
+    "Adres": "ul. Granitowa, Szczecin",
+    "Lat": 53.3718582,
+    "Lon": 14.6059124
+  },
+  {
+    "OSM_ID": 271230252,
+    "SP": null,
+    "Nazwa": "Orlen",
+    "Adres": "52.05122,23.12100",
+    "Lat": 52.0512203,
+    "Lon": 23.1210009
+  },
+  {
+    "OSM_ID": 274282013,
+    "SP": null,
+    "Nazwa": "Orlen",
+    "Adres": "52.97880,22.23051",
+    "Lat": 52.9788007,
+    "Lon": 22.2305084
+  },
+  {
+    "OSM_ID": 278965782,
+    "SP": null,
+    "Nazwa": "Orlen",
+    "Adres": "ul. Bolimowska 75, 99-400 Łowicz",
+    "Lat": 52.1024202,
+    "Lon": 19.97345
+  },
+  {
+    "OSM_ID": 282393656,
+    "SP": null,
+    "Nazwa": "Orlen",
+    "Adres": "52.14115,21.19047",
+    "Lat": 52.1411496,
+    "Lon": 21.1904746
+  },
+  {
+    "OSM_ID": 282740611,
+    "SP": null,
+    "Nazwa": "Orlen",
+    "Adres": "ul. Widok, 96-100 Skierniewice",
+    "Lat": 51.9718198,
+    "Lon": 20.1483711
+  },
+  {
+    "OSM_ID": 285946354,
+    "SP": null,
+    "Nazwa": "Orlen",
+    "Adres": "52.10415,19.95301",
+    "Lat": 52.1041487,
+    "Lon": 19.9530102
+  },
+  {
+    "OSM_ID": 288473772,
+    "SP": null,
+    "Nazwa": "Orlen",
+    "Adres": "53.39732,14.67530",
+    "Lat": 53.3973211,
+    "Lon": 14.6752953
+  },
+  {
+    "OSM_ID": 292144518,
+    "SP": null,
+    "Nazwa": "Orlen",
+    "Adres": "52.22587,21.14888",
+    "Lat": 52.2258666,
+    "Lon": 21.1488765
+  },
+  {
+    "OSM_ID": 292350920,
+    "SP": null,
+    "Nazwa": "Orlen",
+    "Adres": "ul. Przemysłowa, 21-025 Niemce",
+    "Lat": 51.3706076,
+    "Lon": 22.6335031
+  },
+  {
+    "OSM_ID": 294680313,
+    "SP": null,
+    "Nazwa": "Orlen",
+    "Adres": "50.65208,17.90933",
+    "Lat": 50.6520761,
+    "Lon": 17.9093307
+  },
+  {
+    "OSM_ID": 296384840,
+    "SP": null,
+    "Nazwa": "Orlen",
+    "Adres": "50.13775,20.38652",
+    "Lat": 50.1377464,
+    "Lon": 20.3865229
+  },
+  {
+    "OSM_ID": 311778212,
+    "SP": null,
+    "Nazwa": "Orlen",
+    "Adres": "ul. Plac Wolności 7, 83-130 Pelplin",
+    "Lat": 53.9272558,
+    "Lon": 18.6902768
+  },
+  {
+    "OSM_ID": 313418888,
+    "SP": null,
+    "Nazwa": "Orlen",
+    "Adres": "53.46529,14.57911",
+    "Lat": 53.4652907,
+    "Lon": 14.5791096
+  },
+  {
+    "OSM_ID": 322526361,
+    "SP": null,
+    "Nazwa": "Orlen",
+    "Adres": "ul. Kawaleryjska 27, 15-325 Białystok",
+    "Lat": 53.1023947,
+    "Lon": 23.1391236
+  },
+  {
+    "OSM_ID": 322920602,
+    "SP": null,
+    "Nazwa": "Orlen",
+    "Adres": "50.25452,19.04710",
+    "Lat": 50.2545181,
+    "Lon": 19.0471037
+  },
+  {
+    "OSM_ID": 325090736,
+    "SP": null,
+    "Nazwa": "Orlen",
+    "Adres": "50.17846,18.88916",
+    "Lat": 50.17846,
+    "Lon": 18.8891557
+  },
+  {
+    "OSM_ID": 327854771,
+    "SP": null,
+    "Nazwa": "Orlen",
+    "Adres": "53.52681,15.79571",
+    "Lat": 53.5268125,
+    "Lon": 15.7957148
+  },
+  {
+    "OSM_ID": 333743285,
+    "SP": null,
+    "Nazwa": "Orlen",
+    "Adres": "ul. Ślężna 88A, 53-306 Wrocław",
+    "Lat": 51.0834165,
+    "Lon": 17.0251006
+  },
+  {
+    "OSM_ID": 339223210,
+    "SP": null,
+    "Nazwa": "Orlen",
+    "Adres": "ul. Warszawska 4, 05-520 Konstancin-Jeziorna",
+    "Lat": 52.0921314,
+    "Lon": 21.1195564
+  },
+  {
+    "OSM_ID": 362294148,
+    "SP": null,
+    "Nazwa": "Orlen",
+    "Adres": "53.25610,14.48886",
+    "Lat": 53.2561021,
+    "Lon": 14.488861
+  },
+  {
+    "OSM_ID": 368143716,
+    "SP": null,
+    "Nazwa": "Orlen",
+    "Adres": "51.21338,21.24817",
+    "Lat": 51.2133778,
+    "Lon": 21.2481657
+  },
+  {
+    "OSM_ID": 368143717,
+    "SP": null,
+    "Nazwa": "Orlen",
+    "Adres": "ul. Danuty Siedzikówny \"Inki\" 16, 27-100 Iłża",
+    "Lat": 51.1673714,
+    "Lon": 21.2324434
+  },
+  {
+    "OSM_ID": 368143821,
+    "SP": null,
+    "Nazwa": "Orlen",
+    "Adres": "ul. Wojska Polskiego 111, 26-700 Zwoleń",
+    "Lat": 51.3585102,
+    "Lon": 21.5657093
+  },
+  {
+    "OSM_ID": 372188673,
+    "SP": null,
+    "Nazwa": "Orlen",
+    "Adres": "50.60997,22.00809",
+    "Lat": 50.609972,
+    "Lon": 22.008085
+  },
+  {
+    "OSM_ID": 372188682,
+    "SP": null,
+    "Nazwa": "Orlen",
+    "Adres": "50.66284,21.84881",
+    "Lat": 50.6628448,
+    "Lon": 21.8488129
+  },
+  {
+    "OSM_ID": 372188836,
+    "SP": null,
+    "Nazwa": "Orlen",
+    "Adres": "ul. Aleja Armii Krajowej 5, 22-100 Chełm",
+    "Lat": 51.1299885,
+    "Lon": 23.4677922
+  },
+  {
+    "OSM_ID": 372188988,
+    "SP": null,
+    "Nazwa": "Orlen",
+    "Adres": "Chełm",
+    "Lat": 51.1438,
+    "Lon": 23.50441
+  },
+  {
+    "OSM_ID": 372190562,
+    "SP": null,
+    "Nazwa": "Orlen",
+    "Adres": "Nisko",
+    "Lat": 50.5047248,
+    "Lon": 22.1423294
+  },
+  {
+    "OSM_ID": 383902793,
+    "SP": null,
+    "Nazwa": "Orlen",
+    "Adres": "51.09931,15.30926",
+    "Lat": 51.0993086,
+    "Lon": 15.3092571
+  },
+  {
+    "OSM_ID": 410703559,
+    "SP": null,
+    "Nazwa": "Orlen",
+    "Adres": "ul. Wersalska 3, 03-955 Warszawa",
+    "Lat": 52.2240961,
+    "Lon": 21.0594601
+  },
+  {
+    "OSM_ID": 417909148,
+    "SP": null,
+    "Nazwa": "Orlen",
+    "Adres": "Nowa Słupia",
+    "Lat": 50.85474,
+    "Lon": 21.08588
+  },
+  {
+    "OSM_ID": 417910498,
+    "SP": null,
+    "Nazwa": "Orlen",
+    "Adres": "Baranów Sandomierski",
+    "Lat": 50.4913864,
+    "Lon": 21.5504257
+  },
+  {
+    "OSM_ID": 419354159,
+    "SP": null,
+    "Nazwa": "Orlen",
+    "Adres": "ul. Jedności Narodowej 156, 50-302 Wrocław",
+    "Lat": 51.1267067,
+    "Lon": 17.0464878
+  },
+  {
+    "OSM_ID": 450090249,
+    "SP": null,
+    "Nazwa": "Orlen",
+    "Adres": "ul. Warszawska, 06-130 Nasielsk",
+    "Lat": 52.5895014,
+    "Lon": 20.8095591
+  },
+  {
+    "OSM_ID": 472278434,
+    "SP": null,
+    "Nazwa": "Orlen",
+    "Adres": "ul. Władysława Sikorskiego 115, Gliwice",
+    "Lat": 50.2915714,
+    "Lon": 18.7476141
+  },
+  {
+    "OSM_ID": 472593709,
+    "SP": null,
+    "Nazwa": "Orlen",
+    "Adres": "51.17779,16.15821",
+    "Lat": 51.1777877,
+    "Lon": 16.1582075
+  },
+  {
+    "OSM_ID": 476214790,
+    "SP": null,
+    "Nazwa": "Orlen",
+    "Adres": "14-120",
+    "Lat": 53.4497992,
+    "Lon": 20.0333305
+  },
+  {
+    "OSM_ID": 476214955,
+    "SP": null,
+    "Nazwa": "Orlen",
+    "Adres": "ul. Sońska 4, 06-400 Ciechanów",
+    "Lat": 52.8575023,
+    "Lon": 20.6353581
+  },
+  {
+    "OSM_ID": 476215872,
+    "SP": null,
+    "Nazwa": "Orlen",
+    "Adres": "ul. Warszawska, 13-100 Nidzica",
+    "Lat": 53.3528107,
+    "Lon": 20.4283667
+  },
+  {
+    "OSM_ID": 476215876,
+    "SP": null,
+    "Nazwa": "Orlen",
+    "Adres": "ul. Wyzwolenia 1b, 06-445 Strzegowo",
+    "Lat": 52.887576,
+    "Lon": 20.2797657
+  },
+  {
+    "OSM_ID": 476215969,
+    "SP": null,
+    "Nazwa": "Orlen",
+    "Adres": "ul. Warszawska 4, 87-630 Skępe",
+    "Lat": 52.8765728,
+    "Lon": 19.3690744
+  },
+  {
+    "OSM_ID": 481952969,
+    "SP": null,
+    "Nazwa": "Orlen",
+    "Adres": "ul. Głęboka 32, 20-612 Lublin",
+    "Lat": 51.2422983,
+    "Lon": 22.5407967
+  },
+  {
+    "OSM_ID": 481952984,
+    "SP": null,
+    "Nazwa": "Orlen",
+    "Adres": "ul. Aleja Spółdzielczości Pracy 30, 20-147 Lublin",
+    "Lat": 51.2643673,
+    "Lon": 22.5720811
+  },
+  {
+    "OSM_ID": 481953340,
+    "SP": null,
+    "Nazwa": "Orlen",
+    "Adres": "ul. Doktora Tadeusza Tyszkiewicza, Kazimierz Dolny",
+    "Lat": 51.3259673,
+    "Lon": 21.9508979
+  },
+  {
+    "OSM_ID": 496315984,
+    "SP": null,
+    "Nazwa": "Orlen",
+    "Adres": "ul. Eskadrowa 1, 71-675 Szczecin",
+    "Lat": 53.3955415,
+    "Lon": 14.615961
+  },
+  {
+    "OSM_ID": 499874446,
+    "SP": null,
+    "Nazwa": "Orlen",
+    "Adres": "96-514",
+    "Lat": 52.2804418,
+    "Lon": 20.1241489
+  },
+  {
+    "OSM_ID": 537259345,
+    "SP": null,
+    "Nazwa": "Orlen",
+    "Adres": "52.02878,20.67491",
+    "Lat": 52.0287809,
+    "Lon": 20.6749088
+  },
+  {
+    "OSM_ID": 544444405,
+    "SP": null,
+    "Nazwa": "Orlen",
+    "Adres": "50.03989,19.96255",
+    "Lat": 50.039886,
+    "Lon": 19.9625541
+  },
+  {
+    "OSM_ID": 546862766,
+    "SP": null,
+    "Nazwa": "Orlen",
+    "Adres": "ul. Nawojowska 99, Nowy Sącz",
+    "Lat": 49.6027464,
+    "Lon": 20.7155839
+  },
+  {
+    "OSM_ID": 560715183,
+    "SP": null,
+    "Nazwa": "Orlen",
+    "Adres": "54.18021,22.62138",
+    "Lat": 54.1802066,
+    "Lon": 22.6213837
+  },
+  {
+    "OSM_ID": 562767139,
+    "SP": null,
+    "Nazwa": "Orlen",
+    "Adres": "49.65124,21.82116",
+    "Lat": 49.6512409,
+    "Lon": 21.8211624
+  },
+  {
+    "OSM_ID": 566829684,
+    "SP": null,
+    "Nazwa": "Orlen",
+    "Adres": "50.06298,22.01130",
+    "Lat": 50.0629763,
+    "Lon": 22.0112991
+  },
+  {
+    "OSM_ID": 568931159,
+    "SP": null,
+    "Nazwa": "Orlen",
+    "Adres": "Mielec",
+    "Lat": 50.2875225,
+    "Lon": 21.4034435
+  },
+  {
+    "OSM_ID": 570307408,
+    "SP": null,
+    "Nazwa": "Orlen",
+    "Adres": "49.89693,21.37970",
+    "Lat": 49.89693,
+    "Lon": 21.3797
+  },
+  {
+    "OSM_ID": 571566421,
+    "SP": null,
+    "Nazwa": "Orlen",
+    "Adres": "ul. Jana Sobieskiego 1, 38-100 Strzyżów",
+    "Lat": 49.8715959,
+    "Lon": 21.7751646
+  },
+  {
+    "OSM_ID": 571652866,
+    "SP": null,
+    "Nazwa": "Orlen",
+    "Adres": "ul. Śląska 45/47, Gdynia",
+    "Lat": 54.5134489,
+    "Lon": 18.5335974
+  },
+  {
+    "OSM_ID": 577429423,
+    "SP": null,
+    "Nazwa": "Orlen",
+    "Adres": "ul. Tarnowska 7, 33-140 Lisia Góra",
+    "Lat": 50.0738598,
+    "Lon": 21.0214301
+  },
+  {
+    "OSM_ID": 581905501,
+    "SP": null,
+    "Nazwa": "Orlen",
+    "Adres": "ul. Krakowska 5, 32-851 Brzesko",
+    "Lat": 49.9689282,
+    "Lon": 20.6271753
+  },
+  {
+    "OSM_ID": 581910188,
+    "SP": null,
+    "Nazwa": "Orlen",
+    "Adres": "49.96466,20.74168",
+    "Lat": 49.9646608,
+    "Lon": 20.741684
+  },
+  {
+    "OSM_ID": 587566937,
+    "SP": null,
+    "Nazwa": "Orlen",
+    "Adres": "53.16779,18.58347",
+    "Lat": 53.1677931,
+    "Lon": 18.5834732
+  },
+  {
+    "OSM_ID": 589805284,
+    "SP": null,
+    "Nazwa": "Orlen",
+    "Adres": "ul. Kujawska 71, Bydgoszcz",
+    "Lat": 53.1120845,
+    "Lon": 18.0081489
+  },
+  {
+    "OSM_ID": 589846879,
+    "SP": null,
+    "Nazwa": "Orlen",
+    "Adres": "ul. Gdańska 252, Bydgoszcz",
+    "Lat": 53.1715485,
+    "Lon": 18.0519195
+  },
+  {
+    "OSM_ID": 600007050,
+    "SP": null,
+    "Nazwa": "Orlen",
+    "Adres": "ul. Chemików 18",
+    "Lat": 50.0315139,
+    "Lon": 19.2526127
+  },
+  {
+    "OSM_ID": 603758330,
+    "SP": null,
+    "Nazwa": "Orlen",
+    "Adres": "ul. Promenada 8, 73-210 Recz",
+    "Lat": 53.2625779,
+    "Lon": 15.5454042
+  },
+  {
+    "OSM_ID": 603760275,
+    "SP": null,
+    "Nazwa": "Orlen",
+    "Adres": "53.17057,15.41843",
+    "Lat": 53.1705724,
+    "Lon": 15.4184329
+  },
+  {
+    "OSM_ID": 683177921,
+    "SP": null,
+    "Nazwa": "Orlen",
+    "Adres": "Paradyż",
+    "Lat": 51.3053254,
+    "Lon": 20.1145029
+  },
+  {
+    "OSM_ID": 683196537,
+    "SP": null,
+    "Nazwa": "PKN Orlen",
+    "Adres": "ul. Oskara Kolberga 2, 26-300 Opoczno",
+    "Lat": 51.3693892,
+    "Lon": 20.295785
+  },
+  {
+    "OSM_ID": 686236295,
+    "SP": null,
+    "Nazwa": "Orlen",
+    "Adres": "50.79712,16.28913",
+    "Lat": 50.7971206,
+    "Lon": 16.2891265
+  },
+  {
+    "OSM_ID": 716311106,
+    "SP": null,
+    "Nazwa": "Orlen",
+    "Adres": "96-130",
+    "Lat": 51.777488,
+    "Lon": 20.0994628
+  },
+  {
+    "OSM_ID": 718917571,
+    "SP": null,
+    "Nazwa": "Orlen",
+    "Adres": "ul. Warszawska 357, 43-300 Bielsko-Biała",
+    "Lat": 49.85903,
+    "Lon": 19.02298
+  },
+  {
+    "OSM_ID": 722051013,
+    "SP": null,
+    "Nazwa": "Orlen",
+    "Adres": "ul. wybrzeże Ludwika Pasteura 20, Wrocław",
+    "Lat": 51.1142521,
+    "Lon": 17.0709569
+  },
+  {
+    "OSM_ID": 727605072,
+    "SP": null,
+    "Nazwa": "Orlen",
+    "Adres": "ul. Bolesława Krzywoustego 172, Wrocław",
+    "Lat": 51.1423755,
+    "Lon": 17.0915862
+  },
+  {
+    "OSM_ID": 729619285,
+    "SP": null,
+    "Nazwa": "Orlen - Bliska",
+    "Adres": "53.83339,22.38731",
+    "Lat": 53.8333886,
+    "Lon": 22.3873064
+  },
+  {
+    "OSM_ID": 740157752,
+    "SP": null,
+    "Nazwa": "Orlen",
+    "Adres": "49.98310,20.22911",
+    "Lat": 49.9830959,
+    "Lon": 20.2291101
+  },
+  {
+    "OSM_ID": 744504173,
+    "SP": null,
+    "Nazwa": "Orlen",
+    "Adres": "ul. Bolesława Krzywoustego 177, Wrocław",
+    "Lat": 51.1411288,
+    "Lon": 17.0928526
+  },
+  {
+    "OSM_ID": 762888479,
+    "SP": null,
+    "Nazwa": "Orlen",
+    "Adres": "50.71050,16.00132",
+    "Lat": 50.7105002,
+    "Lon": 16.0013194
+  },
+  {
+    "OSM_ID": 767540723,
+    "SP": null,
+    "Nazwa": "Orlen",
+    "Adres": "51.97821,19.27437",
+    "Lat": 51.9782088,
+    "Lon": 19.2743701
+  },
+  {
+    "OSM_ID": 778761439,
+    "SP": null,
+    "Nazwa": "Orlen",
+    "Adres": "50.33294,22.33580",
+    "Lat": 50.3329433,
+    "Lon": 22.3357984
+  },
+  {
+    "OSM_ID": 793552425,
+    "SP": null,
+    "Nazwa": "Orlen",
+    "Adres": "ul. Ignacego Domejki 1a, 59-220 Legnica",
+    "Lat": 51.2094953,
+    "Lon": 16.1309152
+  },
+  {
+    "OSM_ID": 848212706,
+    "SP": null,
+    "Nazwa": "Paliwa BAQ",
+    "Adres": "50.05075,17.79246",
+    "Lat": 50.0507485,
+    "Lon": 17.7924559
+  },
+  {
+    "OSM_ID": 861674484,
+    "SP": null,
+    "Nazwa": "Orlen",
+    "Adres": "50.67476,17.93199",
+    "Lat": 50.6747578,
+    "Lon": 17.9319934
+  },
+  {
+    "OSM_ID": 865280013,
+    "SP": null,
+    "Nazwa": "Orlen",
+    "Adres": "ul. Częstochowska 1a, 42-270 Kłomnice",
+    "Lat": 50.9172478,
+    "Lon": 19.3347208
+  },
+  {
+    "OSM_ID": 867420264,
+    "SP": null,
+    "Nazwa": "Orlen",
+    "Adres": "ul. Bydgoska 29, 86-170 Nowe",
+    "Lat": 53.6441646,
+    "Lon": 18.7247199
+  },
+  {
+    "OSM_ID": 885440966,
+    "SP": null,
+    "Nazwa": "Orlen",
+    "Adres": "49.71664,19.68908",
+    "Lat": 49.7166397,
+    "Lon": 19.6890817
+  },
+  {
+    "OSM_ID": 900452986,
+    "SP": null,
+    "Nazwa": "Orlen",
+    "Adres": "ul. Poznańska, 99-400 Łowicz",
+    "Lat": 52.117124,
+    "Lon": 19.9659608
+  },
+  {
+    "OSM_ID": 921817829,
+    "SP": null,
+    "Nazwa": "Orlen",
+    "Adres": "51.89004,18.98140",
+    "Lat": 51.8900444,
+    "Lon": 18.9814011
+  },
+  {
+    "OSM_ID": 938891186,
+    "SP": null,
+    "Nazwa": "Orlen",
+    "Adres": "31-940 Kraków",
+    "Lat": 50.0727647,
+    "Lon": 20.0291219
+  },
+  {
+    "OSM_ID": 961605285,
+    "SP": null,
+    "Nazwa": "Orlen",
+    "Adres": "49.54441,20.40435",
+    "Lat": 49.54441,
+    "Lon": 20.4043492
+  },
+  {
+    "OSM_ID": 967761059,
+    "SP": null,
+    "Nazwa": "Orlen",
+    "Adres": "49.87792,19.79615",
+    "Lat": 49.877921,
+    "Lon": 19.7961495
+  },
+  {
+    "OSM_ID": 967773832,
+    "SP": null,
+    "Nazwa": "Orlen",
+    "Adres": "51.16103,16.17014",
+    "Lat": 51.1610291,
+    "Lon": 16.1701385
+  },
+  {
+    "OSM_ID": 988755884,
+    "SP": null,
+    "Nazwa": "Orlen",
+    "Adres": "52.04073,19.87586",
+    "Lat": 52.040733,
+    "Lon": 19.8758575
+  },
+  {
+    "OSM_ID": 993927577,
+    "SP": null,
+    "Nazwa": "Orlen",
+    "Adres": "50.04447,20.21758",
+    "Lat": 50.0444746,
+    "Lon": 20.2175755
+  },
+  {
+    "OSM_ID": 1031483428,
+    "SP": null,
+    "Nazwa": "Orlen",
+    "Adres": "Biała Niżna",
+    "Lat": 49.6274536,
+    "Lon": 20.968588
+  },
+  {
+    "OSM_ID": 1039484395,
+    "SP": null,
+    "Nazwa": "Orlen",
+    "Adres": "50.84321,20.00189",
+    "Lat": 50.8432112,
+    "Lon": 20.0018909
+  },
+  {
+    "OSM_ID": 1048569247,
+    "SP": null,
+    "Nazwa": "Orlen",
+    "Adres": "52.98653,22.24476",
+    "Lat": 52.9865331,
+    "Lon": 22.2447638
+  },
+  {
+    "OSM_ID": 1069878935,
+    "SP": null,
+    "Nazwa": "Orlen",
+    "Adres": "53.68682,16.93185",
+    "Lat": 53.6868226,
+    "Lon": 16.9318544
+  },
+  {
+    "OSM_ID": 1079301878,
+    "SP": null,
+    "Nazwa": "Orlen",
+    "Adres": "53.53458,15.55737",
+    "Lat": 53.5345797,
+    "Lon": 15.5573732
+  },
+  {
+    "OSM_ID": 1080111636,
+    "SP": null,
+    "Nazwa": "Orlen",
+    "Adres": "53.71752,16.74075",
+    "Lat": 53.7175222,
+    "Lon": 16.7407496
+  },
+  {
+    "OSM_ID": 1115754616,
+    "SP": null,
+    "Nazwa": "Orlen",
+    "Adres": "ul. Warszawska 7, 46-040 Schodnia",
+    "Lat": 50.6736658,
+    "Lon": 18.1851283
+  },
+  {
+    "OSM_ID": 1119292075,
+    "SP": null,
+    "Nazwa": "Orlen",
+    "Adres": "53.09482,21.59443",
+    "Lat": 53.0948226,
+    "Lon": 21.5944271
+  },
+  {
+    "OSM_ID": 1140958910,
+    "SP": null,
+    "Nazwa": "Orlen",
+    "Adres": "49.53743,22.22426",
+    "Lat": 49.537432,
+    "Lon": 22.2242635
+  },
+  {
+    "OSM_ID": 1163874906,
+    "SP": null,
+    "Nazwa": "Orlen",
+    "Adres": "51.74039,19.42081",
+    "Lat": 51.7403937,
+    "Lon": 19.4208133
+  },
+  {
+    "OSM_ID": 1165685345,
+    "SP": null,
+    "Nazwa": "Orlen",
+    "Adres": "ul. Lotnicza 11, Wrocław",
+    "Lat": 51.1280709,
+    "Lon": 16.9771356
+  },
+  {
+    "OSM_ID": 1169037765,
+    "SP": null,
+    "Nazwa": "Orlen",
+    "Adres": "ul. Żmigrodzka 116, Wrocław",
+    "Lat": 51.145978,
+    "Lon": 17.0293649
+  },
+  {
+    "OSM_ID": 1174475270,
+    "SP": null,
+    "Nazwa": "Orlen",
+    "Adres": "52.10049,20.61212",
+    "Lat": 52.1004882,
+    "Lon": 20.6121199
+  },
+  {
+    "OSM_ID": 1175552474,
+    "SP": null,
+    "Nazwa": "Orlen",
+    "Adres": "49.75636,20.74841",
+    "Lat": 49.7563624,
+    "Lon": 20.7484056
+  },
+  {
+    "OSM_ID": 1204181364,
+    "SP": null,
+    "Nazwa": "Orlen",
+    "Adres": "51.46827,16.90694",
+    "Lat": 51.4682749,
+    "Lon": 16.9069434
+  },
+  {
+    "OSM_ID": 1207469347,
+    "SP": null,
+    "Nazwa": "Orlen",
+    "Adres": "ul. Krakowska 198, 38-500 Sanok",
+    "Lat": 49.5698306,
+    "Lon": 22.1532937
+  },
+  {
+    "OSM_ID": 1229573786,
+    "SP": null,
+    "Nazwa": "Orlen",
+    "Adres": "51.90125,19.60608",
+    "Lat": 51.9012455,
+    "Lon": 19.6060787
+  },
+  {
+    "OSM_ID": 1231020786,
+    "SP": null,
+    "Nazwa": "Stacja Paliw \"Wygoda\"",
+    "Adres": "49.99561,20.06458",
+    "Lat": 49.9956127,
+    "Lon": 20.0645817
+  },
+  {
+    "OSM_ID": 1240625214,
+    "SP": null,
+    "Nazwa": "Orlen",
+    "Adres": "53.44679,14.55118",
+    "Lat": 53.4467939,
+    "Lon": 14.5511759
+  },
+  {
+    "OSM_ID": 1241039653,
+    "SP": null,
+    "Nazwa": "Orlen",
+    "Adres": "ul. Radowska 27, 69-110 Kowalów",
+    "Lat": 52.4052794,
+    "Lon": 14.761829
+  },
+  {
+    "OSM_ID": 1242491595,
+    "SP": null,
+    "Nazwa": "Orlen",
+    "Adres": "ul. Hilarego Filasiewicza 2, Cieszyn",
+    "Lat": 49.7561765,
+    "Lon": 18.638836
+  },
+  {
+    "OSM_ID": 1254616835,
+    "SP": null,
+    "Nazwa": "Orlen",
+    "Adres": "ul. Rawicka 2, 54-041 Wrocław",
+    "Lat": 51.1442999,
+    "Lon": 16.8829145
+  },
+  {
+    "OSM_ID": 1256658699,
+    "SP": null,
+    "Nazwa": "Orlen",
+    "Adres": "50.08799,20.00551",
+    "Lat": 50.0879871,
+    "Lon": 20.0055144
+  },
+  {
+    "OSM_ID": 1281855896,
+    "SP": null,
+    "Nazwa": "Orlen",
+    "Adres": "ul. Krakowska 86, 32-590 Libiąż",
+    "Lat": 50.0931093,
+    "Lon": 19.2987467
+  },
+  {
+    "OSM_ID": 1290311520,
+    "SP": null,
+    "Nazwa": "Orlen",
+    "Adres": "50.46673,17.20088",
+    "Lat": 50.4667283,
+    "Lon": 17.2008755
+  },
+  {
+    "OSM_ID": 1299745157,
+    "SP": null,
+    "Nazwa": "Orlen",
+    "Adres": "53.99871,15.99127",
+    "Lat": 53.9987146,
+    "Lon": 15.9912686
+  },
+  {
+    "OSM_ID": 1322856359,
+    "SP": null,
+    "Nazwa": "Orlen",
+    "Adres": "51.27531,16.70841",
+    "Lat": 51.2753145,
+    "Lon": 16.7084114
+  },
+  {
+    "OSM_ID": 1332102173,
+    "SP": null,
+    "Nazwa": "Orlen",
+    "Adres": "53.65419,23.34931",
+    "Lat": 53.6541858,
+    "Lon": 23.3493053
+  },
+  {
+    "OSM_ID": 1337452297,
+    "SP": null,
+    "Nazwa": "Orlen",
+    "Adres": "ul. Trakt Węgierski 3, 38-450 Dukla",
+    "Lat": 49.5655957,
+    "Lon": 21.6912994
+  },
+  {
+    "OSM_ID": 1341978193,
+    "SP": null,
+    "Nazwa": "Orlen",
+    "Adres": "53.90706,19.73483",
+    "Lat": 53.9070596,
+    "Lon": 19.7348315
+  },
+  {
+    "OSM_ID": 1342957035,
+    "SP": null,
+    "Nazwa": "Orlen",
+    "Adres": "52.99994,21.93035",
+    "Lat": 52.9999426,
+    "Lon": 21.9303496
+  },
+  {
+    "OSM_ID": 1346180095,
+    "SP": null,
+    "Nazwa": "Orlen",
+    "Adres": "ul. Władysława IV 135, 75-342 Koszalin",
+    "Lat": 54.2114805,
+    "Lon": 16.1811259
+  },
+  {
+    "OSM_ID": 1357183516,
+    "SP": null,
+    "Nazwa": "Orlen",
+    "Adres": "53.75858,20.48745",
+    "Lat": 53.7585771,
+    "Lon": 20.4874529
+  },
+  {
+    "OSM_ID": 1357299269,
+    "SP": null,
+    "Nazwa": "Orlen",
+    "Adres": "54.58074,16.86263",
+    "Lat": 54.580737,
+    "Lon": 16.8626323
+  },
+  {
+    "OSM_ID": 1380066202,
+    "SP": null,
+    "Nazwa": "Orlen",
+    "Adres": "54.02245,14.75138",
+    "Lat": 54.0224463,
+    "Lon": 14.7513849
+  },
+  {
+    "OSM_ID": 1382097983,
+    "SP": null,
+    "Nazwa": "Orlen",
+    "Adres": "50.29792,18.83096",
+    "Lat": 50.2979156,
+    "Lon": 18.8309561
+  },
+  {
+    "OSM_ID": 1385329959,
+    "SP": null,
+    "Nazwa": "Orlen",
+    "Adres": "53.94795,15.53582",
+    "Lat": 53.947953,
+    "Lon": 15.5358206
+  },
+  {
+    "OSM_ID": 1385330729,
+    "SP": null,
+    "Nazwa": "Orlen",
+    "Adres": "53.80485,15.27092",
+    "Lat": 53.8048481,
+    "Lon": 15.2709225
+  },
+  {
+    "OSM_ID": 1400458471,
+    "SP": null,
+    "Nazwa": "Orlen",
+    "Adres": "52.69314,23.83336",
+    "Lat": 52.6931351,
+    "Lon": 23.8333641
+  },
+  {
+    "OSM_ID": 1410125226,
+    "SP": null,
+    "Nazwa": "Orlen",
+    "Adres": "ul. Jurajska 164, 42-431 Zawiercie",
+    "Lat": 50.515515,
+    "Lon": 19.5595206
+  },
+  {
+    "OSM_ID": 1410821711,
+    "SP": null,
+    "Nazwa": "Orlen",
+    "Adres": "52.74573,23.58221",
+    "Lat": 52.7457303,
+    "Lon": 23.5822139
+  },
+  {
+    "OSM_ID": 1420752153,
+    "SP": null,
+    "Nazwa": "Orlen",
+    "Adres": "ul. Krakowska 13, Wrocław",
+    "Lat": 51.0945941,
+    "Lon": 17.0576053
+  },
+  {
+    "OSM_ID": 1433729446,
+    "SP": null,
+    "Nazwa": "Orlen",
+    "Adres": "50.32817,20.03390",
+    "Lat": 50.3281668,
+    "Lon": 20.033903
+  },
+  {
+    "OSM_ID": 1433729448,
+    "SP": null,
+    "Nazwa": "Orlen",
+    "Adres": "50.78075,21.03992",
+    "Lat": 50.7807493,
+    "Lon": 21.0399246
+  },
+  {
+    "OSM_ID": 1433729453,
+    "SP": null,
+    "Nazwa": "Orlen",
+    "Adres": "51.03704,21.82874",
+    "Lat": 51.0370432,
+    "Lon": 21.8287388
+  },
+  {
+    "OSM_ID": 1437342454,
+    "SP": null,
+    "Nazwa": "Orlen",
+    "Adres": "ul. Wylewa 208C, 37-530 Sieniawa",
+    "Lat": 50.1830112,
+    "Lon": 22.6136182
+  },
+  {
+    "OSM_ID": 1439322109,
+    "SP": null,
+    "Nazwa": "Orlen",
+    "Adres": "49.72453,18.79473",
+    "Lat": 49.7245253,
+    "Lon": 18.7947303
+  },
+  {
+    "OSM_ID": 1460335783,
+    "SP": null,
+    "Nazwa": "Orlen",
+    "Adres": "ul. Podwale 35, 32-500 Chrzanów",
+    "Lat": 50.1361557,
+    "Lon": 19.4037293
+  },
+  {
+    "OSM_ID": 1470670427,
+    "SP": null,
+    "Nazwa": "Orlen",
+    "Adres": "ul. Księdza Jana Gałeczki 46, 41-516 Chorzów",
+    "Lat": 50.282719,
+    "Lon": 18.9591313
+  },
+  {
+    "OSM_ID": 1475028806,
+    "SP": null,
+    "Nazwa": "Orlen",
+    "Adres": "52.22242,21.24498",
+    "Lat": 52.2224155,
+    "Lon": 21.2449832
+  },
+  {
+    "OSM_ID": 1478750834,
+    "SP": null,
+    "Nazwa": "ORLEN",
+    "Adres": "50.57626,18.13136",
+    "Lat": 50.5762561,
+    "Lon": 18.1313613
+  },
+  {
+    "OSM_ID": 1487499371,
+    "SP": null,
+    "Nazwa": "Orlen",
+    "Adres": "ul. Oświęcimska 138, 41-707 Ruda Śląska",
+    "Lat": 50.2530502,
+    "Lon": 18.8997396
+  },
+  {
+    "OSM_ID": 1492745906,
+    "SP": null,
+    "Nazwa": "Orlen",
+    "Adres": "Olsztynek",
+    "Lat": 53.5838634,
+    "Lon": 20.2780953
+  },
+  {
+    "OSM_ID": 1492883444,
+    "SP": null,
+    "Nazwa": "Orlen",
+    "Adres": "51.98537,19.91065",
+    "Lat": 51.9853659,
+    "Lon": 19.9106532
+  },
+  {
+    "OSM_ID": 1493872289,
+    "SP": null,
+    "Nazwa": "Orlen",
+    "Adres": "50.20288,22.10339",
+    "Lat": 50.2028766,
+    "Lon": 22.1033888
+  },
+  {
+    "OSM_ID": 1497657887,
+    "SP": null,
+    "Nazwa": "Orlen",
+    "Adres": "53.29066,22.29969",
+    "Lat": 53.2906612,
+    "Lon": 22.2996874
+  },
+  {
+    "OSM_ID": 1502812204,
+    "SP": null,
+    "Nazwa": "Orlen",
+    "Adres": "53.39596,21.73481",
+    "Lat": 53.3959598,
+    "Lon": 21.7348088
+  },
+  {
+    "OSM_ID": 1517935139,
+    "SP": null,
+    "Nazwa": "Orlen",
+    "Adres": "ul. Feliksa Bocheńskiego 99, 40-816 Katowice",
+    "Lat": 50.2593131,
+    "Lon": 18.9848428
+  },
+  {
+    "OSM_ID": 1559791130,
+    "SP": null,
+    "Nazwa": "Orlen",
+    "Adres": "52.01019,21.27861",
+    "Lat": 52.0101878,
+    "Lon": 21.2786087
+  },
+  {
+    "OSM_ID": 1562868847,
+    "SP": null,
+    "Nazwa": "Orlen",
+    "Adres": "ul. Radzyńska 9, 21-400 Łuków",
+    "Lat": 51.9184565,
+    "Lon": 22.389542
+  },
+  {
+    "OSM_ID": 1578722824,
+    "SP": null,
+    "Nazwa": "Orlen",
+    "Adres": "88-170",
+    "Lat": 52.8064448,
+    "Lon": 18.1102197
+  },
+  {
+    "OSM_ID": 1583519033,
+    "SP": null,
+    "Nazwa": "Orlen",
+    "Adres": "53.78476,20.50589",
+    "Lat": 53.7847617,
+    "Lon": 20.5058906
+  },
+  {
+    "OSM_ID": 1588780711,
+    "SP": null,
+    "Nazwa": "Orlen",
+    "Adres": "51.57521,21.56623",
+    "Lat": 51.575208,
+    "Lon": 21.5662276
+  },
+  {
+    "OSM_ID": 1603226360,
+    "SP": null,
+    "Nazwa": "Orlen",
+    "Adres": "ul. Opolska 3, 46-053 Chrząstowice",
+    "Lat": 50.6689019,
+    "Lon": 18.0686181
+  },
+  {
+    "OSM_ID": 1632330435,
+    "SP": null,
+    "Nazwa": "Orlen",
+    "Adres": "50.80301,19.08714",
+    "Lat": 50.8030056,
+    "Lon": 19.0871366
+  },
+  {
+    "OSM_ID": 1662185490,
+    "SP": null,
+    "Nazwa": "Orlen",
+    "Adres": "51.80390,22.18423",
+    "Lat": 51.8039006,
+    "Lon": 22.1842265
+  },
+  {
+    "OSM_ID": 1668851695,
+    "SP": null,
+    "Nazwa": "Orlen",
+    "Adres": "49.47949,19.71176",
+    "Lat": 49.4794874,
+    "Lon": 19.7117566
+  },
+  {
+    "OSM_ID": 1675886914,
+    "SP": null,
+    "Nazwa": "Orlen",
+    "Adres": "ul. Kroczymiech 22, 32-500 Chrzanów",
+    "Lat": 50.1271332,
+    "Lon": 19.3679896
+  },
+  {
+    "OSM_ID": 1694953493,
+    "SP": null,
+    "Nazwa": "Orlen",
+    "Adres": "ul. Cypriana Kamila Norwida 10, 55-080 Kąty Wrocławskie",
+    "Lat": 51.0283722,
+    "Lon": 16.7727507
+  },
+  {
+    "OSM_ID": 1716156789,
+    "SP": null,
+    "Nazwa": "Orlen",
+    "Adres": "52.06756,15.61565",
+    "Lat": 52.0675604,
+    "Lon": 15.6156539
+  },
+  {
+    "OSM_ID": 1721079935,
+    "SP": null,
+    "Nazwa": "Orlen",
+    "Adres": "53.19068,18.61419",
+    "Lat": 53.1906816,
+    "Lon": 18.6141868
+  },
+  {
+    "OSM_ID": 1740658528,
+    "SP": null,
+    "Nazwa": "Orlen",
+    "Adres": "49.69272,21.77474",
+    "Lat": 49.6927196,
+    "Lon": 21.7747447
+  },
+  {
+    "OSM_ID": 1750328983,
+    "SP": null,
+    "Nazwa": "Orlen",
+    "Adres": "ul. Rzemieślnicza 1, 55-114",
+    "Lat": 51.2135534,
+    "Lon": 16.9662489
+  },
+  {
+    "OSM_ID": 1765245447,
+    "SP": null,
+    "Nazwa": "Orlen",
+    "Adres": "53.16633,22.05792",
+    "Lat": 53.1663268,
+    "Lon": 22.0579225
+  },
+  {
+    "OSM_ID": 1771310387,
+    "SP": null,
+    "Nazwa": "Orlen",
+    "Adres": "53.96109,14.78494",
+    "Lat": 53.9610869,
+    "Lon": 14.7849399
+  },
+  {
+    "OSM_ID": 1771732809,
+    "SP": null,
+    "Nazwa": "Orlen",
+    "Adres": "ul. Szosa Knyszyńska 15, 15-694 Fasty",
+    "Lat": 53.1611613,
+    "Lon": 23.0707571
+  },
+  {
+    "OSM_ID": 1780272267,
+    "SP": null,
+    "Nazwa": "Orlen",
+    "Adres": "50.15122,19.44058",
+    "Lat": 50.1512229,
+    "Lon": 19.4405819
+  },
+  {
+    "OSM_ID": 1796401317,
+    "SP": null,
+    "Nazwa": "Orlen",
+    "Adres": "50.36894,22.12658",
+    "Lat": 50.368936,
+    "Lon": 22.1265821
+  },
+  {
+    "OSM_ID": 1802085181,
+    "SP": null,
+    "Nazwa": "Orlen",
+    "Adres": "50.47121,16.69707",
+    "Lat": 50.4712133,
+    "Lon": 16.6970739
+  },
+  {
+    "OSM_ID": 1809363702,
+    "SP": null,
+    "Nazwa": "Orlen",
+    "Adres": "50.59188,16.82702",
+    "Lat": 50.5918803,
+    "Lon": 16.8270189
+  },
+  {
+    "OSM_ID": 1809386868,
+    "SP": null,
+    "Nazwa": "Orlen",
+    "Adres": "53.64624,21.56803",
+    "Lat": 53.6462376,
+    "Lon": 21.5680268
+  },
+  {
+    "OSM_ID": 1814085885,
+    "SP": null,
+    "Nazwa": "Orlen",
+    "Adres": "51.50929,19.38556",
+    "Lat": 51.5092865,
+    "Lon": 19.3855598
+  },
+  {
+    "OSM_ID": 1820036113,
+    "SP": null,
+    "Nazwa": "Orlen",
+    "Adres": "ul. Iłżecka 105, 27-200 Starachowice",
+    "Lat": 51.0395993,
+    "Lon": 21.0938537
+  },
+  {
+    "OSM_ID": 1820770577,
+    "SP": null,
+    "Nazwa": "Orlen",
+    "Adres": "ul. Generała Władysława Sikorskiego 35, 15-667 Białystok",
+    "Lat": 53.134214,
+    "Lon": 23.1005853
+  },
+  {
+    "OSM_ID": 1832529698,
+    "SP": null,
+    "Nazwa": "Orlen",
+    "Adres": "ul. Adama Mickiewicza, 96-300 Żyrardów",
+    "Lat": 52.0413615,
+    "Lon": 20.4546431
+  },
+  {
+    "OSM_ID": 1832573529,
+    "SP": null,
+    "Nazwa": "Partner",
+    "Adres": "ul. Juliusza Słowackiego 121, 97-360 Kamieńsk",
+    "Lat": 51.1952181,
+    "Lon": 19.4991766
+  },
+  {
+    "OSM_ID": 1838154606,
+    "SP": null,
+    "Nazwa": "Orlen",
+    "Adres": "50.38380,19.78158",
+    "Lat": 50.383797,
+    "Lon": 19.7815841
+  },
+  {
+    "OSM_ID": 1841187469,
+    "SP": null,
+    "Nazwa": "Orlen",
+    "Adres": "53.85464,20.96372",
+    "Lat": 53.8546377,
+    "Lon": 20.9637212
+  },
+  {
+    "OSM_ID": 1842877898,
+    "SP": null,
+    "Nazwa": "Orlen",
+    "Adres": "ul. Mełgiewska 2e, 20-202 Lublin",
+    "Lat": 51.2502264,
+    "Lon": 22.5971719
+  },
+  {
+    "OSM_ID": 1845133453,
+    "SP": null,
+    "Nazwa": "Orlen",
+    "Adres": "52.68690,15.29263",
+    "Lat": 52.6869036,
+    "Lon": 15.2926343
+  }
+]
