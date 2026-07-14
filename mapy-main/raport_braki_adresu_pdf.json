@@ -1,0 +1,732 @@
+[
+  {
+    "SP": 81,
+    "Typ": "BRAK_ADRESU_PO_KODZIE",
+    "Wiersz": "Kostomłoty 55-311 dolnośląskie"
+  },
+  {
+    "SP": 85,
+    "Typ": "BRAK_ADRESU_PO_KODZIE",
+    "Wiersz": "Wróblowice 55-330 dolnośląskie"
+  },
+  {
+    "SP": 135,
+    "Typ": "PRAWDOPODOBNIE_BRAK_ULICY",
+    "Wiersz": "Nowa Dęba 39-460 Bieszczadzka podkarpackie"
+  },
+  {
+    "SP": 154,
+    "Typ": "PRAWDOPODOBNIE_BRAK_ULICY",
+    "Wiersz": "Barnisław 72-001 124 zachodniopomorskie"
+  },
+  {
+    "SP": 191,
+    "Typ": "PRAWDOPODOBNIE_BRAK_ULICY",
+    "Wiersz": "Warszawa 02-784 Surowieckiego mazowieckie"
+  },
+  {
+    "SP": 207,
+    "Typ": "PRAWDOPODOBNIE_BRAK_ULICY",
+    "Wiersz": "Kielce 25-406 Konopnickiej świętokrzyskie"
+  },
+  {
+    "SP": 239,
+    "Typ": "PRAWDOPODOBNIE_BRAK_ULICY",
+    "Wiersz": "Legnica 59-220 Spokojna dolnośląskie"
+  },
+  {
+    "SP": 274,
+    "Typ": "BRAK_WOJEWODZTWA",
+    "Wiersz": "#N/D! #N/D! #N/D! #N/D! #N/D!"
+  },
+  {
+    "SP": 276,
+    "Typ": "BRAK_ADRESU_PO_KODZIE",
+    "Wiersz": "Złota Woda 26-025 świętokrzyskie"
+  },
+  {
+    "SP": 294,
+    "Typ": "PRAWDOPODOBNIE_BRAK_ULICY",
+    "Wiersz": "Słubice 69-100 1Maja lubuskie"
+  },
+  {
+    "SP": 302,
+    "Typ": "PRAWDOPODOBNIE_BRAK_ULICY",
+    "Wiersz": "Krotoszyn 63-700 Chwaliszewska wielkopolskie"
+  },
+  {
+    "SP": 303,
+    "Typ": "PRAWDOPODOBNIE_BRAK_ULICY",
+    "Wiersz": "Nowy Tomyśl 64-300 Kolejowa wielkopolskie"
+  },
+  {
+    "SP": 308,
+    "Typ": "PRAWDOPODOBNIE_BRAK_ULICY",
+    "Wiersz": "Wójcice 48-385 Otmuchowska opolskie"
+  },
+  {
+    "SP": 312,
+    "Typ": "PRAWDOPODOBNIE_BRAK_ULICY",
+    "Wiersz": "Jemielnica 47-133 Strzelecka opolskie"
+  },
+  {
+    "SP": 332,
+    "Typ": "PRAWDOPODOBNIE_BRAK_ULICY",
+    "Wiersz": "Dębica 39-200 Rzeszowska podkarpackie"
+  },
+  {
+    "SP": 333,
+    "Typ": "PRAWDOPODOBNIE_BRAK_ULICY",
+    "Wiersz": "Mielec 39-300 Sienkiewicza podkarpackie"
+  },
+  {
+    "SP": 345,
+    "Typ": "PRAWDOPODOBNIE_BRAK_ULICY",
+    "Wiersz": "Gryfice 72-300 Broniszewska zachodniopomorskie"
+  },
+  {
+    "SP": 346,
+    "Typ": "PRAWDOPODOBNIE_BRAK_ULICY",
+    "Wiersz": "Połczyn-Zdrój 78-320 Warszawska zachodniopomorskie"
+  },
+  {
+    "SP": 451,
+    "Typ": "PRAWDOPODOBNIE_BRAK_ULICY",
+    "Wiersz": "Strzelce Opolskie 47-100 Toszecka opolskie"
+  },
+  {
+    "SP": 476,
+    "Typ": "PRAWDOPODOBNIE_BRAK_ULICY",
+    "Wiersz": "Sieniawa 37-530 Kopernika podkarpackie"
+  },
+  {
+    "SP": 481,
+    "Typ": "PRAWDOPODOBNIE_BRAK_ULICY",
+    "Wiersz": "Pelplin 83-130 Starogardzka pomorskie"
+  },
+  {
+    "SP": 522,
+    "Typ": "PRAWDOPODOBNIE_BRAK_ULICY",
+    "Wiersz": "Wieleń 64-730 Czarnkowska wielkopolskie"
+  },
+  {
+    "SP": 563,
+    "Typ": "PRAWDOPODOBNIE_BRAK_ULICY",
+    "Wiersz": "Kadzidło 07-420 Warszawska mazowieckie"
+  },
+  {
+    "SP": 580,
+    "Typ": "BRAK_WOJEWODZTWA",
+    "Wiersz": "#N/D! #N/D! #N/D! #N/D! #N/D!"
+  },
+  {
+    "SP": 587,
+    "Typ": "PRAWDOPODOBNIE_BRAK_ULICY",
+    "Wiersz": "Stęszew 62-060 Bukowska wielkopolskie"
+  },
+  {
+    "SP": 589,
+    "Typ": "PRAWDOPODOBNIE_BRAK_ULICY",
+    "Wiersz": "Zielona Góra 65-119 Sulechowska lubuskie"
+  },
+  {
+    "SP": 600,
+    "Typ": "PRAWDOPODOBNIE_BRAK_ULICY",
+    "Wiersz": "Poznań 60-122 Zgoda wielkopolskie"
+  },
+  {
+    "SP": 614,
+    "Typ": "BRAK_WOJEWODZTWA",
+    "Wiersz": "Staszów 28-200 Krakowska 43B świ ętokrzyskie"
+  },
+  {
+    "SP": 644,
+    "Typ": "PRAWDOPODOBNIE_BRAK_ULICY",
+    "Wiersz": "Bielany Wrocławskie 55-075 Autostrada dolnośląskie"
+  },
+  {
+    "SP": 665,
+    "Typ": "PRAWDOPODOBNIE_BRAK_ULICY",
+    "Wiersz": "Mosina 62-050 Mocka wielkopolskie"
+  },
+  {
+    "SP": 703,
+    "Typ": "PRAWDOPODOBNIE_BRAK_ULICY",
+    "Wiersz": "Błonie 05-870 Sochaczewska mazowieckie"
+  },
+  {
+    "SP": 728,
+    "Typ": "PRAWDOPODOBNIE_BRAK_ULICY",
+    "Wiersz": "Czarny Dunajec 34-470 Rynek małopolskie"
+  },
+  {
+    "SP": 734,
+    "Typ": "PRAWDOPODOBNIE_BRAK_ULICY",
+    "Wiersz": "Kudowa-Zdrój 57-350 133 dolnośląskie"
+  },
+  {
+    "SP": 752,
+    "Typ": "PRAWDOPODOBNIE_BRAK_ULICY",
+    "Wiersz": "Szalejów Dolny 57-314 121 dolnośląskie"
+  },
+  {
+    "SP": 760,
+    "Typ": "BRAK_ADRESU_PO_KODZIE",
+    "Wiersz": "Dziekanowice 28-440 świętokrzyskie"
+  },
+  {
+    "SP": 765,
+    "Typ": "BRAK_ADRESU_PO_KODZIE",
+    "Wiersz": "Odargowo 84-110 pomorskie"
+  },
+  {
+    "SP": 772,
+    "Typ": "PRAWDOPODOBNIE_BRAK_ULICY",
+    "Wiersz": "Piwniczna-Zdrój 33-350 Krakowska małopolskie"
+  },
+  {
+    "SP": 802,
+    "Typ": "PRAWDOPODOBNIE_BRAK_ULICY",
+    "Wiersz": "Łopuszno 26-070 Kielecka świętokrzyskie"
+  },
+  {
+    "SP": 876,
+    "Typ": "PRAWDOPODOBNIE_BRAK_ULICY",
+    "Wiersz": "Bielany Wrocławskie 55-075 Autostrada dolnośląskie"
+  },
+  {
+    "SP": 910,
+    "Typ": "PRAWDOPODOBNIE_BRAK_ULICY",
+    "Wiersz": "Rudki 62-240 31 wielkopolskie"
+  },
+  {
+    "SP": 922,
+    "Typ": "PRAWDOPODOBNIE_BRAK_ULICY",
+    "Wiersz": "Suchedniów 26-130 Kielecka świętokrzyskie"
+  },
+  {
+    "SP": 928,
+    "Typ": "PRAWDOPODOBNIE_BRAK_ULICY",
+    "Wiersz": "Nowy Targ 34-400 Szaflarska małopolskie"
+  },
+  {
+    "SP": 939,
+    "Typ": "PRAWDOPODOBNIE_BRAK_ULICY",
+    "Wiersz": "Lidzbark 13-230 30A warmińsko-mazurskie"
+  },
+  {
+    "SP": 951,
+    "Typ": "PRAWDOPODOBNIE_BRAK_ULICY",
+    "Wiersz": "Krzyż Wielkopolski 64-761 Marchlewskiego wielkopolskie"
+  },
+  {
+    "SP": 960,
+    "Typ": "BRAK_ADRESU_PO_KODZIE",
+    "Wiersz": "Zawadka Brzostecka 39-230 podkarpackie"
+  },
+  {
+    "SP": 971,
+    "Typ": "PRAWDOPODOBNIE_BRAK_ULICY",
+    "Wiersz": "Babigoszcz 72-122 22 zachodniopomorskie"
+  },
+  {
+    "SP": 982,
+    "Typ": "PRAWDOPODOBNIE_BRAK_ULICY",
+    "Wiersz": "Legnica 59-220 Domeyki dolnośląskie"
+  },
+  {
+    "SP": 1011,
+    "Typ": "PRAWDOPODOBNIE_BRAK_ULICY",
+    "Wiersz": "Sława 67-410 Wschowska lubuskie"
+  },
+  {
+    "SP": 1034,
+    "Typ": "BRAK_ADRESU_PO_KODZIE",
+    "Wiersz": "Kołbaskowo 72-001 zachodniopomorskie"
+  },
+  {
+    "SP": 1067,
+    "Typ": "PRAWDOPODOBNIE_BRAK_ULICY",
+    "Wiersz": "Brodnica 87-300 Sikorskiego kujawsko-pomorskie"
+  },
+  {
+    "SP": 1120,
+    "Typ": "BRAK_ADRESU_PO_KODZIE",
+    "Wiersz": "Racula 66-004 lubuskie"
+  },
+  {
+    "SP": 1147,
+    "Typ": "PRAWDOPODOBNIE_BRAK_ULICY",
+    "Wiersz": "Poznań 61-309 Bodawska wielkopolskie"
+  },
+  {
+    "SP": 1150,
+    "Typ": "PRAWDOPODOBNIE_BRAK_ULICY",
+    "Wiersz": "Rakoniewice 62-067 Zamkowa wielkopolskie"
+  },
+  {
+    "SP": 1187,
+    "Typ": "BRAK_ADRESU_PO_KODZIE",
+    "Wiersz": "Koszwały 83-011 pomorskie"
+  },
+  {
+    "SP": 1205,
+    "Typ": "PRAWDOPODOBNIE_BRAK_ULICY",
+    "Wiersz": "Leśnica 47-150 Strzelecka opolskie"
+  },
+  {
+    "SP": 1206,
+    "Typ": "PRAWDOPODOBNIE_BRAK_ULICY",
+    "Wiersz": "Głogówek 48-250 Dworcowa opolskie"
+  },
+  {
+    "SP": 1216,
+    "Typ": "BRAK_WOJEWODZTWA",
+    "Wiersz": "#N/D! #N/D! #N/D! #N/D! #N/D!"
+  },
+  {
+    "SP": 1241,
+    "Typ": "PRAWDOPODOBNIE_BRAK_ULICY",
+    "Wiersz": "Ropa 38-312 Ropa małopolskie"
+  },
+  {
+    "SP": 1244,
+    "Typ": "PRAWDOPODOBNIE_BRAK_ULICY",
+    "Wiersz": "Nienadowa 37-750 463 podkarpackie"
+  },
+  {
+    "SP": 1248,
+    "Typ": "PRAWDOPODOBNIE_BRAK_ULICY",
+    "Wiersz": "Zboiska 38-450 99 podkarpackie"
+  },
+  {
+    "SP": 1256,
+    "Typ": "PRAWDOPODOBNIE_BRAK_ULICY",
+    "Wiersz": "Recz 73-210 Promenada zachodniopomorskie"
+  },
+  {
+    "SP": 1260,
+    "Typ": "BRAK_WOJEWODZTWA",
+    "Wiersz": "#N/D! #N/D! #N/D! #N/D! #N/D!"
+  },
+  {
+    "SP": 1273,
+    "Typ": "PRAWDOPODOBNIE_BRAK_ULICY",
+    "Wiersz": "Krasne 36-007 34 podkarpackie"
+  },
+  {
+    "SP": 1286,
+    "Typ": "PRAWDOPODOBNIE_BRAK_ULICY",
+    "Wiersz": "Domaradz 36-230 Domaradz podkarpackie"
+  },
+  {
+    "SP": 1324,
+    "Typ": "PRAWDOPODOBNIE_BRAK_ULICY",
+    "Wiersz": "Krapkowice 47-300 Prudnicka opolskie"
+  },
+  {
+    "SP": 1384,
+    "Typ": "PRAWDOPODOBNIE_BRAK_ULICY",
+    "Wiersz": "Latoszyn 39-200 Latoszyn podkarpackie"
+  },
+  {
+    "SP": 1407,
+    "Typ": "PRAWDOPODOBNIE_BRAK_ULICY",
+    "Wiersz": "Nowa Słupia 26-006 Kielecka świętokrzyskie"
+  },
+  {
+    "SP": 1410,
+    "Typ": "PRAWDOPODOBNIE_BRAK_ULICY",
+    "Wiersz": "Kielce 25-425 Sandomierska świętokrzyskie"
+  },
+  {
+    "SP": 1428,
+    "Typ": "PRAWDOPODOBNIE_BRAK_ULICY",
+    "Wiersz": "Nowy Sącz 33-300 Krakowska małopolskie"
+  },
+  {
+    "SP": 1469,
+    "Typ": "PRAWDOPODOBNIE_BRAK_ULICY",
+    "Wiersz": "Miejska Górka 63-910 Rawicka wielkopolskie"
+  },
+  {
+    "SP": 1500,
+    "Typ": "PRAWDOPODOBNIE_BRAK_ULICY",
+    "Wiersz": "Wisznice 21-580 Zawadzkiego lubelskie"
+  },
+  {
+    "SP": 1520,
+    "Typ": "PRAWDOPODOBNIE_BRAK_ULICY",
+    "Wiersz": "Sochocin 09-110 Ciechanowska mazowieckie"
+  },
+  {
+    "SP": 1528,
+    "Typ": "PRAWDOPODOBNIE_BRAK_ULICY",
+    "Wiersz": "Luboń 62-031 Sobieskiego wielkopolskie"
+  },
+  {
+    "SP": 1535,
+    "Typ": "PRAWDOPODOBNIE_BRAK_ULICY",
+    "Wiersz": "Mieścisko 62-290 Ruda wielkopolskie"
+  },
+  {
+    "SP": 4001,
+    "Typ": "PRAWDOPODOBNIE_BRAK_ULICY",
+    "Wiersz": "Aleksandrowice 32-084 130 małopolskie"
+  },
+  {
+    "SP": 4002,
+    "Typ": "PRAWDOPODOBNIE_BRAK_ULICY",
+    "Wiersz": "Morawica 32-084 285 małopolskie"
+  },
+  {
+    "SP": 4005,
+    "Typ": "BRAK_ADRESU_PO_KODZIE",
+    "Wiersz": "Marcelin 78-400 zachodniopomorskie"
+  },
+  {
+    "SP": 4009,
+    "Typ": "PRAWDOPODOBNIE_BRAK_ULICY",
+    "Wiersz": "Idzbark 14-100 108 warmińsko-mazurskie"
+  },
+  {
+    "SP": 4023,
+    "Typ": "PRAWDOPODOBNIE_BRAK_ULICY",
+    "Wiersz": "Lubieszyn 72-002 11b pomorskie"
+  },
+  {
+    "SP": 4035,
+    "Typ": "PRAWDOPODOBNIE_BRAK_ULICY",
+    "Wiersz": "Dreglin 06-450 39 mazowieckie"
+  },
+  {
+    "SP": 4055,
+    "Typ": "PRAWDOPODOBNIE_BRAK_ULICY",
+    "Wiersz": "Rumia 84-230 Grunwaldzka pomorskie"
+  },
+  {
+    "SP": 4062,
+    "Typ": "BRAK_ADRESU_PO_KODZIE",
+    "Wiersz": "Obrowo 87-126 kujawsko-pomorskie"
+  },
+  {
+    "SP": 4080,
+    "Typ": "PRAWDOPODOBNIE_BRAK_ULICY",
+    "Wiersz": "Mysłowice 41-400 Oswiecimska śląskie"
+  },
+  {
+    "SP": 4136,
+    "Typ": "PRAWDOPODOBNIE_BRAK_ULICY",
+    "Wiersz": "Karnin 66-446 28A lubuskie"
+  },
+  {
+    "SP": 4144,
+    "Typ": "PRAWDOPODOBNIE_BRAK_ULICY",
+    "Wiersz": "Podlas 96-200 47 łódzkie"
+  },
+  {
+    "SP": 4195,
+    "Typ": "BRAK_ADRESU_PO_KODZIE",
+    "Wiersz": "Krzemienica 37-127 podkarpackie"
+  },
+  {
+    "SP": 4199,
+    "Typ": "BRAK_ADRESU_PO_KODZIE",
+    "Wiersz": "Barwinek 38-454 podkarpackie"
+  },
+  {
+    "SP": 4200,
+    "Typ": "PRAWDOPODOBNIE_BRAK_ULICY",
+    "Wiersz": "Kurów 27-644 109 świętokrzyskie"
+  },
+  {
+    "SP": 4209,
+    "Typ": "PRAWDOPODOBNIE_BRAK_ULICY",
+    "Wiersz": "Łabuńki Pierwsze 22-437 57 lubelskie"
+  },
+  {
+    "SP": 4220,
+    "Typ": "BRAK_ADRESU_PO_KODZIE",
+    "Wiersz": "Widełka 36-145 podkarpackie"
+  },
+  {
+    "SP": 4226,
+    "Typ": "PRAWDOPODOBNIE_BRAK_ULICY",
+    "Wiersz": "Panasówka 23-407 16 lubelskie"
+  },
+  {
+    "SP": 4227,
+    "Typ": "BRAK_ADRESU_PO_KODZIE",
+    "Wiersz": "Piotrowice 24-150 lubelskie"
+  },
+  {
+    "SP": 4229,
+    "Typ": "BRAK_ADRESU_PO_KODZIE",
+    "Wiersz": "Jabłonna Pierwsza 23-114 lubelskie"
+  },
+  {
+    "SP": 4233,
+    "Typ": "BRAK_ADRESU_PO_KODZIE",
+    "Wiersz": "Niedrzwica Kościelna 24-222 lubelskie"
+  },
+  {
+    "SP": 4234,
+    "Typ": "BRAK_ADRESU_PO_KODZIE",
+    "Wiersz": "Zalesie 21-025 lubelskie"
+  },
+  {
+    "SP": 4237,
+    "Typ": "PRAWDOPODOBNIE_BRAK_ULICY",
+    "Wiersz": "Niedźwiedź 63-500 6A wielkopolskie"
+  },
+  {
+    "SP": 4245,
+    "Typ": "PRAWDOPODOBNIE_BRAK_ULICY",
+    "Wiersz": "Widuchowa 74-120 23a zachodniopomorskie"
+  },
+  {
+    "SP": 4282,
+    "Typ": "PRAWDOPODOBNIE_BRAK_ULICY",
+    "Wiersz": "Będzino 76-037 87 zachodniopomorskie"
+  },
+  {
+    "SP": 4291,
+    "Typ": "BRAK_ADRESU_PO_KODZIE",
+    "Wiersz": "Radom 26-600 mazowieckie"
+  },
+  {
+    "SP": 4302,
+    "Typ": "PRAWDOPODOBNIE_BRAK_ULICY",
+    "Wiersz": "Konikowo 76-024 80C zachodniopomorskie"
+  },
+  {
+    "SP": 4311,
+    "Typ": "BRAK_ADRESU_PO_KODZIE",
+    "Wiersz": "Kliszno 76-011 zachodniopomorskie"
+  },
+  {
+    "SP": 4375,
+    "Typ": "PRAWDOPODOBNIE_BRAK_ULICY",
+    "Wiersz": "Łąka 59-700 28A dolnośląskie"
+  },
+  {
+    "SP": 4376,
+    "Typ": "PRAWDOPODOBNIE_BRAK_ULICY",
+    "Wiersz": "Prosienica 07-300 Prosienica mazowieckie"
+  },
+  {
+    "SP": 4408,
+    "Typ": "PRAWDOPODOBNIE_BRAK_ULICY",
+    "Wiersz": "Wieszowa 42-672 A1 śląskie"
+  },
+  {
+    "SP": 4419,
+    "Typ": "PRAWDOPODOBNIE_BRAK_ULICY",
+    "Wiersz": "Michałowice 55-095 S8 dolnośląskie"
+  },
+  {
+    "SP": 4429,
+    "Typ": "PRAWDOPODOBNIE_BRAK_ULICY",
+    "Wiersz": "Babimost 66-110 Kargowska lubuskie"
+  },
+  {
+    "SP": 4900,
+    "Typ": "BRAK_WOJEWODZTWA",
+    "Wiersz": "Gi życko 11-500 Nadbrze żna 15 warmi ńsko-mazurskie"
+  },
+  {
+    "SP": 4901,
+    "Typ": "BRAK_WOJEWODZTWA",
+    "Wiersz": "Sztynort 11-620 warmi ńsko-mazurskie"
+  },
+  {
+    "SP": 4902,
+    "Typ": "BRAK_WOJEWODZTWA",
+    "Wiersz": "W ęgorzewo 11-600 Braci Ejsmontów 3 warmi ńsko-mazurskie"
+  },
+  {
+    "SP": 4903,
+    "Typ": "BRAK_WOJEWODZTWA",
+    "Wiersz": "Pi ękna Góra 11-500 SAILOR warmi ńsko-mazurskie"
+  },
+  {
+    "SP": 4905,
+    "Typ": "BRAK_WOJEWODZTWA",
+    "Wiersz": "Mikołajki 11-730 Promenada warmi ńsko-mazurskie"
+  },
+  {
+    "SP": 7045,
+    "Typ": "BRAK_ULICY_NUMERU",
+    "Wiersz": "Królów 68-212 0 0 lubuskie"
+  },
+  {
+    "SP": 7047,
+    "Typ": "BRAK_ULICY_NUMERU",
+    "Wiersz": "Podłopień 34-642 - - małopolskie"
+  },
+  {
+    "SP": 7110,
+    "Typ": "PRAWDOPODOBNIE_BRAK_ULICY",
+    "Wiersz": "Przewóz 68-132 Kolejowa lubuskie"
+  },
+  {
+    "SP": 7159,
+    "Typ": "PRAWDOPODOBNIE_BRAK_ULICY",
+    "Wiersz": "Jedlanka 26-660 Jedlanka mazowieckie"
+  },
+  {
+    "SP": 7197,
+    "Typ": "BRAK_WOJEWODZTWA",
+    "Wiersz": "Kłobuck 42-100 Górnicza BRAK ŚLĄSKIE"
+  },
+  {
+    "SP": 7221,
+    "Typ": "PRAWDOPODOBNIE_BRAK_ULICY",
+    "Wiersz": "Leokadiów 24-100 10B lubelskie"
+  },
+  {
+    "SP": 7286,
+    "Typ": "BRAK_ULICY_NUMERU",
+    "Wiersz": "Bidziny 27-532 0 0 świętokrzyskie"
+  },
+  {
+    "SP": 7299,
+    "Typ": "PRAWDOPODOBNIE_BRAK_ULICY",
+    "Wiersz": "Mazury 63-410 26A wielkopolskie"
+  },
+  {
+    "SP": 7317,
+    "Typ": "PRAWDOPODOBNIE_BRAK_ULICY",
+    "Wiersz": "Łuszczów Pierwszy 20-258 130A lubelskie"
+  },
+  {
+    "SP": 7331,
+    "Typ": "PRAWDOPODOBNIE_BRAK_ULICY",
+    "Wiersz": "Dobrodzień 46-380 Oleska opolskie"
+  },
+  {
+    "SP": 7334,
+    "Typ": "PRAWDOPODOBNIE_BRAK_ULICY",
+    "Wiersz": "Zwierzyniec 97-403 4 łódzkie"
+  },
+  {
+    "SP": 7397,
+    "Typ": "BRAK_ULICY",
+    "Wiersz": "Chojny Młode 18-400 BRAK 0 podlaskie"
+  },
+  {
+    "SP": 7399,
+    "Typ": "BRAK_ULICY_NUMERU",
+    "Wiersz": "Szaflary 34-424 - 0 małopolskie"
+  },
+  {
+    "SP": 7415,
+    "Typ": "BRAK_ULICY_NUMERU",
+    "Wiersz": "Szewce 55-114 0 0 dolnośląskie"
+  },
+  {
+    "SP": 7430,
+    "Typ": "PRAWDOPODOBNIE_BRAK_ULICY",
+    "Wiersz": "Ciółkowo 09-451 72 mazowieckie"
+  },
+  {
+    "SP": 7436,
+    "Typ": "PRAWDOPODOBNIE_BRAK_ULICY",
+    "Wiersz": "Radwanice 59-160 Kwiatowa dolnośląskie"
+  },
+  {
+    "SP": 7462,
+    "Typ": "PRAWDOPODOBNIE_BRAK_ULICY",
+    "Wiersz": "Wilczyce 59-223 55 dolnośląskie"
+  },
+  {
+    "SP": 7478,
+    "Typ": "BRAK_WOJEWODZTWA",
+    "Wiersz": "#N/D! #N/D! #N/D! #N/D! #N/D!"
+  },
+  {
+    "SP": 7500,
+    "Typ": "PRAWDOPODOBNIE_BRAK_ULICY",
+    "Wiersz": "Wieliczka 32-020 Dobczycka małopolskie"
+  },
+  {
+    "SP": 7517,
+    "Typ": "BRAK_ADRESU_PO_KODZIE",
+    "Wiersz": "Przysiek 87-134 kujawsko-pomorskie"
+  },
+  {
+    "SP": 7519,
+    "Typ": "PRAWDOPODOBNIE_BRAK_ULICY",
+    "Wiersz": "Drawsko Pomorskie 78-500 DW173 zachodniopomorskie"
+  },
+  {
+    "SP": 7526,
+    "Typ": "PRAWDOPODOBNIE_BRAK_ULICY",
+    "Wiersz": "Nowa Łubianka 64-930 DK10 wielkopolskie"
+  },
+  {
+    "SP": 7530,
+    "Typ": "PRAWDOPODOBNIE_BRAK_ULICY",
+    "Wiersz": "Dąbrówki 37-100 199 podkarpackie"
+  },
+  {
+    "SP": 7535,
+    "Typ": "PRAWDOPODOBNIE_BRAK_ULICY",
+    "Wiersz": "Gorzków 32-700 15 małopolskie"
+  },
+  {
+    "SP": 7552,
+    "Typ": "PRAWDOPODOBNIE_BRAK_ULICY",
+    "Wiersz": "Nowa Wieś Legnicka 59-241 44a dolnośląskie"
+  },
+  {
+    "SP": 7568,
+    "Typ": "PRAWDOPODOBNIE_BRAK_ULICY",
+    "Wiersz": "Piotrowice 05-480 67 mazowieckie"
+  },
+  {
+    "SP": 7577,
+    "Typ": "PRAWDOPODOBNIE_BRAK_ULICY",
+    "Wiersz": "Proszówki 32-700 125 małopolskie"
+  },
+  {
+    "SP": 7578,
+    "Typ": "PRAWDOPODOBNIE_BRAK_ULICY",
+    "Wiersz": "Jaworznia 26-065 208c świętokrzyskie"
+  },
+  {
+    "SP": 7588,
+    "Typ": "BRAK_KODU",
+    "Wiersz": "Wólka 62 - 420 DK92 0 WIELKOPOLSKIE"
+  },
+  {
+    "SP": 7593,
+    "Typ": "BRAK_ADRESU_PO_KODZIE",
+    "Wiersz": "Czajęcice 27-425 świętokrzyskie"
+  },
+  {
+    "SP": 7595,
+    "Typ": "PRAWDOPODOBNIE_BRAK_ULICY",
+    "Wiersz": "Renice 74-300 59 zachodniopomorskie"
+  },
+  {
+    "SP": 7596,
+    "Typ": "PRAWDOPODOBNIE_BRAK_ULICY",
+    "Wiersz": "Bieruń 43-155 Zarzyna/Warszawska śląskie"
+  },
+  {
+    "SP": 7600,
+    "Typ": "PRAWDOPODOBNIE_BRAK_ULICY",
+    "Wiersz": "Józefów 62-860 28 wielkopolskie"
+  },
+  {
+    "SP": 7601,
+    "Typ": "PRAWDOPODOBNIE_BRAK_ULICY",
+    "Wiersz": "Rogówko 87-162 39A kujawsko-pomorskie"
+  },
+  {
+    "SP": 7612,
+    "Typ": "PRAWDOPODOBNIE_BRAK_ULICY",
+    "Wiersz": "Opatkowice 32-100 200 małopolskie"
+  }
+]

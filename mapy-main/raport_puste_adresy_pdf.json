@@ -1,0 +1,167 @@
+[
+  {
+    "SP": 81,
+    "Typ": "BRAK_ADRESU_PO_KODZIE",
+    "Wiersz": "Kostomłoty 55-311 dolnośląskie"
+  },
+  {
+    "SP": 85,
+    "Typ": "BRAK_ADRESU_PO_KODZIE",
+    "Wiersz": "Wróblowice 55-330 dolnośląskie"
+  },
+  {
+    "SP": 274,
+    "Typ": "BRAK_WOJEWODZTWA",
+    "Wiersz": "#N/D! #N/D! #N/D! #N/D! #N/D!"
+  },
+  {
+    "SP": 276,
+    "Typ": "BRAK_ADRESU_PO_KODZIE",
+    "Wiersz": "Złota Woda 26-025 świętokrzyskie"
+  },
+  {
+    "SP": 580,
+    "Typ": "BRAK_WOJEWODZTWA",
+    "Wiersz": "#N/D! #N/D! #N/D! #N/D! #N/D!"
+  },
+  {
+    "SP": 760,
+    "Typ": "BRAK_ADRESU_PO_KODZIE",
+    "Wiersz": "Dziekanowice 28-440 świętokrzyskie"
+  },
+  {
+    "SP": 765,
+    "Typ": "BRAK_ADRESU_PO_KODZIE",
+    "Wiersz": "Odargowo 84-110 pomorskie"
+  },
+  {
+    "SP": 960,
+    "Typ": "BRAK_ADRESU_PO_KODZIE",
+    "Wiersz": "Zawadka Brzostecka 39-230 podkarpackie"
+  },
+  {
+    "SP": 1034,
+    "Typ": "BRAK_ADRESU_PO_KODZIE",
+    "Wiersz": "Kołbaskowo 72-001 zachodniopomorskie"
+  },
+  {
+    "SP": 1120,
+    "Typ": "BRAK_ADRESU_PO_KODZIE",
+    "Wiersz": "Racula 66-004 lubuskie"
+  },
+  {
+    "SP": 1187,
+    "Typ": "BRAK_ADRESU_PO_KODZIE",
+    "Wiersz": "Koszwały 83-011 pomorskie"
+  },
+  {
+    "SP": 1216,
+    "Typ": "BRAK_WOJEWODZTWA",
+    "Wiersz": "#N/D! #N/D! #N/D! #N/D! #N/D!"
+  },
+  {
+    "SP": 1260,
+    "Typ": "BRAK_WOJEWODZTWA",
+    "Wiersz": "#N/D! #N/D! #N/D! #N/D! #N/D!"
+  },
+  {
+    "SP": 4005,
+    "Typ": "BRAK_ADRESU_PO_KODZIE",
+    "Wiersz": "Marcelin 78-400 zachodniopomorskie"
+  },
+  {
+    "SP": 4062,
+    "Typ": "BRAK_ADRESU_PO_KODZIE",
+    "Wiersz": "Obrowo 87-126 kujawsko-pomorskie"
+  },
+  {
+    "SP": 4195,
+    "Typ": "BRAK_ADRESU_PO_KODZIE",
+    "Wiersz": "Krzemienica 37-127 podkarpackie"
+  },
+  {
+    "SP": 4199,
+    "Typ": "BRAK_ADRESU_PO_KODZIE",
+    "Wiersz": "Barwinek 38-454 podkarpackie"
+  },
+  {
+    "SP": 4220,
+    "Typ": "BRAK_ADRESU_PO_KODZIE",
+    "Wiersz": "Widełka 36-145 podkarpackie"
+  },
+  {
+    "SP": 4227,
+    "Typ": "BRAK_ADRESU_PO_KODZIE",
+    "Wiersz": "Piotrowice 24-150 lubelskie"
+  },
+  {
+    "SP": 4229,
+    "Typ": "BRAK_ADRESU_PO_KODZIE",
+    "Wiersz": "Jabłonna Pierwsza 23-114 lubelskie"
+  },
+  {
+    "SP": 4233,
+    "Typ": "BRAK_ADRESU_PO_KODZIE",
+    "Wiersz": "Niedrzwica Kościelna 24-222 lubelskie"
+  },
+  {
+    "SP": 4234,
+    "Typ": "BRAK_ADRESU_PO_KODZIE",
+    "Wiersz": "Zalesie 21-025 lubelskie"
+  },
+  {
+    "SP": 4291,
+    "Typ": "BRAK_ADRESU_PO_KODZIE",
+    "Wiersz": "Radom 26-600 mazowieckie"
+  },
+  {
+    "SP": 4311,
+    "Typ": "BRAK_ADRESU_PO_KODZIE",
+    "Wiersz": "Kliszno 76-011 zachodniopomorskie"
+  },
+  {
+    "SP": 7045,
+    "Typ": "BRAK_ULICY_NUMERU",
+    "Wiersz": "Królów 68-212 0 0 lubuskie"
+  },
+  {
+    "SP": 7047,
+    "Typ": "BRAK_ULICY_NUMERU",
+    "Wiersz": "Podłopień 34-642 - - małopolskie"
+  },
+  {
+    "SP": 7286,
+    "Typ": "BRAK_ULICY_NUMERU",
+    "Wiersz": "Bidziny 27-532 0 0 świętokrzyskie"
+  },
+  {
+    "SP": 7397,
+    "Typ": "BRAK_ULICY",
+    "Wiersz": "Chojny Młode 18-400 BRAK 0 podlaskie"
+  },
+  {
+    "SP": 7399,
+    "Typ": "BRAK_ULICY_NUMERU",
+    "Wiersz": "Szaflary 34-424 - 0 małopolskie"
+  },
+  {
+    "SP": 7415,
+    "Typ": "BRAK_ULICY_NUMERU",
+    "Wiersz": "Szewce 55-114 0 0 dolnośląskie"
+  },
+  {
+    "SP": 7478,
+    "Typ": "BRAK_WOJEWODZTWA",
+    "Wiersz": "#N/D! #N/D! #N/D! #N/D! #N/D!"
+  },
+  {
+    "SP": 7517,
+    "Typ": "BRAK_ADRESU_PO_KODZIE",
+    "Wiersz": "Przysiek 87-134 kujawsko-pomorskie"
+  },
+  {
+    "SP": 7593,
+    "Typ": "BRAK_ADRESU_PO_KODZIE",
+    "Wiersz": "Czajęcice 27-425 świętokrzyskie"
+  }
+]

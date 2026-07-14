@@ -1,0 +1,591 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title>Orlen X TelForceOne - Mapa Handlowca</title>
+    
+    <!-- Google Fonts - Outfit -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    
+    <!-- Leaflet Map CSS -->
+    <link rel="stylesheet" href="lib/leaflet.css" />
+          
+    <!-- Leaflet MarkerCluster CSS -->
+    <link rel="stylesheet" href="lib/MarkerCluster.css" />
+    <link rel="stylesheet" href="lib/MarkerCluster.Default.css" />
+          
+    <!-- FontAwesome for Premium Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+    <!-- Leaflet Geocoder CSS -->
+    <link rel="stylesheet" href="https://unpkg.com/leaflet-control-geocoder/dist/Control.Geocoder.css" />
+    
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="styles.css?v=20260714k">
+</head>
+<body>
+    <div id="app-container">
+        
+        <!-- EKRAN ŁADOWANIA (POBIERANIE LIVE BAZY OSM) -->
+        <div id="loading-overlay" class="loading-overlay" style="display: none;">
+            <div class="loading-spinner-container">
+                <div class="loading-spinner"></div>
+                <h3 id="loading-text">Pobieranie bazy stacji...</h3>
+                <p class="loading-subtext">Pobieramy najnowsze dane z OpenStreetMap dla całej Polski (ok. 1.5 MB)</p>
+            </div>
+        </div>
+        
+        <!-- NAGŁÓWEK APLIKACJI -->
+        <header class="app-header">
+            <div class="header-main">
+                <div class="brand">
+                    <div class="logo-circle" style="background-color: white; padding: 4px; display: flex; align-items: center; justify-content: center; overflow: hidden; border: 1px solid var(--border);">
+                        <img src="orlen_logo.svg" alt="Orlen Logo" style="width: 100%; height: 100%; object-fit: contain;">
+                    </div>
+                    <div>
+                        <h1>Orlen X TelForceOne</h1>
+                        <span class="subtitle">System CRM z Mapą</span>
+                    </div>
+                </div>
+            </div>
+            
+            
+            <div class="header-filters" style="display: flex; gap: 10px; align-items: center; justify-content: space-between; width: 100%;">
+                <div style="display: flex; gap: 10px; align-items: center;">
+                    <label class="pill-toggle">
+                        <input type="checkbox" id="rls-toggle">
+                        <span class="pill-label"><i class="fa-solid fa-user-check"></i> Tylko moje</span>
+                    </label>
+                    <label class="pill-toggle">
+                        <input type="checkbox" id="urgent-only-toggle">
+                        <span class="pill-label"><i class="fa-solid fa-triangle-exclamation"></i> Tylko pilne</span>
+                    </label>
+                </div>
+                <div class="stats-badge" id="stats-counter" style="margin-left: auto;">
+                    <span class="done-count">0</span>/<span class="total-count">0</span> zrobione
+                </div>
+            </div>
+
+        </header>
+
+        <!-- EKRANY GŁÓWNE (TABS CONTENT) -->
+        <main class="app-content">
+            
+            <!-- TAB 1: MAPA -->
+            <section id="tab-map" class="tab-panel active">
+                <div id="map"></div>
+
+            <!-- Floating Google-Maps Style Search Bar -->
+            <div id="floating-search-bar" class="floating-search-bar">
+                <i class="fa-solid fa-magnifying-glass search-icon"></i>
+                <input type="text" id="map-search-input" placeholder="Wpisz miasto (np. Leszno) i Enter...">
+            </div>
+
+            <!-- Pasek planowania trasy do miasta (pojawia się po wyszukaniu) -->
+            <div id="route-plan-bar" class="route-plan-bar" style="display: none;">
+                <div class="route-plan-info">
+                    <div class="route-plan-title"><i class="fa-solid fa-flag-checkered"></i> Trasa do: <strong id="route-plan-dest">—</strong></div>
+                    <div class="route-plan-meta" id="route-plan-meta">0 przystanków</div>
+                </div>
+                <div class="route-plan-actions">
+                    <button id="route-plan-addall" class="btn btn-secondary btn-sm" title="Dodaj wszystkie po drodze"><i class="fa-solid fa-layer-group"></i></button>
+                    <button id="route-plan-start" class="btn btn-primary btn-sm"><i class="fa-solid fa-diamond-turn-right"></i> Rozpocznij</button>
+                    <button id="route-plan-cancel" class="btn btn-secondary btn-sm" title="Anuluj planowanie"><i class="fa-solid fa-xmark"></i></button>
+                </div>
+            </div>
+
+                
+                <button id="recenter-btn" class="floating-btn" title="Wyśrodkuj na GPS">
+                    <i class="fa-solid fa-location-crosshairs"></i>
+                </button>
+                
+                <!-- Przycisk planera trasy bezpośrednio na mapie (przełącza na zakładkę Trasa) -->
+                <button id="map-route-planner-btn" class="floating-btn" style="bottom: 80px; right: 24px; background-color: var(--primary); color: white;" title="Twoja Trasa">
+                    <i class="fa-solid fa-route"></i>
+                </button>
+            </section>
+            
+            <!-- TAB 2: LISTA STACJI -->
+            <section id="tab-list" class="tab-panel">
+                <div class="search-filter-bar">
+                    <div class="search-input-wrapper">
+                        <i class="fa-solid fa-magnifying-glass search-icon"></i>
+                        <input type="text" id="search-input" placeholder="Szukaj stacji lub adresu...">
+                        <button id="clear-search-btn" class="clear-btn" style="display: none;">
+                            <i class="fa-solid fa-xmark"></i>
+                        </button>
+                    </div>
+                    
+                    <div class="filters-row" style="display: flex; gap: 10px; align-items: center; margin-top: 10px;">
+                        <div class="filter-group" style="flex: 1;">
+                            <select id="status-filter" style="padding: 10px; border-radius: var(--radius-sm); border: 1px solid var(--border); width: 100%;">
+                                <option value="all">Wszystkie statusy</option>
+                                <option value="Do zrobienia">Do zrobienia</option>
+                                <option value="W trakcie">W trakcie</option>
+                                <option value="Zrobione">Zrobione</option>
+                            </select>
+                        </div>
+                        <button id="reset-list-filters-btn" class="btn btn-secondary" style="display: none; padding: 10px; white-space: nowrap;" title="Wyczyść filtry">
+                            <i class="fa-solid fa-filter-circle-xmark"></i>
+                        </button>
+                    </div>
+                </div>
+                
+                <!-- Pomocnik wyznaczania trasy po drodze -->
+                <div id="route-along-helper-card" class="settings-card" style="display: none; margin: 10px 15px; background-color: #fff9e6; border: 1px dashed var(--warning);">
+                    <h3 style="margin: 0 0 5px 0; font-size: 0.85rem; color: var(--dark); display: flex; align-items: center; gap: 6px;"><i class="fa-solid fa-route" style="color: var(--primary);"></i> Stacje po drodze do: <span id="route-along-destination-name" style="color: var(--primary);">Cel</span></h3>
+                    <p class="card-desc" style="margin-bottom: 10px;">Wykryliśmy stacje leżące blisko trasy do tego celu. Możesz dodać je do planu.</p>
+                    <div style="display: flex; gap: 8px;">
+                        <button id="route-along-show-btn" class="btn btn-secondary btn-sm" style="flex: 1; font-size: 0.72rem; padding: 6px; min-height: unset;">Pokaż po drodze</button>
+                        <button id="route-along-add-all-btn" class="btn btn-primary btn-sm" style="flex: 1; font-size: 0.72rem; padding: 6px; min-height: unset;">Dodaj wszystkie</button>
+                        <button id="route-along-hide-btn" class="btn btn-secondary btn-sm" style="padding: 6px; min-height: unset;"><i class="fa-solid fa-xmark"></i></button>
+                    </div>
+                </div>
+                
+                <div class="list-container" id="stations-list">
+                    <!-- Elementy listy ładowane dynamicznie przez JS -->
+                    <div class="list-placeholder">
+                        <i class="fa-solid fa-spinner fa-spin"></i> Ładowanie stacji...
+                    </div>
+                </div>
+            </section>
+            
+            <!-- TAB 2.5: PLANER TRASY -->
+            <section id="tab-route" class="tab-panel">
+                <div class="settings-container">
+                    <div class="settings-card">
+                        <h3 style="margin-bottom: 5px;"><i class="fa-solid fa-route" style="color: var(--primary);"></i> Dzisiejsza Trasa</h3>
+                        <p class="card-desc">Zaplanuj i wyznacz optymalną trasę wizyt. Dodaj punkty klikając stacje na mapie lub na liście i wybierając przycisk "Dodaj do trasy".</p>
+                        
+                        <div style="background-color: var(--light); border-radius: var(--radius-sm); padding: 12px; margin-bottom: 15px; border: 1px solid var(--border);">
+                            <div style="font-size: 0.85rem; margin-bottom: 8px; color: var(--dark); display: flex; justify-content: space-between; align-items: center;">
+                                <span><strong>Twoja lista punktów:</strong></span>
+                                <span id="route-custom-count" style="font-weight: 700; color: var(--primary);">0 stacji</span>
+                            </div>
+                            
+                            <!-- Lista dodanych stacji -->
+                            <div id="route-custom-empty" style="font-size: 0.8rem; color: var(--dark-muted); text-align: center; padding: 20px 0;">
+                                <i class="fa-regular fa-folder-open" style="font-size: 1.5rem; margin-bottom: 8px; display: block; color: var(--border);"></i>
+                                Twoja lista jest pusta.<br>Przejdź do mapy lub listy, kliknij stację i wybierz <strong>"Dodaj do trasy"</strong>.
+                            </div>
+                            
+                            <ul id="route-custom-list" class="route-custom-list-ul" style="display: none; list-style: none; padding: 0; margin: 0; max-height: 250px; overflow-y: auto;">
+                                <!-- Wypełniane dynamicznie przez JS -->
+                            </ul>
+                        </div>
+                        
+                        <!-- Ustawienia Planowania -->
+                        <div class="route-form" style="display: flex; flex-direction: column; gap: 10px;">
+                            <div class="form-group advanced-option" style="margin-bottom: 0;">
+                                <label for="route-custom-optimization" style="font-size: 0.8rem; font-weight: 600; color: var(--dark-muted); display: block; margin-bottom: 4px;">Kolejność trasy:</label>
+                                <select id="route-custom-optimization" style="padding: 10px; border-radius: var(--radius-sm); border: 1px solid var(--border); font-family: var(--font); font-size: 0.8rem; outline: none; width: 100%;">
+                                    <option value="tsp" selected>Zoptymalizowana pod kątem odległości (TSP)</option>
+                                    <option value="manual">Kolejność w jakiej dodano</option>
+                                </select>
+                            </div>
+                            
+                            <div style="display: flex; gap: 8px; margin-top: 5px;">
+                                <button id="route-custom-clear-btn" class="btn btn-secondary" style="flex: 1; padding: 12px; font-size: 0.8rem;">
+                                    <i class="fa-solid fa-trash-can"></i> Wyczyść
+                                </button>
+                                <button id="route-custom-plan-btn" class="btn btn-primary" style="flex: 2; padding: 12px; font-size: 0.8rem;">
+                                    <i class="fa-solid fa-wand-magic-sparkles"></i> Zaplanuj Trasę
+                                </button>
+                            </div>
+                        </div>
+                        
+                        <!-- Wyniki planowania -->
+                        <div id="route-custom-results" style="display: none; margin-top: 15px; border-top: 1px solid var(--border); padding-top: 15px;">
+                            <div style="background-color: var(--primary-light); border-radius: var(--radius-sm); padding: 10px; margin-bottom: 12px; font-size: 0.8rem;">
+                                <div style="margin-bottom: 4px; color: var(--dark);"><strong>Liczba przystanków:</strong> <span id="route-custom-stops-count">0</span></div>
+                                <div style="margin-bottom: 4px; color: var(--dark);"><strong>Łączny dystans:</strong> <span id="route-custom-total-distance">0 km</span></div>
+                                <div style="color: var(--dark);"><strong>Sugerowany czas dojazdu:</strong> <span id="route-custom-est-time">0 min</span></div>
+                            </div>
+                            
+                            <div style="max-height: 150px; overflow-y: auto; margin-bottom: 15px; border: 1px solid var(--border); border-radius: var(--radius-sm); padding: 8px; background-color: var(--light);">
+                                <ol id="route-custom-stops-list" style="font-size: 0.75rem; padding-left: 20px; color: var(--dark-muted); line-height: 1.5; margin: 0;"></ol>
+                            </div>
+                            
+                            <button id="route-custom-show-on-map-btn" class="btn btn-secondary btn-block" style="padding: 12px; margin-bottom: 10px;">
+                                <i class="fa-solid fa-map"></i> Pokaż trasę na mapie
+                            </button>
+
+                            <button id="route-custom-open-gmaps-btn" class="btn btn-block" style="background-color: #4285F4; color: white; padding: 12px;">
+                                <i class="fa-solid fa-map-location-dot"></i> Otwórz trasę w Google Maps
+                            </button>
+
+                            <!-- Etapy trasy (obejście limitu 10 przystanków Google Maps) -->
+                            <div id="route-custom-gmaps-legs" style="margin-top: 4px;"></div>
+                        </div>
+                    </div>
+                    
+                    <!-- Karta szybkiego automatycznego planera -->
+                    <div class="settings-card">
+                        <h3 style="margin-bottom: 5px;"><i class="fa-solid fa-wand-magic-sparkles" style="color: var(--primary);"></i> Szybki Generator Trasy</h3>
+                        <p class="card-desc">Nie chcesz wybierać stacji ręcznie? Wygeneruj automatycznie trasę do najbliższych stacji na podstawie Twojej pozycji GPS.</p>
+                        
+                        <div class="route-form" style="display: flex; flex-direction: column; gap: 8px; margin-top: 10px;">
+                            <div class="form-group" style="margin-bottom: 0;">
+                                <label for="route-auto-count" style="font-size: 0.8rem; font-weight: 600; color: var(--dark-muted); display: block; margin-bottom: 4px;">Liczba stacji:</label>
+                                <select id="route-auto-count" style="padding: 10px; border-radius: var(--radius-sm); border: 1px solid var(--border); font-family: var(--font); font-size: 0.8rem; outline: none; width: 100%;">
+                                    <option value="3">3 najbliższe</option>
+                                    <option value="5" selected>5 najbliższych</option>
+                                    <option value="8">8 najbliższych</option>
+                                    <option value="10">10 najbliższych</option>
+                                </select>
+                            </div>
+                            
+                            <div class="form-group" style="margin-bottom: 0;">
+                                <label for="route-auto-priority" style="font-size: 0.8rem; font-weight: 600; color: var(--dark-muted); display: block; margin-bottom: 4px;">Kryterium:</label>
+                                <select id="route-auto-priority" style="padding: 10px; border-radius: var(--radius-sm); border: 1px solid var(--border); font-family: var(--font); font-size: 0.8rem; outline: none; width: 100%;">
+                                    <option value="all">Wszystkie stacje "Do zrobienia"</option>
+                                    <option value="audit">Tylko stacje do pilnego audytu ⚠</option>
+                                </select>
+                            </div>
+                            
+                            <button id="route-auto-plan-btn" class="btn btn-secondary btn-block" style="margin-top: 5px;">
+                                <i class="fa-solid fa-arrows-spin"></i> Generuj trasę automatycznie
+                            </button>
+                        </div>
+                    </div>
+
+                    <!-- Sugerowane Wizyty (Cichy Geofencing) -->
+                    <div class="settings-card" id="suggested-visits-card">
+                        <h3 style="margin-bottom: 5px;"><i class="fa-solid fa-location-dot" style="color: var(--primary);"></i> Sugerowane Wizyty</h3>
+                        <p class="card-desc">Stacje automatycznie wykryte w pobliżu (w promieniu 200m) na podstawie Twojej pozycji GPS.</p>
+                        
+                        <ul id="suggested-visits-list" class="route-custom-list-ul">
+                            <!-- Wypełniane dynamicznie przez JS -->
+                        </ul>
+                    </div>
+
+                    <div class="settings-card">
+                        <h3><i class="fa-solid fa-clock-rotate-left"></i> Historia wykonanych tras</h3>
+                        <p class="card-desc">Lista jest domyślnie ukryta. Rozwiń, aby sprawdzić gdzie byłeś i jakie działania wykonano.</p>
+
+                        <button id="history-toggle-btn" class="btn btn-secondary btn-block" style="margin-bottom: 10px;">
+                            <i class="fa-solid fa-eye"></i> Pokaż historię
+                        </button>
+
+                        <div id="history-container" style="display: none;">
+                            <div id="history-empty" style="font-size: 0.8rem; color: var(--dark-muted); text-align: center; padding: 14px 0;">
+                                Brak zapisanych wykonanych wizyt.
+                            </div>
+                            <ul id="history-list" class="route-custom-list-ul" style="display: none; list-style: none; padding: 0; margin: 0; max-height: 260px; overflow-y: auto;">
+                                <!-- Wypełniane dynamicznie -->
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            
+            <!-- TAB 3: USTAWIENIA I DANE -->
+            <section id="tab-settings" class="tab-panel">
+                <div class="settings-container">
+                    
+                    <div class="settings-card">
+                        <h3><i class="fa-solid fa-sliders"></i> Filtry i Użytkownik</h3>
+                        <p class="card-desc">Ustawienia konta i widoczności na mapie.</p>
+                        
+                        <div class="user-selector-container" style="margin-bottom: 15px;">
+                            <label for="current-user-select" style="display: block; margin-bottom: 5px; font-weight: bold; color: var(--dark);"><i class="fa-solid fa-user-tie"></i> Zalogowany jako:</label>
+                            <select id="current-user-select" style="width: 100%; padding: 10px; border-radius: var(--radius-sm); border: 1px solid var(--border);">
+                                <option value="rafal.kruk@telforceone.pl">rafal.kruk@telforceone.pl</option>
+                                <option value="waldemar.derejczyk@telforceone.pl">waldemar.derejczyk@telforceone.pl</option>
+                                <option value="ireneusz.grzeda@telforceone.pl">ireneusz.grzeda@telforceone.pl</option>
+                                <option value="bartosz.cugier@telforceone.pl">bartosz.cugier@telforceone.pl</option>
+                            </select>
+                        </div>
+                        
+                        <div class="rls-toggle-container" style="display: flex; align-items: center; gap: 10px; margin-bottom: 15px;">
+                            <label class="switch">
+                                <input type="checkbox" id="rls-toggle-settings">
+                                <span class="slider round"></span>
+                            </label>
+                            <span class="rls-label" style="font-size: 1rem; color: var(--dark);">Tylko moje stacje</span>
+                        </div>
+
+                        <div class="rls-toggle-container" style="display: flex; align-items: center; gap: 10px; margin-bottom: 15px;">
+                            <label class="switch">
+                                <input type="checkbox" id="urgent-only-toggle-settings">
+                                <span class="slider round"></span>
+                            </label>
+                            <span class="rls-label" style="font-size: 1rem; color: var(--dark);">Tylko pilne stacje (Audyt)</span>
+                        </div>
+                        
+                        <div class="filter-group" style="display: none;">
+                            <label for="gps-sim-select">Lokalizacja GPS:</label>
+                            <select id="gps-sim-select">
+                                <option value="device" selected>Urządzenie (Real GPS)</option>
+                            </select>
+                        </div>
+                    </div>
+                    
+                    <div class="settings-card">
+                        <h3><i class="fa-solid fa-file-csv"></i> Zarządzanie Bazą Danych (CSV)</h3>
+                        <p class="card-desc">Możesz eksportować aktualną bazę ze wszystkimi zmianami (statusy, notatki, handlowcy) lub zaimportować nowy plik wygenerowany przez skrypt Python.</p>
+                        
+                        <div class="csv-actions">
+                            <button id="export-csv-btn" class="btn btn-primary">
+                                <i class="fa-solid fa-download"></i> Eksportuj do stacje_orlen.csv
+                            </button>
+                            
+                            <div class="import-wrapper">
+                                <label for="import-csv-file" class="btn btn-secondary">
+                                    <i class="fa-solid fa-upload"></i> Importuj z pliku CSV
+                                </label>
+                                <input type="file" id="import-csv-file" accept=".csv" style="display: none;">
+                            </div>
+                        </div>
+                    </div>
+                    
+
+                    
+
+                    
+                    <div class="settings-card">
+                        <h3><i class="fa-solid fa-gear"></i> Konfiguracja i Narzędzia</h3>
+                        
+                        <div class="setting-item advanced-option">
+                            <div class="setting-text">
+                                <span class="setting-title">Pobierz stacje z internetu (OSM)</span>
+                                <span class="setting-desc">Pobiera na żywo najnowsze stacje Orlen z bazy OpenStreetMap dla całej Polski.</span>
+                            </div>
+                            <button id="sync-osm-btn" class="btn btn-primary btn-sm" style="box-shadow: none;">
+                                <i class="fa-solid fa-rotate"></i> Synchronizuj
+                            </button>
+                        </div>
+                        
+                        <div class="setting-item advanced-option">
+                            <div class="setting-text">
+                                <span class="setting-title">Wyczyść przypisania handlowców</span>
+                                <span class="setting-desc">Usuwa przypisania handlowców ze wszystkich stacji (resetuje kolorowe tła na mapie).</span>
+                            </div>
+                            <button id="clear-assignments-btn" class="btn btn-warning btn-sm" style="background-color: var(--warning); color: var(--dark); border: none; box-shadow: none;">
+                                <i class="fa-solid fa-eraser"></i> Wyczyść
+                            </button>
+                        </div>
+                        
+                        <div class="setting-item advanced-option">
+                            <div class="setting-text">
+                                <span class="setting-title">Resetuj aplikację</span>
+                                <span class="setting-desc">Przywraca domyślną bazę stacji pobraną z serwera i czyści pamięć lokalną (localStorage).</span>
+                            </div>
+                            <button id="reset-db-btn" class="btn btn-danger btn-sm">
+                                <i class="fa-solid fa-trash-can"></i> Resetuj
+                            </button>
+                        </div>
+                        
+                        <div class="setting-item">
+                            <div class="setting-text">
+                                <span class="setting-title">Symulowana pozycja GPS</span>
+                                <span class="setting-desc">Współrzędne używane do obliczania odległości w widoku listy.</span>
+                            </div>
+                            <div class="gps-coords-display" id="gps-coords-text">
+                                Szerokość: 51.1194, Długość: 16.9921
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="settings-card">
+                        <h3><i class="fa-solid fa-circle-info"></i> Instrukcja i Informacje</h3>
+                        <div class="info-content">
+                            <p><strong>System CRM dla Handlowców Orlen (SFA)</strong></p>
+                            <p>Aplikacja jest zoptymalizowana do działania na smartfonach. Możesz ją uruchomić lokalnie i otworzyć w przeglądarce telefonu podłączonego do tej samej sieci Wi-Fi.</p>
+                            <ol>
+                                <li>Wybierz swój adres e-mail w nagłówku, aby włączyć filtrowanie stacji przypisanych do Ciebie.</li>
+                                <li>Użyj zakładki <strong>Mapa</strong> lub <strong>Lista</strong> do przeglądania stacji.</li>
+                                <li>Kliknij stację, aby otworzyć dolny panel szczegółów.</li>
+                                <li>Zmień status (np. klikając <em>Rozpocznij wizytę</em>) lub dodaj notatki ze spotkania i kliknij <em>Zapisz</em>.</li>
+                                <li>Wyeksportuj plik CSV po zakończeniu pracy, aby przekazać dane dalej.</li>
+                            </ol>
+                        </div>
+                    </div>
+                    
+                </div>
+            </section>
+            
+        </main>
+
+        <!-- DOLNY PANEL SZCZEGÓŁÓW STACJI (BOTTOM SHEET) -->
+        <div id="bottom-sheet" class="bottom-sheet">
+            <div class="sheet-handle-container">
+                <div class="sheet-handle"></div>
+            </div>
+            
+            <div class="sheet-content">
+                <button id="sheet-close-btn" class="sheet-close" aria-label="Zamknij">
+                    <i class="fa-solid fa-xmark"></i>
+                </button>
+                
+                <!-- Alert automatycznego wykrycia GPS -->
+                <div id="sheet-geofence-alert" class="geofence-alert" style="display: none;">
+                    <i class="fa-solid fa-location-crosshairs animate-pulse"></i> Jesteś na miejscu! (Wykryto przez GPS)
+                </div>
+                
+                <!-- Alert obecności innego handlowca -->
+                <div id="sheet-presence-banner" class="presence-alert" style="display: none; background-color: var(--warning); color: var(--dark); padding: 10px; border-radius: var(--radius-sm); margin-bottom: 12px; font-size: 0.85rem; font-weight: bold; display: flex; align-items: center; gap: 8px;">
+                    <i class="fa-solid fa-triangle-exclamation animate-pulse"></i> <span id="sheet-presence-text">Przedstawiciel Waldemar jest teraz na tej stacji!</span>
+                </div>
+                
+                <div class="station-detail-header">
+                    <div class="station-meta">
+                        <span class="station-id" id="sheet-station-id">ORL-PL-12345</span>
+                        <h2 id="sheet-station-name">Orlen nr 4120</h2>
+                        <p class="station-address" id="sheet-station-address">ul. Legnicka 60, 54-204 Wrocław</p>
+                        <div class="update-time-display" style="font-size: 0.75rem; color: var(--dark-muted); margin-top: 4px;">
+                            <i class="fa-regular fa-clock"></i> Akt.: <span id="sheet-update-time">Brak</span>
+                        </div>
+                    </div>
+                    <div class="station-status-badge" id="sheet-status-badge" data-status="Do zrobienia">
+                        Do zrobienia
+                    </div>
+                </div>
+                <div class="sheet-divider"></div>
+                
+                <!-- 1) Status -->
+                <div class="sheet-section" style="margin-top: 15px; margin-bottom: 15px;">
+                    <div class="quick-actions-row">
+                        <button id="action-todo-btn" class="action-btn todo">
+                            <i class="fa-solid fa-hourglass-start"></i> Do zrobienia
+                        </button>
+                        <button id="action-progress-btn" class="action-btn progress" style="display: none;">
+                            <i class="fa-solid fa-person-walking-luggage"></i> Rozpocznij wizytę
+                        </button>
+                        <button id="action-done-btn" class="action-btn done">
+                            <i class="fa-solid fa-circle-check"></i> Zakończ wizytę
+                        </button>
+                    </div>
+                </div>
+                
+                <!-- 3) Przypisz handlowca -->
+                <div class="sheet-form-row" style="margin-bottom: 15px; border-top: 1px solid var(--border); padding-top: 15px;">
+                    <div class="form-group">
+                        <label for="sheet-assignee-select"><i class="fa-solid fa-user-tie"></i> Przypisany Handlowiec:</label>
+                        <select id="sheet-assignee-select">
+                            <option value="">-- Brak przypisania --</option>
+                            <option value="rafal.kruk@telforceone.pl">rafal.kruk@telforceone.pl</option>
+                            <option value="waldemar.derejczyk@telforceone.pl">waldemar.derejczyk@telforceone.pl</option>
+                            <option value="ireneusz.grzeda@telforceone.pl">ireneusz.grzeda@telforceone.pl</option>
+                            <option value="bartosz.cugier@telforceone.pl">bartosz.cugier@telforceone.pl</option>
+                        </select>
+                    </div>
+                </div>
+                
+                <!-- 4) Nawigacja i Akcje -->
+                <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 10px; margin-bottom: 15px;">
+                    <button id="sheet-toggle-route-btn" class="btn btn-secondary" style="margin-bottom: 0;" type="button">
+                        <i class="fa-solid fa-circle-plus"></i> Dodaj do trasy
+                    </button>
+                    <button id="sheet-navigate-btn" class="btn btn-secondary" style="margin-bottom: 0;" type="button">
+                        <i class="fa-solid fa-map-location-dot"></i> Nawiguj
+                    </button>
+                </div>
+                
+                <div class="sheet-secondary-actions" style="margin-bottom: 15px;">
+                    <button id="sheet-mark-duplicate-btn" class="btn btn-secondary btn-block" style="margin-bottom: 0;" type="button">
+                        <i class="fa-solid fa-copy"></i> Oznacz jako duplikat
+                    </button>
+                </div>
+                
+                <!-- 5) Zapisz -->
+                <div class="sheet-footer">
+                    <button id="sheet-save-btn" class="btn btn-primary btn-block">
+                        <i class="fa-solid fa-floppy-disk"></i> Zapisz zmiany
+                    </button>
+                </div>
+            </div>
+        </div>
+        
+        <!-- Dolny pasek nawigacji (NATIVE FEEL) -->
+        <nav class="app-nav">
+            <button class="nav-item active" data-tab="tab-map">
+                <i class="fa-solid fa-map-location-dot"></i>
+                <span>Mapa</span>
+            </button>
+            <button class="nav-item" data-tab="tab-list">
+                <i class="fa-solid fa-list-ul"></i>
+                <span>Lista</span>
+            </button>
+            <button class="nav-item" data-tab="tab-route">
+                <i class="fa-solid fa-route"></i>
+                <span>Trasa</span>
+            </button>
+            <button class="nav-item" data-tab="tab-settings">
+                <i class="fa-solid fa-gears"></i>
+                <span>Narzędzia</span>
+            </button>
+        </nav>
+        
+        <!-- Powiadomienia typu Toast -->
+        <div id="toast" class="toast">Zapisano pomyślnie</div>
+
+        <!-- BANNER POWIADOMIENIA PROXIMITY GPS -->
+        <div id="proximity-alert-banner" class="proximity-alert-banner" style="display: none;">
+            <div class="proximity-alert-content">
+                <i class="fa-solid fa-location-dot animate-pulse"></i>
+                <div>
+                    <strong>Stacja w pobliżu!</strong>
+                    <p id="proximity-alert-text">Czy byłeś na stacji Orlen nr 4120?</p>
+                </div>
+            </div>
+            <div class="proximity-alert-actions">
+                <button id="proximity-btn-yes" class="btn btn-primary btn-sm">Tak, dodaj notatki</button>
+                <button id="proximity-btn-no" class="btn btn-secondary btn-sm">Nie</button>
+            </div>
+        </div>
+
+        <!-- ROUTE ALONG PROMPT (PO WYSZUKANIU MIEJSCA) -->
+        <div id="route-along-prompt" class="proximity-alert-banner" style="display: none; background-color: var(--white); border: 2px solid var(--primary); box-shadow: 0 -4px 15px rgba(0,0,0,0.1); padding: 15px; bottom: 80px; z-index: 10000; flex-direction: column; gap: 10px;">
+            <div style="display: flex; justify-content: space-between; width: 100%;">
+                <div style="display: flex; gap: 10px; align-items: center;">
+                    <i class="fa-solid fa-route" style="color: var(--primary); font-size: 1.5rem;"></i>
+                    <div>
+                        <strong style="display: block; font-size: 1.1rem; color: var(--dark);">Cel: <span id="route-prompt-dest"></span></strong>
+                        <span style="font-size: 0.85rem; color: var(--dark-muted);">Czy wyszukać stacje po drodze?</span>
+                    </div>
+                </div>
+                <button id="route-prompt-close" style="background: none; border: none; font-size: 1.2rem; color: var(--dark-muted); cursor: pointer;"><i class="fa-solid fa-xmark"></i></button>
+            </div>
+            <div style="display: flex; flex-direction: column; gap: 8px;">
+                <button id="route-prompt-todo" class="btn btn-primary btn-block"><i class="fa-solid fa-hourglass-start"></i> Szukaj stacji "Do zrobienia"</button>
+                <button id="route-prompt-audit" class="btn btn-warning btn-block" style="background-color: var(--warning); color: var(--dark); border: none;"><i class="fa-solid fa-triangle-exclamation"></i> Szukaj tylko pilnych (Audyt)</button>
+                <button id="route-prompt-direct" class="btn btn-secondary btn-block"><i class="fa-solid fa-location-arrow"></i> Pomiń, prowadz bezpośrednio</button>
+            </div>
+        </div>
+
+    </div>
+
+    <!-- Leaflet Map JS -->
+    <script src="lib/leaflet.js"></script>
+    <!-- Turf.js for Geometry Operations -->
+    <script src="https://cdn.jsdelivr.net/npm/@turf/turf@6/turf.min.js"></script>
+            
+    <!-- Leaflet MarkerCluster JS -->
+    <script src="lib/leaflet.markercluster.js"></script>
+    
+    <!-- Leaflet Geocoder JS -->
+    <script src="https://unpkg.com/leaflet-control-geocoder/dist/Control.Geocoder.js"></script>
+            
+    <!-- Warstwa synchronizacji na żywo (Firebase) – opcjonalna, fallback do localStorage -->
+    <script src="sync.js?v=20260714k"></script>
+
+    <!-- Custom App Logic -->
+    <script src="app.js?v=20260714k"></script>
+
+    <!-- SVG Gooey Filter for blending salesman territories -->
+    <svg style="visibility: hidden; position: absolute;" width="0" height="0" xmlns="http://www.w3.org/2000/svg" version="1.1">
+        <defs>
+            <filter id="gooey-territory">
+                <feGaussianBlur in="SourceGraphic" stdDeviation="8" result="blur" />
+                <feColorMatrix in="blur" mode="matrix" values="1 0 0 0 0  0 1 0 0 0  0 0 1 0 0  0 0 0 19 -9" result="goo" />
+                <feComposite in="SourceGraphic" in2="goo" operator="atop" />
+            </filter>
+        </defs>
+    </svg>
+
+</body>
+</html>

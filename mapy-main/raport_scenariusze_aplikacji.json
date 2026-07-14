@@ -1,0 +1,32 @@
+[
+  {
+    "scenario": "Liczba stacji = 2149",
+    "result": "PASS",
+    "detail": 2149
+  },
+  {
+    "scenario": "Brak duplikatów adresowych",
+    "result": "PASS",
+    "detail": 0
+  },
+  {
+    "scenario": "Status zapisuje się natychmiast",
+    "result": "PASS"
+  },
+  {
+    "scenario": "Zrobiona stacja znika z trasy",
+    "result": "PASS"
+  },
+  {
+    "scenario": "Usunięcie z trasy nie cofa zrobionej",
+    "result": "PASS"
+  },
+  {
+    "scenario": "Google Maps ma limit punktów",
+    "result": "PASS"
+  },
+  {
+    "scenario": "Historia wykonanych tras istnieje",
+    "result": "PASS"
+  }
+]

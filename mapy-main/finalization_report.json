@@ -1,0 +1,21 @@
+{
+  "target_count": 1966,
+  "before": {
+    "count": 1966,
+    "duplicate_id_rows": 0,
+    "duplicate_address_rows": 10,
+    "duplicate_coordinate_rows": 539,
+    "placeholder_52_19_rows": 243,
+    "audit_tak_count": 336
+  },
+  "after": {
+    "count": 1966,
+    "duplicate_id_rows": 0,
+    "duplicate_address_rows": 0,
+    "duplicate_coordinate_rows": 539,
+    "placeholder_52_19_rows": 243,
+    "audit_tak_count": 336
+  },
+  "removed_by_exact_duplicate_address": 10,
+  "added_from_backup_to_restore_count": 10
+}

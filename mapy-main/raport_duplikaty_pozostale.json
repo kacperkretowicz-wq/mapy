@@ -1,0 +1,1654 @@
+[
+  {
+    "distance_m": 0.0,
+    "id1": "ORL-PL-11",
+    "id2": "ORL-PL-248",
+    "addr1": "ul. Piłsudskiego 2a, 44-200 Rybnik",
+    "addr2": "ul. Wyzwolenia 44, 44-200 Rybnik"
+  },
+  {
+    "distance_m": 0.0,
+    "id1": "ORL-PL-13",
+    "id2": "ORL-PL-4024",
+    "addr1": "ul. Filasiewicza 2, 43-400 Cieszyn",
+    "addr2": "ul. Stawowa 58, 43-400 Cieszyn"
+  },
+  {
+    "distance_m": 0.0,
+    "id1": "ORL-PL-21",
+    "id2": "ORL-PL-4297",
+    "addr1": "ul. Myśliborska 45, 66-400 Gorzów Wielkopolski",
+    "addr2": "ul. Podmiejska 15 a, 66-400 Gorzów Wielkopolski"
+  },
+  {
+    "distance_m": 0.0,
+    "id1": "ORL-PL-29",
+    "id2": "ORL-PL-52",
+    "addr1": "ul. Witosa 1, 87-800 Włocławek",
+    "addr2": "ul. Chopina 53, 87-800 Włocławek"
+  },
+  {
+    "distance_m": 0.0,
+    "id1": "ORL-PL-29",
+    "id2": "ORL-PL-544",
+    "addr1": "ul. Witosa 1, 87-800 Włocławek",
+    "addr2": "ul. Toruńska 33, 87-800 Włocławek"
+  },
+  {
+    "distance_m": 0.0,
+    "id1": "ORL-PL-29",
+    "id2": "ORL-PL-255492118",
+    "addr1": "ul. Witosa 1, 87-800 Włocławek",
+    "addr2": "ul. Toruńska 33, 87-800 Włocławek"
+  },
+  {
+    "distance_m": 0.0,
+    "id1": "ORL-PL-51",
+    "id2": "ORL-PL-1177",
+    "addr1": "ul. Koszalińska 34, 78-400 Szczecinek",
+    "addr2": "ul. 28-go Lutego 7, 78-400 Szczecinek"
+  },
+  {
+    "distance_m": 0.0,
+    "id1": "ORL-PL-52",
+    "id2": "ORL-PL-544",
+    "addr1": "ul. Chopina 53, 87-800 Włocławek",
+    "addr2": "ul. Toruńska 33, 87-800 Włocławek"
+  },
+  {
+    "distance_m": 0.0,
+    "id1": "ORL-PL-52",
+    "id2": "ORL-PL-255492118",
+    "addr1": "ul. Chopina 53, 87-800 Włocławek",
+    "addr2": "ul. Toruńska 33, 87-800 Włocławek"
+  },
+  {
+    "distance_m": 0.0,
+    "id1": "ORL-PL-59",
+    "id2": "ORL-PL-4278290414",
+    "addr1": "ul. Armii Krajowej 41, 05-600 Grójec",
+    "addr2": "ul. Armii Krajowej, 05-600 Grójec"
+  },
+  {
+    "distance_m": 0.0,
+    "id1": "ORL-PL-71",
+    "id2": "ORL-PL-7575",
+    "addr1": "ul. Chełmińska 51, 87-200 Wąbrzeźno",
+    "addr2": "ul. Mikołaja z Ryńska 11A, 87-200 Wąbrzeźno"
+  },
+  {
+    "distance_m": 0.0,
+    "id1": "ORL-PL-71",
+    "id2": "ORL-PL-362812700",
+    "addr1": "ul. Chełmińska 51, 87-200 Wąbrzeźno",
+    "addr2": "ul. Wolności 69, 87-200 Wąbrzeźno"
+  },
+  {
+    "distance_m": 0.0,
+    "id1": "ORL-PL-97",
+    "id2": "ORL-PL-7522",
+    "addr1": "ul. Jana Sobieskiego 17C, 32-400 Myślenice",
+    "addr2": "ul. Kazimierza Wielkiego 58, 32-400 Myślenice"
+  },
+  {
+    "distance_m": 0.0,
+    "id1": "ORL-PL-97",
+    "id2": "ORL-PL-7545",
+    "addr1": "ul. Jana Sobieskiego 17C, 32-400 Myślenice",
+    "addr2": "ul. Słowackiego 47, 32-400 Myślenice"
+  },
+  {
+    "distance_m": 0.0,
+    "id1": "ORL-PL-97",
+    "id2": "ORL-PL-2454593550",
+    "addr1": "ul. Jana Sobieskiego 17C, 32-400 Myślenice",
+    "addr2": "ul. Juliusza Słowackiego, 32-400 Myślenice"
+  },
+  {
+    "distance_m": 0.0,
+    "id1": "ORL-PL-131",
+    "id2": "ORL-PL-7354",
+    "addr1": "ul. Krakowska 16, 34-600 Limanowa",
+    "addr2": "ul. Tarnowska 34, 34-600 Limanowa"
+  },
+  {
+    "distance_m": 0.0,
+    "id1": "ORL-PL-133",
+    "id2": "ORL-PL-441249542",
+    "addr1": "ul. Powstańców Śl. 15, 48-200 Prudnik",
+    "addr2": "ul. Powstańców Śląskich 15, 48-200 Prudnik"
+  },
+  {
+    "distance_m": 0.0,
+    "id1": "ORL-PL-142",
+    "id2": "ORL-PL-4257",
+    "addr1": "ul. Bałtycka 17, 76-200 Słupsk",
+    "addr2": "ul. Garncarska 19, 76-200 Słupsk"
+  },
+  {
+    "distance_m": 0.0,
+    "id1": "ORL-PL-151",
+    "id2": "ORL-PL-314575292",
+    "addr1": "ul. Pułaskiego 2, 16-400 Suwałki",
+    "addr2": "ul. Generała Kazimierza Pułaskiego 2, 16-400 Suwałki"
+  },
+  {
+    "distance_m": 0.0,
+    "id1": "ORL-PL-153",
+    "id2": "ORL-PL-1342236922",
+    "addr1": "ul. M. Curie-Skłodowskiej 28, 76-150 Darłowo",
+    "addr2": "ul. Marii Curie-Skłodowskiej 28, 76-150 Darłowo"
+  },
+  {
+    "distance_m": 0.0,
+    "id1": "ORL-PL-157",
+    "id2": "ORL-PL-337984461",
+    "addr1": "ul. Poznańska 40, 62-045 Pniewy",
+    "addr2": "ul. Poznańska 61B, 62-045 Pniewy"
+  },
+  {
+    "distance_m": 0.0,
+    "id1": "ORL-PL-162",
+    "id2": "ORL-PL-234350365",
+    "addr1": "Oleśnicka, 46-100 Namysłów",
+    "addr2": "ul. Oleśnicka 8, 46-100 Namysłów"
+  },
+  {
+    "distance_m": 0.0,
+    "id1": "ORL-PL-163",
+    "id2": "ORL-PL-237037904",
+    "addr1": "ul. pl. Staszica 1, 56-400 Oleśnica",
+    "addr2": "ul. Plac Stanisława Staszica 1, 56-400 Oleśnica"
+  },
+  {
+    "distance_m": 0.0,
+    "id1": "ORL-PL-165",
+    "id2": "ORL-PL-225978035",
+    "addr1": "ul. Łunawska 3, 86-200 Chełmno",
+    "addr2": "ul. Łunawska 1a;3, 86-200 Chełmno"
+  },
+  {
+    "distance_m": 0.0,
+    "id1": "ORL-PL-185",
+    "id2": "ORL-PL-1820770577",
+    "addr1": "ul. Sikorskiego 35, 15-667 Białystok",
+    "addr2": "ul. Generała Władysława Sikorskiego 35, 15-667 Białystok"
+  },
+  {
+    "distance_m": 0.0,
+    "id1": "ORL-PL-187",
+    "id2": "ORL-PL-319170601",
+    "addr1": "ul. 3-go Maja 90, 38-200 Jasło",
+    "addr2": "ul. 3 Maja 90, 38-200 Jasło"
+  },
+  {
+    "distance_m": 0.0,
+    "id1": "ORL-PL-189",
+    "id2": "ORL-PL-1460749641",
+    "addr1": "ul. Lubelska 139, 23-200 Kraśnik",
+    "addr2": "ul. Urzędowska 44b, 23-200 Kraśnik"
+  },
+  {
+    "distance_m": 0.0,
+    "id1": "ORL-PL-203",
+    "id2": "ORL-PL-1359",
+    "addr1": "ul. Czarna 1, 95-100 Zgierz",
+    "addr2": "ul. Długa 177, 95-100 Zgierz"
+  },
+  {
+    "distance_m": 0.0,
+    "id1": "ORL-PL-203",
+    "id2": "ORL-PL-184389550",
+    "addr1": "ul. Czarna 1, 95-100 Zgierz",
+    "addr2": "ul. Długa 177, 95-100 Zgierz"
+  },
+  {
+    "distance_m": 0.0,
+    "id1": "ORL-PL-208",
+    "id2": "ORL-PL-368143717",
+    "addr1": "ul. Dr. Anki, 27-100 Iłża",
+    "addr2": "ul. Danuty Siedzikówny \"Inki\" 16, 27-100 Iłża"
+  },
+  {
+    "distance_m": 0.0,
+    "id1": "ORL-PL-216",
+    "id2": "ORL-PL-172921965",
+    "addr1": "ul. Wojska Polskiego, 83-400 Kościerzyna",
+    "addr2": "ul. Wojska Polskiego 24, 83-400 Kościerzyna"
+  },
+  {
+    "distance_m": 0.0,
+    "id1": "ORL-PL-218",
+    "id2": "ORL-PL-372362916",
+    "addr1": "ul. Westerplatte 31, 14-400 Pasłęk",
+    "addr2": "ul. Bohaterów Westerplatte 31, 14-400 Pasłęk"
+  },
+  {
+    "distance_m": 0.0,
+    "id1": "ORL-PL-220",
+    "id2": "ORL-PL-4461",
+    "addr1": "ul. Dąbrowskiego 47, 14-300 Morąg",
+    "addr2": "ul. Pomorska 48, 14-300 Morąg"
+  },
+  {
+    "distance_m": 0.0,
+    "id1": "ORL-PL-222",
+    "id2": "ORL-PL-390435224",
+    "addr1": "ul. Św. Antoniego 92/94, 97-200 Tomaszów Mazowiecki",
+    "addr2": "ul. Świętego Antoniego 92, 97-200 Tomaszów Mazowiecki"
+  },
+  {
+    "distance_m": 0.0,
+    "id1": "ORL-PL-223",
+    "id2": "ORL-PL-504",
+    "addr1": "ul. Al. Wojska Polskiego 107, 42-200 Częstochowa",
+    "addr2": "ul. Warszawska 324/334, 42-200 Częstochowa"
+  },
+  {
+    "distance_m": 0.0,
+    "id1": "ORL-PL-223",
+    "id2": "ORL-PL-1388",
+    "addr1": "ul. Al. Wojska Polskiego 107, 42-200 Częstochowa",
+    "addr2": "ul. Barbary 105, 42-200 Częstochowa"
+  },
+  {
+    "distance_m": 0.0,
+    "id1": "ORL-PL-239",
+    "id2": "ORL-PL-456",
+    "addr1": "Spokojna, 59-220 Legnica",
+    "addr2": "Poznańska, 59-220 Legnica"
+  },
+  {
+    "distance_m": 0.0,
+    "id1": "ORL-PL-249",
+    "id2": "ORL-PL-301947724",
+    "addr1": "ul. Wielkie Przedmieście 1A, 46-300 Olesno",
+    "addr2": "ul. Wielkie Przedmieście 1, 46-300 Olesno"
+  },
+  {
+    "distance_m": 0.0,
+    "id1": "ORL-PL-255",
+    "id2": "ORL-PL-1386",
+    "addr1": "ul. 1-go Maja 2, 47-400 Racibórz",
+    "addr2": "ul. Rybnicka 59, 47-400 Racibórz"
+  },
+  {
+    "distance_m": 0.0,
+    "id1": "ORL-PL-272",
+    "id2": "ORL-PL-314248939",
+    "addr1": "ul. 3-go Maja 1A, 87-600 Lipno",
+    "addr2": "ul. 3 Maja 1A, 87-600 Lipno"
+  },
+  {
+    "distance_m": 0.0,
+    "id1": "ORL-PL-294",
+    "id2": "ORL-PL-128046697",
+    "addr1": "1Maja, 69-100 Słubice",
+    "addr2": "ul. 1 Maja 30, 69-100 Słubice"
+  },
+  {
+    "distance_m": 0.0,
+    "id1": "ORL-PL-305",
+    "id2": "ORL-PL-7284",
+    "addr1": "ul. Kuziennicza 2, 59-400 Jawor",
+    "addr2": "ul. Szpitalna 7, 59-400 Jawor"
+  },
+  {
+    "distance_m": 0.0,
+    "id1": "ORL-PL-311",
+    "id2": "ORL-PL-1426",
+    "addr1": "ul. Powstańców Śląskich 1a, 32-600 Oświęcim",
+    "addr2": "ul. Chemików 18, 32-600 Oświęcim"
+  },
+  {
+    "distance_m": 0.0,
+    "id1": "ORL-PL-332",
+    "id2": "ORL-PL-7094",
+    "addr1": "Rzeszowska, 39-200 Dębica",
+    "addr2": "ul. Kościuszki 28, 39-200 Dębica"
+  },
+  {
+    "distance_m": 0.0,
+    "id1": "ORL-PL-333",
+    "id2": "ORL-PL-7190",
+    "addr1": "Sienkiewicza, 39-300 Mielec",
+    "addr2": "ul. Wolności 66, 39-300 Mielec"
+  },
+  {
+    "distance_m": 0.0,
+    "id1": "ORL-PL-333",
+    "id2": "ORL-PL-7258",
+    "addr1": "Sienkiewicza, 39-300 Mielec",
+    "addr2": "ul. Legionów 80, 39-300 Mielec"
+  },
+  {
+    "distance_m": 0.0,
+    "id1": "ORL-PL-349",
+    "id2": "ORL-PL-238866299",
+    "addr1": "ul. 11-go Listopada 42A, 03-436 Warszawa",
+    "addr2": "ul. 11 Listopada 42A, 03-436 Warszawa"
+  },
+  {
+    "distance_m": 0.0,
+    "id1": "ORL-PL-352",
+    "id2": "ORL-PL-253841316",
+    "addr1": "ul. Komuny Paryskiej, 67-300 Szprotawa",
+    "addr2": "ul. Plac Komuny Paryskiej 3, 67-300 Szprotawa"
+  },
+  {
+    "distance_m": 0.0,
+    "id1": "ORL-PL-355",
+    "id2": "ORL-PL-445816200",
+    "addr1": "ul. Grójecka 52A, 05-530 Góra Kalwaria",
+    "addr2": "ul. Grójecka, 05-530 Góra Kalwaria"
+  },
+  {
+    "distance_m": 0.0,
+    "id1": "ORL-PL-357",
+    "id2": "ORL-PL-4301",
+    "addr1": "ul. Warszawska 102, 07-300 Ostrów Mazowiecka",
+    "addr2": "ul. Lubiejewska 143, 07-300 Ostrów Mazowiecka"
+  },
+  {
+    "distance_m": 0.0,
+    "id1": "ORL-PL-357",
+    "id2": "ORL-PL-337143644",
+    "addr1": "ul. Warszawska 102, 07-300 Ostrów Mazowiecka",
+    "addr2": "ul. Lubiejewska 143, 07-300 Ostrów Mazowiecka"
+  },
+  {
+    "distance_m": 0.0,
+    "id1": "ORL-PL-366",
+    "id2": "ORL-PL-7012",
+    "addr1": "ul. Kielecka 7, 26-200 Końskie",
+    "addr2": "ul. Warszawska 49A, 26-200 Końskie"
+  },
+  {
+    "distance_m": 0.0,
+    "id1": "ORL-PL-366",
+    "id2": "ORL-PL-7448103086",
+    "addr1": "ul. Kielecka 7, 26-200 Końskie",
+    "addr2": "ul. Warszawska 49A, 26-200 Końskie"
+  },
+  {
+    "distance_m": 0.0,
+    "id1": "ORL-PL-409",
+    "id2": "ORL-PL-176691144",
+    "addr1": "ul. Kościuszki 16, 95-060 Brzeziny",
+    "addr2": "ul. Tadeusza Kościuszki 16, 95-060 Brzeziny"
+  },
+  {
+    "distance_m": 0.0,
+    "id1": "ORL-PL-446",
+    "id2": "ORL-PL-658",
+    "addr1": "ul. Wolińska 2, 72-100 Goleniów",
+    "addr2": "ul. Przestrzenna 2, 72-100 Goleniów"
+  },
+  {
+    "distance_m": 0.0,
+    "id1": "ORL-PL-446",
+    "id2": "ORL-PL-381964630",
+    "addr1": "ul. Wolińska 2, 72-100 Goleniów",
+    "addr2": "ul. Przestrzenna 2, 72-100 Goleniów"
+  },
+  {
+    "distance_m": 0.0,
+    "id1": "ORL-PL-447",
+    "id2": "ORL-PL-304699836",
+    "addr1": "ul. Warszawska 75 a, 35-205 Rzeszów",
+    "addr2": "ul. Warszawska, 35-205 Rzeszów"
+  },
+  {
+    "distance_m": 0.0,
+    "id1": "ORL-PL-448",
+    "id2": "ORL-PL-7189",
+    "addr1": "ul. Ełcka 42, 19-200 Grajewo",
+    "addr2": "ul. Piłsudskiego 55, 19-200 Grajewo"
+  },
+  {
+    "distance_m": 0.0,
+    "id1": "ORL-PL-448",
+    "id2": "ORL-PL-2687702572",
+    "addr1": "ul. Ełcka 42, 19-200 Grajewo",
+    "addr2": "ul. Ełcka, 19-200 Grajewo"
+  },
+  {
+    "distance_m": 0.0,
+    "id1": "ORL-PL-451",
+    "id2": "ORL-PL-249265302",
+    "addr1": "Toszecka, 47-100 Strzelce Opolskie",
+    "addr2": "ul. Krakowska 52, 47-100 Strzelce Opolskie"
+  },
+  {
+    "distance_m": 0.0,
+    "id1": "ORL-PL-461",
+    "id2": "ORL-PL-282740611",
+    "addr1": "ul. Widok 18, 96-100 Skierniewice",
+    "addr2": "ul. Widok, 96-100 Skierniewice"
+  },
+  {
+    "distance_m": 0.0,
+    "id1": "ORL-PL-464",
+    "id2": "ORL-PL-1304234078",
+    "addr1": "pl.Wolności, 74-200 Pyrzyce",
+    "addr2": "ul. Plac Wolności 1, 74-200 Pyrzyce"
+  },
+  {
+    "distance_m": 0.0,
+    "id1": "ORL-PL-470",
+    "id2": "ORL-PL-2122174102",
+    "addr1": "ul. Suwalska 75, 19-300 Ełk",
+    "addr2": "ul. Jana Kilińskiego 32, 19-300 Ełk"
+  },
+  {
+    "distance_m": 0.0,
+    "id1": "ORL-PL-476",
+    "id2": "ORL-PL-1437342454",
+    "addr1": "Kopernika, 37-530 Sieniawa",
+    "addr2": "ul. Wylewa 208C, 37-530 Sieniawa"
+  },
+  {
+    "distance_m": 0.0,
+    "id1": "ORL-PL-480",
+    "id2": "ORL-PL-4906",
+    "addr1": "ul. Wejherowska 7, 84-100 Puck",
+    "addr2": "ul. Lipowa 3c, 84-100 Puck"
+  },
+  {
+    "distance_m": 0.0,
+    "id1": "ORL-PL-481",
+    "id2": "ORL-PL-311778212",
+    "addr1": "Starogardzka, 83-130 Pelplin",
+    "addr2": "ul. Plac Wolności 7, 83-130 Pelplin"
+  },
+  {
+    "distance_m": 0.0,
+    "id1": "ORL-PL-483",
+    "id2": "ORL-PL-7112",
+    "addr1": "ul. Geodetów 40, 05-200 Wołomin",
+    "addr2": "ul. Armii Krajowej 20, 05-200 Wołomin"
+  },
+  {
+    "distance_m": 0.0,
+    "id1": "ORL-PL-483",
+    "id2": "ORL-PL-10673243327",
+    "addr1": "ul. Geodetów 40, 05-200 Wołomin",
+    "addr2": "ul. Aleja Armii Krajowej 116, 05-200 Wołomin"
+  },
+  {
+    "distance_m": 0.0,
+    "id1": "ORL-PL-489",
+    "id2": "ORL-PL-171039284",
+    "addr1": "ul. Limanowskiego 25, 02-943 Warszawa",
+    "addr2": "ul. Bolesława Limanowskiego 25, 02-943 Warszawa"
+  },
+  {
+    "distance_m": 0.0,
+    "id1": "ORL-PL-504",
+    "id2": "ORL-PL-1388",
+    "addr1": "ul. Warszawska 324/334, 42-200 Częstochowa",
+    "addr2": "ul. Barbary 105, 42-200 Częstochowa"
+  },
+  {
+    "distance_m": 0.0,
+    "id1": "ORL-PL-507",
+    "id2": "ORL-PL-2961949773",
+    "addr1": "ul. Wojska Polskiego, 18-500 Kolno",
+    "addr2": "ul. Wojska Polskiego 75, 18-500 Kolno"
+  },
+  {
+    "distance_m": 0.0,
+    "id1": "ORL-PL-516",
+    "id2": "ORL-PL-581905501",
+    "addr1": "ul. Jadowniki ,ul.Krakowska 5, 32-851 Brzesko",
+    "addr2": "ul. Krakowska 5, 32-851 Brzesko"
+  },
+  {
+    "distance_m": 0.0,
+    "id1": "ORL-PL-517",
+    "id2": "ORL-PL-1193529825",
+    "addr1": "ul. Piłsudskiego 102A, 33-200 Dąbrowa Tarnowska",
+    "addr2": "ul. Żabieńska 12, 33-200 Dąbrowa Tarnowska"
+  },
+  {
+    "distance_m": 0.0,
+    "id1": "ORL-PL-539",
+    "id2": "ORL-PL-7270",
+    "addr1": "ul. Wrocławska 31, 57-200 Ząbkowice Śląskie",
+    "addr2": "ul. Kłodzka 20, 57-200 Ząbkowice Śląskie"
+  },
+  {
+    "distance_m": 0.0,
+    "id1": "ORL-PL-539",
+    "id2": "ORL-PL-7272",
+    "addr1": "ul. Wrocławska 31, 57-200 Ząbkowice Śląskie",
+    "addr2": "ul. Powstańców Warszawy 0, 57-200 Ząbkowice Śląskie"
+  },
+  {
+    "distance_m": 0.0,
+    "id1": "ORL-PL-539",
+    "id2": "ORL-PL-304858899",
+    "addr1": "ul. Wrocławska 31, 57-200 Ząbkowice Śląskie",
+    "addr2": "ul. Kłodzka 20, 57-200 Ząbkowice Śląskie"
+  },
+  {
+    "distance_m": 0.0,
+    "id1": "ORL-PL-540",
+    "id2": "ORL-PL-206132287",
+    "addr1": "ul. Rydza Śmigłego 43, 93-272 Łódź",
+    "addr2": "ul. Aleja Marszałka Edwarda Śmigłego-Rydza 43, 93-272 Łódź"
+  },
+  {
+    "distance_m": 0.0,
+    "id1": "ORL-PL-544",
+    "id2": "ORL-PL-255492118",
+    "addr1": "ul. Toruńska 33, 87-800 Włocławek",
+    "addr2": "ul. Toruńska 33, 87-800 Włocławek"
+  },
+  {
+    "distance_m": 0.0,
+    "id1": "ORL-PL-549",
+    "id2": "ORL-PL-4225",
+    "addr1": "ul. Partyzancka 103, 95-200 Pabianice",
+    "addr2": "ul. Kilińskiego 26, 95-200 Pabianice"
+  },
+  {
+    "distance_m": 0.0,
+    "id1": "ORL-PL-549",
+    "id2": "ORL-PL-150212420",
+    "addr1": "ul. Partyzancka 103, 95-200 Pabianice",
+    "addr2": "ul. Jana Kilińskiego 26, 95-200 Pabianice"
+  },
+  {
+    "distance_m": 0.0,
+    "id1": "ORL-PL-578",
+    "id2": "ORL-PL-7500",
+    "addr1": "ul. Krakowska 4, 32-020 Wieliczka",
+    "addr2": "Dobczycka, 32-020 Wieliczka"
+  },
+  {
+    "distance_m": 0.0,
+    "id1": "ORL-PL-579",
+    "id2": "ORL-PL-310362402",
+    "addr1": "ul. Konopnickiej 12, 32-050 Skawina",
+    "addr2": "ul. Marii Konopnickiej 12, 32-050 Skawina"
+  },
+  {
+    "distance_m": 0.0,
+    "id1": "ORL-PL-614",
+    "id2": "ORL-PL-660580223",
+    "addr1": "ul. Krakowska 43B świ ętokrzyskie, 28-200 Staszów",
+    "addr2": "ul. Krakowska 43B, 28-200 Staszów"
+  },
+  {
+    "distance_m": 0.0,
+    "id1": "ORL-PL-616",
+    "id2": "ORL-PL-264898358",
+    "addr1": "ul. Krakowska 88, 26-800 Białobrzegi",
+    "addr2": "ul. Krakowska 86, 26-800 Białobrzegi"
+  },
+  {
+    "distance_m": 0.0,
+    "id1": "ORL-PL-626",
+    "id2": "ORL-PL-11476461513",
+    "addr1": "ul. Sikorskiego 115, 44-103 Gliwice",
+    "addr2": "ul. Wielicka 6, 44-103 Gliwice"
+  },
+  {
+    "distance_m": 0.0,
+    "id1": "ORL-PL-628",
+    "id2": "ORL-PL-219301029",
+    "addr1": "ul. Kasprowicza 12, 42-580 Wojkowice",
+    "addr2": "ul. Króla Jana III Sobieskiego 12, 42-580 Wojkowice"
+  },
+  {
+    "distance_m": 0.0,
+    "id1": "ORL-PL-630",
+    "id2": "ORL-PL-7197",
+    "addr1": "ul. Wieluńska 9, 42-100 Kłobuck",
+    "addr2": "ul. Górnicza BRAK, 42-100 Kłobuck"
+  },
+  {
+    "distance_m": 0.0,
+    "id1": "ORL-PL-638",
+    "id2": "ORL-PL-7095",
+    "addr1": "ul. Krakowska 270, 33-100 Tarnów",
+    "addr2": "ul. Tuchowska 25, 33-100 Tarnów"
+  },
+  {
+    "distance_m": 0.0,
+    "id1": "ORL-PL-638",
+    "id2": "ORL-PL-7137",
+    "addr1": "ul. Krakowska 270, 33-100 Tarnów",
+    "addr2": "ul. Spokojna 22, 33-100 Tarnów"
+  },
+  {
+    "distance_m": 0.0,
+    "id1": "ORL-PL-657",
+    "id2": "ORL-PL-4217",
+    "addr1": "ul. Gdańska 240, 85-674 Bydgoszcz",
+    "addr2": "ul. Gdańska 252, 85-674 Bydgoszcz"
+  },
+  {
+    "distance_m": 0.0,
+    "id1": "ORL-PL-658",
+    "id2": "ORL-PL-381964630",
+    "addr1": "ul. Przestrzenna 2, 72-100 Goleniów",
+    "addr2": "ul. Przestrzenna 2, 72-100 Goleniów"
+  },
+  {
+    "distance_m": 0.0,
+    "id1": "ORL-PL-663",
+    "id2": "ORL-PL-433046893",
+    "addr1": "ul. Naftowa 7/9, 91-073 Łódź",
+    "addr2": "ul. Legionów 123, 91-073 Łódź"
+  },
+  {
+    "distance_m": 0.0,
+    "id1": "ORL-PL-674",
+    "id2": "ORL-PL-4442",
+    "addr1": "ul. Piastowska 4, 05-800 Pruszków",
+    "addr2": "ul. Bohaterów Warszawy 7, 05-800 Pruszków"
+  },
+  {
+    "distance_m": 0.0,
+    "id1": "ORL-PL-693",
+    "id2": "ORL-PL-2679091745",
+    "addr1": "ul. Wł. Sikorskiego 60, 18-100 Łapy",
+    "addr2": "ul. Generała Władysława Sikorskiego 60, 18-100 Łapy"
+  },
+  {
+    "distance_m": 0.0,
+    "id1": "ORL-PL-702",
+    "id2": "ORL-PL-7452",
+    "addr1": "ul. 3-go Maja 1, 96-320 Mszczonów",
+    "addr2": "ul. Zbiroża ul.Grójecka 2, 96-320 Mszczonów"
+  },
+  {
+    "distance_m": 0.0,
+    "id1": "ORL-PL-705",
+    "id2": "ORL-PL-298549012",
+    "addr1": "ul. Zegrzyńska 5, 05-110 Jabłonna",
+    "addr2": "ul. Zegrzyńska 7A, 05-110 Jabłonna"
+  },
+  {
+    "distance_m": 0.0,
+    "id1": "ORL-PL-732",
+    "id2": "ORL-PL-7061",
+    "addr1": "ul. Jałowiec 49a, 59-800 Lubań",
+    "addr2": "ul. Cmentarna 5, 59-800 Lubań"
+  },
+  {
+    "distance_m": 0.0,
+    "id1": "ORL-PL-732",
+    "id2": "ORL-PL-323760356",
+    "addr1": "ul. Jałowiec 49a, 59-800 Lubań",
+    "addr2": "ul. Cmentarna 5, 59-800 Lubań"
+  },
+  {
+    "distance_m": 0.0,
+    "id1": "ORL-PL-738",
+    "id2": "ORL-PL-299667879",
+    "addr1": "Wrzesińska, 62-310 Pyzdry",
+    "addr2": "ul. Wrzesińska 43, 62-310 Pyzdry"
+  },
+  {
+    "distance_m": 0.0,
+    "id1": "ORL-PL-746",
+    "id2": "ORL-PL-637431676",
+    "addr1": "ul. Bytomska 361, 41-940 Piekary Śląskie",
+    "addr2": "ul. Karola Miarki 13D, 41-940 Piekary Śląskie"
+  },
+  {
+    "distance_m": 0.0,
+    "id1": "ORL-PL-795",
+    "id2": "ORL-PL-2998463642",
+    "addr1": "ul. Warszawska 15, 05-190 Nasielsk",
+    "addr2": "ul. Płońska 6A, 05-190 Nasielsk"
+  },
+  {
+    "distance_m": 0.0,
+    "id1": "ORL-PL-845",
+    "id2": "ORL-PL-476215876",
+    "addr1": "ul. Al. Wyzwolenia 1b, 06-445 Strzegowo",
+    "addr2": "ul. Wyzwolenia 1b, 06-445 Strzegowo"
+  },
+  {
+    "distance_m": 0.0,
+    "id1": "ORL-PL-984",
+    "id2": "ORL-PL-4399",
+    "addr1": "ul. K. Norwida 10, 55-080 Kąty Wrocławskie",
+    "addr2": "ul. 1 Maja 90, 55-080 Kąty Wrocławskie"
+  },
+  {
+    "distance_m": 0.0,
+    "id1": "ORL-PL-984",
+    "id2": "ORL-PL-1694953493",
+    "addr1": "ul. K. Norwida 10, 55-080 Kąty Wrocławskie",
+    "addr2": "ul. Cypriana Kamila Norwida 10, 55-080 Kąty Wrocławskie"
+  },
+  {
+    "distance_m": 0.0,
+    "id1": "ORL-PL-988",
+    "id2": "ORL-PL-7571",
+    "addr1": "ul. Koniawska 24, 66-400 Gorzów Wielkopolski",
+    "addr2": "ul. Górczyńska 57, 66-400 Gorzów Wielkopolski"
+  },
+  {
+    "distance_m": 0.0,
+    "id1": "ORL-PL-988",
+    "id2": "ORL-PL-193948116",
+    "addr1": "ul. Koniawska 24, 66-400 Gorzów Wielkopolski",
+    "addr2": "ul. Aleje 11 Listopada 148, 66-400 Gorzów Wielkopolski"
+  },
+  {
+    "distance_m": 0.0,
+    "id1": "ORL-PL-993",
+    "id2": "ORL-PL-352654548",
+    "addr1": "ul. Piłsudskiego 2, 09-402 Płock",
+    "addr2": "ul. Aleja Józefa Piłsudskiego 2, 09-402 Płock"
+  },
+  {
+    "distance_m": 0.0,
+    "id1": "ORL-PL-1045",
+    "id2": "ORL-PL-11247704344",
+    "addr1": "ul. Kajki 61, 11-320 Jeziorany",
+    "addr2": "ul. Michała Kajki 61, 11-320 Jeziorany"
+  },
+  {
+    "distance_m": 0.0,
+    "id1": "ORL-PL-1067",
+    "id2": "ORL-PL-298062524",
+    "addr1": "Sikorskiego, 87-300 Brodnica",
+    "addr2": "ul. Generała Władysława Sikorskiego, 87-300 Brodnica"
+  },
+  {
+    "distance_m": 0.0,
+    "id1": "ORL-PL-1088",
+    "id2": "ORL-PL-385812453",
+    "addr1": "ul. De Gaulle'a 72, 82-200 Malbork",
+    "addr2": "ul. Generała Charles'a de Gaulle'a 72, 82-200 Malbork"
+  },
+  {
+    "distance_m": 0.0,
+    "id1": "ORL-PL-1092",
+    "id2": "ORL-PL-337070014",
+    "addr1": "ul. Woj. Polskiego 24A, 58-533 Mysłakowice",
+    "addr2": "ul. Wojska Polskiego 24a, 58-533 Mysłakowice"
+  },
+  {
+    "distance_m": 0.0,
+    "id1": "ORL-PL-1108",
+    "id2": "ORL-PL-4318",
+    "addr1": "ul. Juliana Fałata 1b, 58-560 Jelenia Góra",
+    "addr2": "ul. Wolności 233, 58-560 Jelenia Góra"
+  },
+  {
+    "distance_m": 0.0,
+    "id1": "ORL-PL-1108",
+    "id2": "ORL-PL-303858229",
+    "addr1": "ul. Juliana Fałata 1b, 58-560 Jelenia Góra",
+    "addr2": "ul. Wolności 233, 58-560 Jelenia Góra"
+  },
+  {
+    "distance_m": 0.0,
+    "id1": "ORL-PL-1181",
+    "id2": "ORL-PL-7339",
+    "addr1": "ul. Gdańska 18A, 76-200 Słupsk",
+    "addr2": "ul. Przemysłowa 34, 76-200 Słupsk"
+  },
+  {
+    "distance_m": 0.0,
+    "id1": "ORL-PL-1185",
+    "id2": "ORL-PL-151423015",
+    "addr1": "ul. I Bryg. Panc. Woj. Polskiego 106, 84-200 Wejherowo",
+    "addr2": "ul. I Brygady Pancernej Wojska Polskiego 106, 84-200 Wejherowo"
+  },
+  {
+    "distance_m": 0.0,
+    "id1": "ORL-PL-1211",
+    "id2": "ORL-PL-614217423",
+    "addr1": "ul. Komisji Edukacji Narodowej 16, 37-450 Stalowa Wola",
+    "addr2": "ul. Komisji Edukacji Narodowej 16A, 37-450 Stalowa Wola"
+  },
+  {
+    "distance_m": 0.0,
+    "id1": "ORL-PL-1218",
+    "id2": "ORL-PL-361244954",
+    "addr1": "ul. Leśna 8, 97-570 Przedbórz",
+    "addr2": "ul. Leśna, 97-570 Przedbórz"
+  },
+  {
+    "distance_m": 0.0,
+    "id1": "ORL-PL-1228",
+    "id2": "ORL-PL-4346",
+    "addr1": "ul. Łaska 43/45, 95-200 Pabianice",
+    "addr2": "ul. Rzgowska 276, 95-200 Pabianice"
+  },
+  {
+    "distance_m": 0.0,
+    "id1": "ORL-PL-1233",
+    "id2": "ORL-PL-7248",
+    "addr1": "ul. Tuligłowy 168, 22-300 Krasnystaw",
+    "addr2": "ul. Okrzei 125, 22-300 Krasnystaw"
+  },
+  {
+    "distance_m": 0.0,
+    "id1": "ORL-PL-1233",
+    "id2": "ORL-PL-1254656094",
+    "addr1": "ul. Tuligłowy 168, 22-300 Krasnystaw",
+    "addr2": "ul. Polewana 4, 22-300 Krasnystaw"
+  },
+  {
+    "distance_m": 0.0,
+    "id1": "ORL-PL-1245",
+    "id2": "ORL-PL-402400021",
+    "addr1": "ul. Sanocka 27B, 38-480 Rymanów",
+    "addr2": "ul. Sanocka 27A, 38-480 Rymanów"
+  },
+  {
+    "distance_m": 0.0,
+    "id1": "ORL-PL-1267",
+    "id2": "ORL-PL-7239",
+    "addr1": "ul. Łódzka 31, 98-220 Zduńska Wola",
+    "addr2": "ul. Mostowa 3, 98-220 Zduńska Wola"
+  },
+  {
+    "distance_m": 0.0,
+    "id1": "ORL-PL-1267",
+    "id2": "ORL-PL-150178853",
+    "addr1": "ul. Łódzka 31, 98-220 Zduńska Wola",
+    "addr2": "ul. Mostowa 3, 98-220 Zduńska Wola"
+  },
+  {
+    "distance_m": 0.0,
+    "id1": "ORL-PL-1271",
+    "id2": "ORL-PL-571566421",
+    "addr1": "ul. Sobieskiego 1, 38-100 Strzyżów",
+    "addr2": "ul. Jana Sobieskiego 1, 38-100 Strzyżów"
+  },
+  {
+    "distance_m": 0.0,
+    "id1": "ORL-PL-1274",
+    "id2": "ORL-PL-1452",
+    "addr1": "ul. Lipińskiego 211, 38-500 Sanok",
+    "addr2": "ul. Krakowska 198, 38-500 Sanok"
+  },
+  {
+    "distance_m": 0.0,
+    "id1": "ORL-PL-1274",
+    "id2": "ORL-PL-1207469347",
+    "addr1": "ul. Lipińskiego 211, 38-500 Sanok",
+    "addr2": "ul. Krakowska 198, 38-500 Sanok"
+  },
+  {
+    "distance_m": 0.0,
+    "id1": "ORL-PL-1277",
+    "id2": "ORL-PL-2390133968",
+    "addr1": "ul. Mickiewicza 76B, 39-400 Tarnobrzeg",
+    "addr2": "ul. Eugeniusza Kwiatkowskiego 1a, 39-400 Tarnobrzeg"
+  },
+  {
+    "distance_m": 0.0,
+    "id1": "ORL-PL-1296",
+    "id2": "ORL-PL-1443",
+    "addr1": "ul. Lubelska 101, 22-400 Zamość",
+    "addr2": "ul. Płoskie 13, 22-400 Zamość"
+  },
+  {
+    "distance_m": 0.0,
+    "id1": "ORL-PL-1300",
+    "id2": "ORL-PL-4447",
+    "addr1": "ul. Hrubieszowska 50, 22-400 Zamość",
+    "addr2": "ul. Sadowa 8b, 22-400 Zamość"
+  },
+  {
+    "distance_m": 0.0,
+    "id1": "ORL-PL-1302",
+    "id2": "ORL-PL-390992694",
+    "addr1": "ul. Łobuszan 1, 76-004 Sianów",
+    "addr2": "ul. Łubuszan 1, 76-004 Sianów"
+  },
+  {
+    "distance_m": 0.0,
+    "id1": "ORL-PL-1322",
+    "id2": "ORL-PL-262390989",
+    "addr1": "ul. Opolska 33, 49-100 Niemodlin",
+    "addr2": "ul. Opolska 37, 49-100 Niemodlin"
+  },
+  {
+    "distance_m": 0.0,
+    "id1": "ORL-PL-1324",
+    "id2": "ORL-PL-438244740",
+    "addr1": "Prudnicka, 47-300 Krapkowice",
+    "addr2": "ul. Prudnicka 28B, 47-300 Krapkowice"
+  },
+  {
+    "distance_m": 0.0,
+    "id1": "ORL-PL-1332",
+    "id2": "ORL-PL-301330237",
+    "addr1": "ul. Płocka 18/19, 06-500 Mława",
+    "addr2": "ul. Płocka 87, 06-500 Mława"
+  },
+  {
+    "distance_m": 0.0,
+    "id1": "ORL-PL-1359",
+    "id2": "ORL-PL-184389550",
+    "addr1": "ul. Długa 177, 95-100 Zgierz",
+    "addr2": "ul. Długa 177, 95-100 Zgierz"
+  },
+  {
+    "distance_m": 0.0,
+    "id1": "ORL-PL-1383",
+    "id2": "ORL-PL-7523",
+    "addr1": "ul. Nawojowska 99, 33-300 Nowy Sącz",
+    "addr2": "ul. Węgierska 201, 33-300 Nowy Sącz"
+  },
+  {
+    "distance_m": 0.0,
+    "id1": "ORL-PL-1397",
+    "id2": "ORL-PL-1032032191",
+    "addr1": "ul. Warszawska 61, 98-300 Wieluń",
+    "addr2": "ul. Romualda Traugutta 51A, 98-300 Wieluń"
+  },
+  {
+    "distance_m": 0.0,
+    "id1": "ORL-PL-1406",
+    "id2": "ORL-PL-3186981226",
+    "addr1": "ul. Sikorskiego 1, 39-400 Tarnobrzeg",
+    "addr2": "ul. Generała Władysława Sikorskiego 1, 39-400 Tarnobrzeg"
+  },
+  {
+    "distance_m": 0.0,
+    "id1": "ORL-PL-1419",
+    "id2": "ORL-PL-221211407",
+    "addr1": "ul. Ks.Suchowolca 12, 15-567 Białystok",
+    "addr2": "ul. Księdza Stanisława Suchowolca 12, 15-567 Białystok"
+  },
+  {
+    "distance_m": 0.0,
+    "id1": "ORL-PL-1430",
+    "id2": "ORL-PL-7337",
+    "addr1": "ul. os. Na Niwie, 34-400 Nowy Targ",
+    "addr2": "ul. Ludźmierska 29, 34-400 Nowy Targ"
+  },
+  {
+    "distance_m": 0.0,
+    "id1": "ORL-PL-1430",
+    "id2": "ORL-PL-7471",
+    "addr1": "ul. os. Na Niwie, 34-400 Nowy Targ",
+    "addr2": "ul. Krakowska 2, 34-400 Nowy Targ"
+  },
+  {
+    "distance_m": 0.0,
+    "id1": "ORL-PL-1437",
+    "id2": "ORL-PL-372188836",
+    "addr1": "ul. Armii Krajowej 5, 22-100 Chełm",
+    "addr2": "ul. Aleja Armii Krajowej 5, 22-100 Chełm"
+  },
+  {
+    "distance_m": 0.0,
+    "id1": "ORL-PL-1452",
+    "id2": "ORL-PL-1207469347",
+    "addr1": "ul. Krakowska 198, 38-500 Sanok",
+    "addr2": "ul. Krakowska 198, 38-500 Sanok"
+  },
+  {
+    "distance_m": 0.0,
+    "id1": "ORL-PL-1453",
+    "id2": "ORL-PL-4386325227",
+    "addr1": "ul. Rzeszowska 4, 36-200 Brzozów",
+    "addr2": "ul. Rzeszowska 6, 36-200 Brzozów"
+  },
+  {
+    "distance_m": 0.0,
+    "id1": "ORL-PL-1493",
+    "id2": "ORL-PL-442839059",
+    "addr1": "ul. Wspólna 35, 86-014 Pawłówek",
+    "addr2": "ul. Wspólna, 86-014 Pawłówek"
+  },
+  {
+    "distance_m": 0.0,
+    "id1": "ORL-PL-1500",
+    "id2": "ORL-PL-291306923",
+    "addr1": "Zawadzkiego, 21-580 Wisznice",
+    "addr2": "ul. Władysława Zawadzkiego 1, 21-580 Wisznice"
+  },
+  {
+    "distance_m": 0.0,
+    "id1": "ORL-PL-1515",
+    "id2": "ORL-PL-4491",
+    "addr1": "ul. Brzeska 1, 08-110 Siedlce",
+    "addr2": "ul. Partyzantów 16C, 08-110 Siedlce"
+  },
+  {
+    "distance_m": 0.0,
+    "id1": "ORL-PL-1525",
+    "id2": "ORL-PL-7224",
+    "addr1": "ul. Świdnicka 60, 58-160 Świebodzice",
+    "addr2": "ul. Jeleniogórska 52, 58-160 Świebodzice"
+  },
+  {
+    "distance_m": 0.0,
+    "id1": "ORL-PL-4021",
+    "id2": "ORL-PL-360106774",
+    "addr1": "ul. Grunwaldzka 7a, 48-340 Głuchołazy",
+    "addr2": "ul. Grunwaldzka, 48-340 Głuchołazy"
+  },
+  {
+    "distance_m": 0.0,
+    "id1": "ORL-PL-4039",
+    "id2": "ORL-PL-168966965",
+    "addr1": "ul. Aleja Prymasa Tysiąclecia 52, 01-242 Warszawa",
+    "addr2": "ul. Aleja Prymasa Tysiąclecia 81, 01-242 Warszawa"
+  },
+  {
+    "distance_m": 0.0,
+    "id1": "ORL-PL-4055",
+    "id2": "ORL-PL-4069",
+    "addr1": "Grunwaldzka, 84-230 Rumia",
+    "addr2": "ul. Dąbrowskiego 74, 84-230 Rumia"
+  },
+  {
+    "distance_m": 0.0,
+    "id1": "ORL-PL-4055",
+    "id2": "ORL-PL-4010765186",
+    "addr1": "Grunwaldzka, 84-230 Rumia",
+    "addr2": "ul. Grunwaldzka 84, 84-230 Rumia"
+  },
+  {
+    "distance_m": 0.0,
+    "id1": "ORL-PL-4066",
+    "id2": "ORL-PL-169117749",
+    "addr1": "ul. Hynka 2, 02-149 Warszawa",
+    "addr2": "ul. Franciszka Hynka 2D, 02-149 Warszawa"
+  },
+  {
+    "distance_m": 0.0,
+    "id1": "ORL-PL-4069",
+    "id2": "ORL-PL-4010765186",
+    "addr1": "ul. Dąbrowskiego 74, 84-230 Rumia",
+    "addr2": "ul. Grunwaldzka 84, 84-230 Rumia"
+  },
+  {
+    "distance_m": 0.0,
+    "id1": "ORL-PL-4070",
+    "id2": "ORL-PL-249888698",
+    "addr1": "ul. Kopernika 33, 11-100 Lidzbark Warmiński",
+    "addr2": "ul. Mikołaja Kopernika 33A, 11-100 Lidzbark Warmiński"
+  },
+  {
+    "distance_m": 0.0,
+    "id1": "ORL-PL-4087",
+    "id2": "ORL-PL-265240024",
+    "addr1": "ul. Pszczyńska 52, 44-100 Gliwice",
+    "addr2": "ul. Jasna, 44-100 Gliwice"
+  },
+  {
+    "distance_m": 0.0,
+    "id1": "ORL-PL-4094",
+    "id2": "ORL-PL-673978012",
+    "addr1": "ul. Opatowska 63, 28-200 Staszów",
+    "addr2": "ul. Opatowska 71, 28-200 Staszów"
+  },
+  {
+    "distance_m": 0.0,
+    "id1": "ORL-PL-4135",
+    "id2": "ORL-PL-215547515",
+    "addr1": "ul. Sikorskiego 21, 58-260 Bielawa",
+    "addr2": "ul. Generała Władysława Sikorskiego 21, 58-260 Bielawa"
+  },
+  {
+    "distance_m": 0.0,
+    "id1": "ORL-PL-4144",
+    "id2": "ORL-PL-7322",
+    "addr1": "47, 96-200 Podlas",
+    "addr2": "ul. Podlas 19A, 96-200 Rawa Mazowiecka"
+  },
+  {
+    "distance_m": 0.0,
+    "id1": "ORL-PL-4147",
+    "id2": "ORL-PL-481122769",
+    "addr1": "ul. Bolesława Podedwornego 21A, 18-305 Szumowo",
+    "addr2": "ul. Kapitana Antoniego Kozłowskiego 21, 18-305 Szumowo"
+  },
+  {
+    "distance_m": 0.0,
+    "id1": "ORL-PL-4171",
+    "id2": "ORL-PL-7325",
+    "addr1": "ul. Kosciuszki 56, 99-300 Kutno",
+    "addr2": "ul. Adamowice 1A, 99-300 Kutno"
+  },
+  {
+    "distance_m": 0.0,
+    "id1": "ORL-PL-4171",
+    "id2": "ORL-PL-257358608",
+    "addr1": "ul. Kosciuszki 56, 99-300 Kutno",
+    "addr2": "ul. Tadeusza Kościuszki 56, 99-300 Kutno"
+  },
+  {
+    "distance_m": 0.0,
+    "id1": "ORL-PL-4225",
+    "id2": "ORL-PL-150212420",
+    "addr1": "ul. Kilińskiego 26, 95-200 Pabianice",
+    "addr2": "ul. Jana Kilińskiego 26, 95-200 Pabianice"
+  },
+  {
+    "distance_m": 0.0,
+    "id1": "ORL-PL-4250",
+    "id2": "ORL-PL-10258057102",
+    "addr1": "ul. Kusocińskiego 4, 21-040 Świdnik",
+    "addr2": "ul. Janusza Kusocińskiego 4, 21-040 Świdnik"
+  },
+  {
+    "distance_m": 0.0,
+    "id1": "ORL-PL-4251",
+    "id2": "ORL-PL-408349881",
+    "addr1": "ul. Waryńskiego 16, 73-150 Łobez",
+    "addr2": "ul. Przemysłowa 1, 73-150 Łobez"
+  },
+  {
+    "distance_m": 0.0,
+    "id1": "ORL-PL-4263",
+    "id2": "ORL-PL-219301621",
+    "addr1": "ul. Czeladzka 39, 42-500 Będzin",
+    "addr2": "ul. Pustkowie 2, 42-500 Będzin"
+  },
+  {
+    "distance_m": 0.0,
+    "id1": "ORL-PL-4264",
+    "id2": "ORL-PL-427750279",
+    "addr1": "ul. 3-go Maja 34, 47-303 Krapkowice",
+    "addr2": "ul. 3 Maja 34, 47-303 Krapkowice"
+  },
+  {
+    "distance_m": 0.0,
+    "id1": "ORL-PL-4277",
+    "id2": "ORL-PL-385884425",
+    "addr1": "ul. Smardzów 30A, 56-400 Smardzów",
+    "addr2": "ul. Wrocławska 44, 56-400 Smardzów"
+  },
+  {
+    "distance_m": 0.0,
+    "id1": "ORL-PL-4301",
+    "id2": "ORL-PL-337143644",
+    "addr1": "ul. Lubiejewska 143, 07-300 Ostrów Mazowiecka",
+    "addr2": "ul. Lubiejewska 143, 07-300 Ostrów Mazowiecka"
+  },
+  {
+    "distance_m": 0.0,
+    "id1": "ORL-PL-4318",
+    "id2": "ORL-PL-303858229",
+    "addr1": "ul. Wolności 233, 58-560 Jelenia Góra",
+    "addr2": "ul. Wolności 233, 58-560 Jelenia Góra"
+  },
+  {
+    "distance_m": 0.0,
+    "id1": "ORL-PL-4319",
+    "id2": "ORL-PL-701684922",
+    "addr1": "ul. Grzebskiego 10, 06-500 Mława",
+    "addr2": "ul. Stanisława Grzebskiego 10, 06-500 Mława"
+  },
+  {
+    "distance_m": 0.0,
+    "id1": "ORL-PL-4325",
+    "id2": "ORL-PL-244738797",
+    "addr1": "Olsztyńska, 11-040 Dobre Miasto",
+    "addr2": "ul. Olsztyńska 21a, 11-040 Dobre Miasto"
+  },
+  {
+    "distance_m": 0.0,
+    "id1": "ORL-PL-4326",
+    "id2": "ORL-PL-325878195",
+    "addr1": "ul. Conrada 1, 01-922 Warszawa",
+    "addr2": "ul. Josepha Conrada 1A, 01-922 Warszawa"
+  },
+  {
+    "distance_m": 0.0,
+    "id1": "ORL-PL-4328",
+    "id2": "ORL-PL-4464",
+    "addr1": "ul. Kołłątaja 61, 05-400 Otwock",
+    "addr2": "ul. Poniatowskiego 14, 05-400 Otwock"
+  },
+  {
+    "distance_m": 0.0,
+    "id1": "ORL-PL-4328",
+    "id2": "ORL-PL-424427258",
+    "addr1": "ul. Kołłątaja 61, 05-400 Otwock",
+    "addr2": "ul. Hugona Kołłątaja 61, 05-400 Otwock"
+  },
+  {
+    "distance_m": 0.0,
+    "id1": "ORL-PL-4329",
+    "id2": "ORL-PL-4330",
+    "addr1": "ul. Trakt Lubelski 63, 05-408 Wola Ducka",
+    "addr2": "ul. Trakt Lubelski 28, 05-408 Wola Ducka"
+  },
+  {
+    "distance_m": 0.0,
+    "id1": "ORL-PL-4329",
+    "id2": "ORL-PL-239357868",
+    "addr1": "ul. Trakt Lubelski 63, 05-408 Wola Ducka",
+    "addr2": "ul. Trakt Lubelski 28, 05-408 Wola Ducka"
+  },
+  {
+    "distance_m": 0.0,
+    "id1": "ORL-PL-4330",
+    "id2": "ORL-PL-239357868",
+    "addr1": "ul. Trakt Lubelski 28, 05-408 Wola Ducka",
+    "addr2": "ul. Trakt Lubelski 28, 05-408 Wola Ducka"
+  },
+  {
+    "distance_m": 0.0,
+    "id1": "ORL-PL-4343",
+    "id2": "ORL-PL-440772289",
+    "addr1": "ul. Trójca 30, 27-630 Zawichost",
+    "addr2": "ul. Trójca 56, 27-630 Zawichost"
+  },
+  {
+    "distance_m": 0.0,
+    "id1": "ORL-PL-4350",
+    "id2": "ORL-PL-234007706",
+    "addr1": "ul. Krakowska 12, 43-600 Jaworzno",
+    "addr2": "ul. Krakowska 6c, 43-600 Jaworzno"
+  },
+  {
+    "distance_m": 0.0,
+    "id1": "ORL-PL-4351",
+    "id2": "ORL-PL-344219401",
+    "addr1": "ul. Witosa 6a, 88-300 Mogilno",
+    "addr2": "ul. Wincentego Witosa 6B, 88-300 Mogilno"
+  },
+  {
+    "distance_m": 0.0,
+    "id1": "ORL-PL-4367",
+    "id2": "ORL-PL-1086024483",
+    "addr1": "ul. 1 Maja 7 D, 27-200 Starachowice",
+    "addr2": "ul. 1 Maja 7D, 27-200 Starachowice"
+  },
+  {
+    "distance_m": 0.0,
+    "id1": "ORL-PL-4399",
+    "id2": "ORL-PL-1694953493",
+    "addr1": "ul. 1 Maja 90, 55-080 Kąty Wrocławskie",
+    "addr2": "ul. Cypriana Kamila Norwida 10, 55-080 Kąty Wrocławskie"
+  },
+  {
+    "distance_m": 0.0,
+    "id1": "ORL-PL-4417",
+    "id2": "ORL-PL-223490517",
+    "addr1": "ul. Mostowa 1, 82-500 Kwidzyn",
+    "addr2": "ul. Mostowa 1A, 82-500 Kwidzyn"
+  },
+  {
+    "distance_m": 0.0,
+    "id1": "ORL-PL-4423",
+    "id2": "ORL-PL-4905",
+    "addr1": "ul. Prawdowo 8, 11-730 Mikołajki",
+    "addr2": "ul. Promenada warmi ńsko-mazurskie, 11-730 Mikołajki"
+  },
+  {
+    "distance_m": 0.0,
+    "id1": "ORL-PL-4430",
+    "id2": "ORL-PL-381584182",
+    "addr1": "Olsztyńska, 11-700 Mrągowo",
+    "addr2": "ul. Olsztyńska 15, 11-700 Mrągowo"
+  },
+  {
+    "distance_m": 0.0,
+    "id1": "ORL-PL-4437",
+    "id2": "ORL-PL-415745963",
+    "addr1": "ul. Plac Wolności b/n, 18-520 Stawiski",
+    "addr2": "ul. Plac Wolności, 18-520 Stawiski"
+  },
+  {
+    "distance_m": 0.0,
+    "id1": "ORL-PL-4464",
+    "id2": "ORL-PL-424427258",
+    "addr1": "ul. Poniatowskiego 14, 05-400 Otwock",
+    "addr2": "ul. Hugona Kołłątaja 61, 05-400 Otwock"
+  },
+  {
+    "distance_m": 0.0,
+    "id1": "ORL-PL-4476",
+    "id2": "ORL-PL-747095270",
+    "addr1": "ul. Zielonogorska 1, 66-120 Kargowa",
+    "addr2": "ul. Zielonogórska 1, 66-120 Kargowa"
+  },
+  {
+    "distance_m": 0.0,
+    "id1": "ORL-PL-4530",
+    "id2": "ORL-PL-751355221",
+    "addr1": "ul. Sikorskiego 43, 97-300 Piotrków Trybunalski",
+    "addr2": "ul. Aleje Generała Władysława Sikorskiego 43, 97-300 Piotrków Trybunalski"
+  },
+  {
+    "distance_m": 0.0,
+    "id1": "ORL-PL-4531",
+    "id2": "ORL-PL-7326",
+    "addr1": "ul. Aleja NSZZ Solidarności 5, 62-700 Turek",
+    "addr2": "ul. Koni ńska 1, 62-700 Turek"
+  },
+  {
+    "distance_m": 0.0,
+    "id1": "ORL-PL-4531",
+    "id2": "ORL-PL-7222844792",
+    "addr1": "ul. Aleja NSZZ Solidarności 5, 62-700 Turek",
+    "addr2": "ul. Aleja NSZZ Solidarność 5, 62-700 Turek"
+  },
+  {
+    "distance_m": 0.0,
+    "id1": "ORL-PL-4633",
+    "id2": "ORL-PL-704943876",
+    "addr1": "ul. Gen. Leopolda Okulickiego 61, 31-637 Kraków",
+    "addr2": "ul. Generała Leopolda Okulickiego 61, 31-637 Kraków"
+  },
+  {
+    "distance_m": 0.0,
+    "id1": "ORL-PL-4679",
+    "id2": "ORL-PL-1301510897",
+    "addr1": "ul. Mickiewicza 16a, 82-230 Nowy Staw",
+    "addr2": "ul. Juliusza Słowackiego, 82-230 Nowy Staw"
+  },
+  {
+    "distance_m": 0.0,
+    "id1": "ORL-PL-7005",
+    "id2": "ORL-PL-2502230732",
+    "addr1": "ul. Batorego 20, 34-100 Wadowice",
+    "addr2": "ul. Stefana Batorego 20, 34-100 Wadowice"
+  },
+  {
+    "distance_m": 0.0,
+    "id1": "ORL-PL-7012",
+    "id2": "ORL-PL-7448103086",
+    "addr1": "ul. Warszawska 49A, 26-200 Końskie",
+    "addr2": "ul. Warszawska 49A, 26-200 Końskie"
+  },
+  {
+    "distance_m": 0.0,
+    "id1": "ORL-PL-7015",
+    "id2": "ORL-PL-7016",
+    "addr1": "ul. Jawornik 447, 32-400 Jawornik",
+    "addr2": "ul. Jawornik 586, 32-400 Jawornik"
+  },
+  {
+    "distance_m": 0.0,
+    "id1": "ORL-PL-7015",
+    "id2": "ORL-PL-243691232",
+    "addr1": "ul. Jawornik 447, 32-400 Jawornik",
+    "addr2": "ul. Zakręty 3, 32-400 Jawornik"
+  },
+  {
+    "distance_m": 0.0,
+    "id1": "ORL-PL-7016",
+    "id2": "ORL-PL-243691232",
+    "addr1": "ul. Jawornik 586, 32-400 Jawornik",
+    "addr2": "ul. Zakręty 3, 32-400 Jawornik"
+  },
+  {
+    "distance_m": 0.0,
+    "id1": "ORL-PL-7061",
+    "id2": "ORL-PL-323760356",
+    "addr1": "ul. Cmentarna 5, 59-800 Lubań",
+    "addr2": "ul. Cmentarna 5, 59-800 Lubań"
+  },
+  {
+    "distance_m": 0.0,
+    "id1": "ORL-PL-7079",
+    "id2": "ORL-PL-368426627",
+    "addr1": "ul. Sulejowska 134, 97-300 Piotrków Trybunalski",
+    "addr2": "ul. Łódzka 51, 97-300 Piotrków Trybunalski"
+  },
+  {
+    "distance_m": 0.0,
+    "id1": "ORL-PL-7095",
+    "id2": "ORL-PL-7137",
+    "addr1": "ul. Tuchowska 25, 33-100 Tarnów",
+    "addr2": "ul. Spokojna 22, 33-100 Tarnów"
+  },
+  {
+    "distance_m": 0.0,
+    "id1": "ORL-PL-7101",
+    "id2": "ORL-PL-472601663",
+    "addr1": "ul. Al. Piłsudskiego 115A, 18-400 Łomża",
+    "addr2": "ul. Szosa Zambrowska, 18-400 Łomża"
+  },
+  {
+    "distance_m": 0.0,
+    "id1": "ORL-PL-7106",
+    "id2": "ORL-PL-2963338548",
+    "addr1": "ul. Wojska Polskiego 51, 18-500 Koniecki",
+    "addr2": "ul. Wojska Polskiego 51, 18-500 Kolno"
+  },
+  {
+    "distance_m": 0.0,
+    "id1": "ORL-PL-7112",
+    "id2": "ORL-PL-10673243327",
+    "addr1": "ul. Armii Krajowej 20, 05-200 Wołomin",
+    "addr2": "ul. Aleja Armii Krajowej 116, 05-200 Wołomin"
+  },
+  {
+    "distance_m": 0.0,
+    "id1": "ORL-PL-7117",
+    "id2": "ORL-PL-282393656",
+    "addr1": "Nadwiślańska, 05-410 Józefów",
+    "addr2": "ul. Nadwiślańska 90, 05-410 Józefów"
+  },
+  {
+    "distance_m": 0.0,
+    "id1": "ORL-PL-7127",
+    "id2": "ORL-PL-367334921",
+    "addr1": "ul. Piłsudskiego 123B, 05-270 Marki",
+    "addr2": "ul. Majora Billa 1, 05-270 Marki"
+  },
+  {
+    "distance_m": 0.0,
+    "id1": "ORL-PL-7148",
+    "id2": "ORL-PL-10295817543",
+    "addr1": "ul. Szewska 46A, 34-120 Andrychów",
+    "addr2": "ul. Biała Droga 4, 34-120 Andrychów"
+  },
+  {
+    "distance_m": 0.0,
+    "id1": "ORL-PL-7170",
+    "id2": "ORL-PL-7252",
+    "addr1": "ul. Towarowa 1A, 95-040 Koluszki",
+    "addr2": "ul. Partyzantów 8A, 95-040 Koluszki"
+  },
+  {
+    "distance_m": 0.0,
+    "id1": "ORL-PL-7187",
+    "id2": "ORL-PL-1603226360",
+    "addr1": "Droga Krajowa 46, 46-053 Chrząstowice",
+    "addr2": "ul. Opolska 3, 46-053 Chrząstowice"
+  },
+  {
+    "distance_m": 0.0,
+    "id1": "ORL-PL-7189",
+    "id2": "ORL-PL-2687702572",
+    "addr1": "ul. Piłsudskiego 55, 19-200 Grajewo",
+    "addr2": "ul. Ełcka, 19-200 Grajewo"
+  },
+  {
+    "distance_m": 0.0,
+    "id1": "ORL-PL-7190",
+    "id2": "ORL-PL-7258",
+    "addr1": "ul. Wolności 66, 39-300 Mielec",
+    "addr2": "ul. Legionów 80, 39-300 Mielec"
+  },
+  {
+    "distance_m": 0.0,
+    "id1": "ORL-PL-7191",
+    "id2": "ORL-PL-7570",
+    "addr1": "ul. Wojska Polskiego 8, 87-600 Lipno",
+    "addr2": "ul. Głodowo 56A, 87-600 Lipno"
+  },
+  {
+    "distance_m": 0.0,
+    "id1": "ORL-PL-7191",
+    "id2": "ORL-PL-2232078868",
+    "addr1": "ul. Wojska Polskiego 8, 87-600 Lipno",
+    "addr2": "ul. Wojska Polskiego 10, 87-600 Lipno"
+  },
+  {
+    "distance_m": 0.0,
+    "id1": "ORL-PL-7206",
+    "id2": "ORL-PL-1905994079",
+    "addr1": "ul. Wadowicka 61a, 32-640 Zator",
+    "addr2": "ul. Krakowska 19, 32-640 Zator"
+  },
+  {
+    "distance_m": 0.0,
+    "id1": "ORL-PL-7236",
+    "id2": "ORL-PL-7019238748",
+    "addr1": "ul. Ząbkowicka 32, 57-100 Strzelin",
+    "addr2": "ul. Ząbkowicka 32, 57-100"
+  },
+  {
+    "distance_m": 0.0,
+    "id1": "ORL-PL-7239",
+    "id2": "ORL-PL-150178853",
+    "addr1": "ul. Mostowa 3, 98-220 Zduńska Wola",
+    "addr2": "ul. Mostowa 3, 98-220 Zduńska Wola"
+  },
+  {
+    "distance_m": 0.0,
+    "id1": "ORL-PL-7248",
+    "id2": "ORL-PL-1254656094",
+    "addr1": "ul. Okrzei 125, 22-300 Krasnystaw",
+    "addr2": "ul. Polewana 4, 22-300 Krasnystaw"
+  },
+  {
+    "distance_m": 0.0,
+    "id1": "ORL-PL-7270",
+    "id2": "ORL-PL-7272",
+    "addr1": "ul. Kłodzka 20, 57-200 Ząbkowice Śląskie",
+    "addr2": "ul. Powstańców Warszawy 0, 57-200 Ząbkowice Śląskie"
+  },
+  {
+    "distance_m": 0.0,
+    "id1": "ORL-PL-7270",
+    "id2": "ORL-PL-304858899",
+    "addr1": "ul. Kłodzka 20, 57-200 Ząbkowice Śląskie",
+    "addr2": "ul. Kłodzka 20, 57-200 Ząbkowice Śląskie"
+  },
+  {
+    "distance_m": 0.0,
+    "id1": "ORL-PL-7272",
+    "id2": "ORL-PL-304858899",
+    "addr1": "ul. Powstańców Warszawy 0, 57-200 Ząbkowice Śląskie",
+    "addr2": "ul. Kłodzka 20, 57-200 Ząbkowice Śląskie"
+  },
+  {
+    "distance_m": 0.0,
+    "id1": "ORL-PL-7325",
+    "id2": "ORL-PL-257358608",
+    "addr1": "ul. Adamowice 1A, 99-300 Kutno",
+    "addr2": "ul. Tadeusza Kościuszki 56, 99-300 Kutno"
+  },
+  {
+    "distance_m": 0.0,
+    "id1": "ORL-PL-7326",
+    "id2": "ORL-PL-7222844792",
+    "addr1": "ul. Koni ńska 1, 62-700 Turek",
+    "addr2": "ul. Aleja NSZZ Solidarność 5, 62-700 Turek"
+  },
+  {
+    "distance_m": 0.0,
+    "id1": "ORL-PL-7337",
+    "id2": "ORL-PL-7471",
+    "addr1": "ul. Ludźmierska 29, 34-400 Nowy Targ",
+    "addr2": "ul. Krakowska 2, 34-400 Nowy Targ"
+  },
+  {
+    "distance_m": 0.0,
+    "id1": "ORL-PL-7345",
+    "id2": "ORL-PL-1952894463",
+    "addr1": "ul. Klasztorna 37, 97-215 Inowłódz",
+    "addr2": "ul. Klasztorna 38, 97-215 Inowłódz"
+  },
+  {
+    "distance_m": 0.0,
+    "id1": "ORL-PL-7352",
+    "id2": "ORL-PL-297827099",
+    "addr1": "ul. Zawodzie 1, 33-380 Krynica-Zdrój",
+    "addr2": "ul. Zawodzie 2, 33-380 Krynica-Zdrój"
+  },
+  {
+    "distance_m": 0.0,
+    "id1": "ORL-PL-7355",
+    "id2": "ORL-PL-5619456666",
+    "addr1": "ul. Królewiecka 68, 14-500 Braniewo",
+    "addr2": "ul. Elbląska 28, 14-500 Braniewo"
+  },
+  {
+    "distance_m": 0.0,
+    "id1": "ORL-PL-7381",
+    "id2": "ORL-PL-7502",
+    "addr1": "ul. 3-go Maja 589, 39-100 Ropczyce",
+    "addr2": "ul. Robotnicza 1, 39-100 Ropczyce"
+  },
+  {
+    "distance_m": 0.0,
+    "id1": "ORL-PL-7521",
+    "id2": "ORL-PL-223191039",
+    "addr1": "ul. Raciborska 2 F, 44-361 Syrynia",
+    "addr2": "ul. Raciborska 2f, 44-361 Syrynia"
+  },
+  {
+    "distance_m": 0.0,
+    "id1": "ORL-PL-7522",
+    "id2": "ORL-PL-7545",
+    "addr1": "ul. Kazimierza Wielkiego 58, 32-400 Myślenice",
+    "addr2": "ul. Słowackiego 47, 32-400 Myślenice"
+  },
+  {
+    "distance_m": 0.0,
+    "id1": "ORL-PL-7522",
+    "id2": "ORL-PL-2454593550",
+    "addr1": "ul. Kazimierza Wielkiego 58, 32-400 Myślenice",
+    "addr2": "ul. Juliusza Słowackiego, 32-400 Myślenice"
+  },
+  {
+    "distance_m": 0.0,
+    "id1": "ORL-PL-7545",
+    "id2": "ORL-PL-2454593550",
+    "addr1": "ul. Słowackiego 47, 32-400 Myślenice",
+    "addr2": "ul. Juliusza Słowackiego, 32-400 Myślenice"
+  },
+  {
+    "distance_m": 0.0,
+    "id1": "ORL-PL-7557",
+    "id2": "ORL-PL-1832573529",
+    "addr1": "ul. Słowackiego 121, 97-360 Kamieńsk",
+    "addr2": "ul. Juliusza Słowackiego 121, 97-360 Kamieńsk"
+  },
+  {
+    "distance_m": 0.0,
+    "id1": "ORL-PL-7558",
+    "id2": "ORL-PL-281973540",
+    "addr1": "ul. Witosa 1, 55-040 Kobierzyce",
+    "addr2": "ul. Wincentego Witosa 1, 55-040 Kobierzyce"
+  },
+  {
+    "distance_m": 0.0,
+    "id1": "ORL-PL-7570",
+    "id2": "ORL-PL-2232078868",
+    "addr1": "ul. Głodowo 56A, 87-600 Lipno",
+    "addr2": "ul. Wojska Polskiego 10, 87-600 Lipno"
+  },
+  {
+    "distance_m": 0.0,
+    "id1": "ORL-PL-7571",
+    "id2": "ORL-PL-193948116",
+    "addr1": "ul. Górczyńska 57, 66-400 Gorzów Wielkopolski",
+    "addr2": "ul. Aleje 11 Listopada 148, 66-400 Gorzów Wielkopolski"
+  },
+  {
+    "distance_m": 0.0,
+    "id1": "ORL-PL-7575",
+    "id2": "ORL-PL-362812700",
+    "addr1": "ul. Mikołaja z Ryńska 11A, 87-200 Wąbrzeźno",
+    "addr2": "ul. Wolności 69, 87-200 Wąbrzeźno"
+  }
+]

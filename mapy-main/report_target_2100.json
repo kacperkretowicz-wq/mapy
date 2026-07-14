@@ -1,0 +1,11 @@
+{
+  "target": 2100,
+  "added_from_backup": 0,
+  "added_from_official_fallback": 39,
+  "final_metrics": {
+    "count": 2100,
+    "dup_id_rows": 0,
+    "dup_addr_rows": 39,
+    "dup_coord_rows": 634
+  }
+}

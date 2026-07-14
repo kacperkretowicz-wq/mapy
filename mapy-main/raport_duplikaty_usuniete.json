@@ -1,0 +1,838 @@
+[
+  {
+    "ID_Punktu": "ORL-PL-52",
+    "Adres": "ul. Chopina 53, 87-800 Włocławek"
+  },
+  {
+    "ID_Punktu": "ORL-PL-220",
+    "Adres": "ul. Dąbrowskiego 47, 14-300 Morąg"
+  },
+  {
+    "ID_Punktu": "ORL-PL-239",
+    "Adres": "Spokojna, 59-220 Legnica"
+  },
+  {
+    "ID_Punktu": "ORL-PL-248",
+    "Adres": "ul. Wyzwolenia 44, 44-200 Rybnik"
+  },
+  {
+    "ID_Punktu": "ORL-PL-255",
+    "Adres": "ul. 1-go Maja 2, 47-400 Racibórz"
+  },
+  {
+    "ID_Punktu": "ORL-PL-351",
+    "Adres": "ul. Główna, Serby 6, 67-200 Głogów"
+  },
+  {
+    "ID_Punktu": "ORL-PL-504",
+    "Adres": "ul. Warszawska 324/334, 42-200 Częstochowa"
+  },
+  {
+    "ID_Punktu": "ORL-PL-544",
+    "Adres": "ul. Toruńska 33, 87-800 Włocławek"
+  },
+  {
+    "ID_Punktu": "ORL-PL-658",
+    "Adres": "ul. Przestrzenna 2, 72-100 Goleniów"
+  },
+  {
+    "ID_Punktu": "ORL-PL-1062",
+    "Adres": "ul. Paderewskiego 113, 86-300 Grudziądz"
+  },
+  {
+    "ID_Punktu": "ORL-PL-1110",
+    "Adres": "ul. Wrocławska 57, 58-200 Dzierżoniów"
+  },
+  {
+    "ID_Punktu": "ORL-PL-1177",
+    "Adres": "ul. 28-go Lutego 7, 78-400 Szczecinek"
+  },
+  {
+    "ID_Punktu": "ORL-PL-1228",
+    "Adres": "ul. Łaska 43/45, 95-200 Pabianice"
+  },
+  {
+    "ID_Punktu": "ORL-PL-1359",
+    "Adres": "ul. Długa 177, 95-100 Zgierz"
+  },
+  {
+    "ID_Punktu": "ORL-PL-1388",
+    "Adres": "ul. Barbary 105, 42-200 Częstochowa"
+  },
+  {
+    "ID_Punktu": "ORL-PL-1426",
+    "Adres": "ul. Chemików 18, 32-600 Oświęcim"
+  },
+  {
+    "ID_Punktu": "ORL-PL-1443",
+    "Adres": "ul. Płoskie 13, 22-400 Zamość"
+  },
+  {
+    "ID_Punktu": "ORL-PL-1452",
+    "Adres": "ul. Krakowska 198, 38-500 Sanok"
+  },
+  {
+    "ID_Punktu": "ORL-PL-1478",
+    "Adres": "ul. Drogowców 23/25, 42-200 Częstochowa"
+  },
+  {
+    "ID_Punktu": "ORL-PL-1515",
+    "Adres": "ul. Brzeska 1, 08-110 Siedlce"
+  },
+  {
+    "ID_Punktu": "ORL-PL-4024",
+    "Adres": "ul. Stawowa 58, 43-400 Cieszyn"
+  },
+  {
+    "ID_Punktu": "ORL-PL-4027",
+    "Adres": "ul. Piłsudskiego 133, 22-500 Hrubieszów"
+  },
+  {
+    "ID_Punktu": "ORL-PL-4055",
+    "Adres": "Grunwaldzka, 84-230 Rumia"
+  },
+  {
+    "ID_Punktu": "ORL-PL-4164",
+    "Adres": "ul. Budowlanych 1, 78-600 Wałcz"
+  },
+  {
+    "ID_Punktu": "ORL-PL-4217",
+    "Adres": "ul. Gdańska 252, 85-674 Bydgoszcz"
+  },
+  {
+    "ID_Punktu": "ORL-PL-4225",
+    "Adres": "ul. Kilińskiego 26, 95-200 Pabianice"
+  },
+  {
+    "ID_Punktu": "ORL-PL-4257",
+    "Adres": "ul. Garncarska 19, 76-200 Słupsk"
+  },
+  {
+    "ID_Punktu": "ORL-PL-4297",
+    "Adres": "ul. Podmiejska 15 a, 66-400 Gorzów Wielkopolski"
+  },
+  {
+    "ID_Punktu": "ORL-PL-4301",
+    "Adres": "ul. Lubiejewska 143, 07-300 Ostrów Mazowiecka"
+  },
+  {
+    "ID_Punktu": "ORL-PL-4318",
+    "Adres": "ul. Wolności 233, 58-560 Jelenia Góra"
+  },
+  {
+    "ID_Punktu": "ORL-PL-4328",
+    "Adres": "ul. Kołłątaja 61, 05-400 Otwock"
+  },
+  {
+    "ID_Punktu": "ORL-PL-4330",
+    "Adres": "ul. Trakt Lubelski 28, 05-408 Wola Ducka"
+  },
+  {
+    "ID_Punktu": "ORL-PL-4339",
+    "Adres": "ul. Białostocka 10, 18-300 Zambrów"
+  },
+  {
+    "ID_Punktu": "ORL-PL-4354",
+    "Adres": "ul. Bursaki 29, 38-400 Krosno"
+  },
+  {
+    "ID_Punktu": "ORL-PL-4399",
+    "Adres": "ul. 1 Maja 90, 55-080 Kąty Wrocławskie"
+  },
+  {
+    "ID_Punktu": "ORL-PL-4442",
+    "Adres": "ul. Bohaterów Warszawy 7, 05-800 Pruszków"
+  },
+  {
+    "ID_Punktu": "ORL-PL-4447",
+    "Adres": "ul. Sadowa 8b, 22-400 Zamość"
+  },
+  {
+    "ID_Punktu": "ORL-PL-4451",
+    "Adres": "ul. Katowicka 30, 41-300 Dąbrowa Górnicza"
+  },
+  {
+    "ID_Punktu": "ORL-PL-4903",
+    "Adres": "ul. SAILOR warmi ńsko-mazurskie, 11-500 Pi ękna Góra"
+  },
+  {
+    "ID_Punktu": "ORL-PL-4905",
+    "Adres": "ul. Promenada warmi ńsko-mazurskie, 11-730 Mikołajki"
+  },
+  {
+    "ID_Punktu": "ORL-PL-4906",
+    "Adres": "ul. Lipowa 3c, 84-100 Puck"
+  },
+  {
+    "ID_Punktu": "ORL-PL-7012",
+    "Adres": "ul. Warszawska 49A, 26-200 Końskie"
+  },
+  {
+    "ID_Punktu": "ORL-PL-7013",
+    "Adres": "ul. Warszawska 128, 21-500 Biała Podlaska"
+  },
+  {
+    "ID_Punktu": "ORL-PL-7016",
+    "Adres": "ul. Jawornik 586, 32-400 Jawornik"
+  },
+  {
+    "ID_Punktu": "ORL-PL-7042",
+    "Adres": "ul. Sobieskiego 14, 41-300 Dąbrowa Górnicza"
+  },
+  {
+    "ID_Punktu": "ORL-PL-7061",
+    "Adres": "ul. Cmentarna 5, 59-800 Lubań"
+  },
+  {
+    "ID_Punktu": "ORL-PL-7073",
+    "Adres": "ul. Wojska Polskiego 7b, 42-200 Częstochowa"
+  },
+  {
+    "ID_Punktu": "ORL-PL-7090",
+    "Adres": "ul. Północna 1, 09-100 Płońsk"
+  },
+  {
+    "ID_Punktu": "ORL-PL-7094",
+    "Adres": "ul. Kościuszki 28, 39-200 Dębica"
+  },
+  {
+    "ID_Punktu": "ORL-PL-7095",
+    "Adres": "ul. Tuchowska 25, 33-100 Tarnów"
+  },
+  {
+    "ID_Punktu": "ORL-PL-7112",
+    "Adres": "ul. Armii Krajowej 20, 05-200 Wołomin"
+  },
+  {
+    "ID_Punktu": "ORL-PL-7115",
+    "Adres": "ul. Jagiellońska 113, 42-200 Częstochowa"
+  },
+  {
+    "ID_Punktu": "ORL-PL-7137",
+    "Adres": "ul. Spokojna 22, 33-100 Tarnów"
+  },
+  {
+    "ID_Punktu": "ORL-PL-7147",
+    "Adres": "ul. Al. Wojska Polskiego 78/86, 42-200 Częstochowa"
+  },
+  {
+    "ID_Punktu": "ORL-PL-7156",
+    "Adres": "ul. Płocka 48A, 09-200 Sierpc"
+  },
+  {
+    "ID_Punktu": "ORL-PL-7177",
+    "Adres": "ul. Warszawska 60, 05-120 Legionowo"
+  },
+  {
+    "ID_Punktu": "ORL-PL-7189",
+    "Adres": "ul. Piłsudskiego 55, 19-200 Grajewo"
+  },
+  {
+    "ID_Punktu": "ORL-PL-7190",
+    "Adres": "ul. Wolności 66, 39-300 Mielec"
+  },
+  {
+    "ID_Punktu": "ORL-PL-7197",
+    "Adres": "ul. Górnicza BRAK, 42-100 Kłobuck"
+  },
+  {
+    "ID_Punktu": "ORL-PL-7215",
+    "Adres": "ul. Jaksice 428, 32-200 Miechów"
+  },
+  {
+    "ID_Punktu": "ORL-PL-7224",
+    "Adres": "ul. Jeleniogórska 52, 58-160 Świebodzice"
+  },
+  {
+    "ID_Punktu": "ORL-PL-7225",
+    "Adres": "ul. Ćwiklinek 41, 09-100 Płońsk"
+  },
+  {
+    "ID_Punktu": "ORL-PL-7239",
+    "Adres": "ul. Mostowa 3, 98-220 Zduńska Wola"
+  },
+  {
+    "ID_Punktu": "ORL-PL-7248",
+    "Adres": "ul. Okrzei 125, 22-300 Krasnystaw"
+  },
+  {
+    "ID_Punktu": "ORL-PL-7252",
+    "Adres": "ul. Partyzantów 8A, 95-040 Koluszki"
+  },
+  {
+    "ID_Punktu": "ORL-PL-7258",
+    "Adres": "ul. Legionów 80, 39-300 Mielec"
+  },
+  {
+    "ID_Punktu": "ORL-PL-7270",
+    "Adres": "ul. Kłodzka 20, 57-200 Ząbkowice Śląskie"
+  },
+  {
+    "ID_Punktu": "ORL-PL-7272",
+    "Adres": "ul. Powstańców Warszawy 0, 57-200 Ząbkowice Śląskie"
+  },
+  {
+    "ID_Punktu": "ORL-PL-7284",
+    "Adres": "ul. Szpitalna 7, 59-400 Jawor"
+  },
+  {
+    "ID_Punktu": "ORL-PL-7322",
+    "Adres": "ul. Podlas 19A, 96-200 Rawa Mazowiecka"
+  },
+  {
+    "ID_Punktu": "ORL-PL-7325",
+    "Adres": "ul. Adamowice 1A, 99-300 Kutno"
+  },
+  {
+    "ID_Punktu": "ORL-PL-7326",
+    "Adres": "ul. Koni ńska 1, 62-700 Turek"
+  },
+  {
+    "ID_Punktu": "ORL-PL-7337",
+    "Adres": "ul. Ludźmierska 29, 34-400 Nowy Targ"
+  },
+  {
+    "ID_Punktu": "ORL-PL-7339",
+    "Adres": "ul. Przemysłowa 34, 76-200 Słupsk"
+  },
+  {
+    "ID_Punktu": "ORL-PL-7354",
+    "Adres": "ul. Tarnowska 34, 34-600 Limanowa"
+  },
+  {
+    "ID_Punktu": "ORL-PL-7406",
+    "Adres": "ul. Strzelecka 53, 63-400 Ostrów Wielkopolski"
+  },
+  {
+    "ID_Punktu": "ORL-PL-128046697",
+    "Adres": "ul. 1 Maja 30, 69-100 Słubice"
+  },
+  {
+    "ID_Punktu": "ORL-PL-150178853",
+    "Adres": "ul. Mostowa 3, 98-220 Zduńska Wola"
+  },
+  {
+    "ID_Punktu": "ORL-PL-150212420",
+    "Adres": "ul. Jana Kilińskiego 26, 95-200 Pabianice"
+  },
+  {
+    "ID_Punktu": "ORL-PL-151423015",
+    "Adres": "ul. I Brygady Pancernej Wojska Polskiego 106, 84-200 Wejherowo"
+  },
+  {
+    "ID_Punktu": "ORL-PL-168966965",
+    "Adres": "ul. Aleja Prymasa Tysiąclecia 81, 01-242 Warszawa"
+  },
+  {
+    "ID_Punktu": "ORL-PL-169117749",
+    "Adres": "ul. Franciszka Hynka 2D, 02-149 Warszawa"
+  },
+  {
+    "ID_Punktu": "ORL-PL-171039284",
+    "Adres": "ul. Bolesława Limanowskiego 25, 02-943 Warszawa"
+  },
+  {
+    "ID_Punktu": "ORL-PL-172921965",
+    "Adres": "ul. Wojska Polskiego 24, 83-400 Kościerzyna"
+  },
+  {
+    "ID_Punktu": "ORL-PL-174995903",
+    "Adres": "ul. Powstańców Śląskich 1a, 32-600 Oświęcim"
+  },
+  {
+    "ID_Punktu": "ORL-PL-176691144",
+    "Adres": "ul. Tadeusza Kościuszki 16, 95-060 Brzeziny"
+  },
+  {
+    "ID_Punktu": "ORL-PL-193948116",
+    "Adres": "ul. Aleje 11 Listopada 148, 66-400 Gorzów Wielkopolski"
+  },
+  {
+    "ID_Punktu": "ORL-PL-206132287",
+    "Adres": "ul. Aleja Marszałka Edwarda Śmigłego-Rydza 43, 93-272 Łódź"
+  },
+  {
+    "ID_Punktu": "ORL-PL-215547515",
+    "Adres": "ul. Generała Władysława Sikorskiego 21, 58-260 Bielawa"
+  },
+  {
+    "ID_Punktu": "ORL-PL-219301029",
+    "Adres": "ul. Króla Jana III Sobieskiego 12, 42-580 Wojkowice"
+  },
+  {
+    "ID_Punktu": "ORL-PL-219301621",
+    "Adres": "ul. Pustkowie 2, 42-500 Będzin"
+  },
+  {
+    "ID_Punktu": "ORL-PL-221211407",
+    "Adres": "ul. Księdza Stanisława Suchowolca 12, 15-567 Białystok"
+  },
+  {
+    "ID_Punktu": "ORL-PL-223490517",
+    "Adres": "ul. Mostowa 1A, 82-500 Kwidzyn"
+  },
+  {
+    "ID_Punktu": "ORL-PL-225978035",
+    "Adres": "ul. Łunawska 1a;3, 86-200 Chełmno"
+  },
+  {
+    "ID_Punktu": "ORL-PL-234007706",
+    "Adres": "ul. Krakowska 6c, 43-600 Jaworzno"
+  },
+  {
+    "ID_Punktu": "ORL-PL-234350365",
+    "Adres": "ul. Oleśnicka 8, 46-100 Namysłów"
+  },
+  {
+    "ID_Punktu": "ORL-PL-237037904",
+    "Adres": "ul. Plac Stanisława Staszica 1, 56-400 Oleśnica"
+  },
+  {
+    "ID_Punktu": "ORL-PL-238866299",
+    "Adres": "ul. 11 Listopada 42A, 03-436 Warszawa"
+  },
+  {
+    "ID_Punktu": "ORL-PL-239357868",
+    "Adres": "ul. Trakt Lubelski 28, 05-408 Wola Ducka"
+  },
+  {
+    "ID_Punktu": "ORL-PL-243691232",
+    "Adres": "ul. Zakręty 3, 32-400 Jawornik"
+  },
+  {
+    "ID_Punktu": "ORL-PL-244738797",
+    "Adres": "ul. Olsztyńska 21a, 11-040 Dobre Miasto"
+  },
+  {
+    "ID_Punktu": "ORL-PL-249265302",
+    "Adres": "ul. Krakowska 52, 47-100 Strzelce Opolskie"
+  },
+  {
+    "ID_Punktu": "ORL-PL-249888698",
+    "Adres": "ul. Mikołaja Kopernika 33A, 11-100 Lidzbark Warmiński"
+  },
+  {
+    "ID_Punktu": "ORL-PL-253841316",
+    "Adres": "ul. Plac Komuny Paryskiej 3, 67-300 Szprotawa"
+  },
+  {
+    "ID_Punktu": "ORL-PL-255492118",
+    "Adres": "ul. Toruńska 33, 87-800 Włocławek"
+  },
+  {
+    "ID_Punktu": "ORL-PL-257358608",
+    "Adres": "ul. Tadeusza Kościuszki 56, 99-300 Kutno"
+  },
+  {
+    "ID_Punktu": "ORL-PL-257679995",
+    "Adres": "ul. Rzeszowska, 39-200 Dębica"
+  },
+  {
+    "ID_Punktu": "ORL-PL-262390989",
+    "Adres": "ul. Opolska 37, 49-100 Niemodlin"
+  },
+  {
+    "ID_Punktu": "ORL-PL-264898358",
+    "Adres": "ul. Krakowska 86, 26-800 Białobrzegi"
+  },
+  {
+    "ID_Punktu": "ORL-PL-265240024",
+    "Adres": "ul. Jasna, 44-100 Gliwice"
+  },
+  {
+    "ID_Punktu": "ORL-PL-282393656",
+    "Adres": "ul. Nadwiślańska 90, 05-410 Józefów"
+  },
+  {
+    "ID_Punktu": "ORL-PL-282740611",
+    "Adres": "ul. Widok, 96-100 Skierniewice"
+  },
+  {
+    "ID_Punktu": "ORL-PL-291306923",
+    "Adres": "ul. Władysława Zawadzkiego 1, 21-580 Wisznice"
+  },
+  {
+    "ID_Punktu": "ORL-PL-291640126",
+    "Adres": "ul. Plac Partyzantów 8, 21-505 Janów Podlaski"
+  },
+  {
+    "ID_Punktu": "ORL-PL-297827099",
+    "Adres": "ul. Zawodzie 2, 33-380 Krynica-Zdrój"
+  },
+  {
+    "ID_Punktu": "ORL-PL-298062524",
+    "Adres": "ul. Generała Władysława Sikorskiego, 87-300 Brodnica"
+  },
+  {
+    "ID_Punktu": "ORL-PL-298549012",
+    "Adres": "ul. Zegrzyńska 7A, 05-110 Jabłonna"
+  },
+  {
+    "ID_Punktu": "ORL-PL-299667879",
+    "Adres": "ul. Wrzesińska 43, 62-310 Pyzdry"
+  },
+  {
+    "ID_Punktu": "ORL-PL-301330237",
+    "Adres": "ul. Płocka 87, 06-500 Mława"
+  },
+  {
+    "ID_Punktu": "ORL-PL-301947724",
+    "Adres": "ul. Wielkie Przedmieście 1, 46-300 Olesno"
+  },
+  {
+    "ID_Punktu": "ORL-PL-303858229",
+    "Adres": "ul. Wolności 233, 58-560 Jelenia Góra"
+  },
+  {
+    "ID_Punktu": "ORL-PL-304699836",
+    "Adres": "ul. Warszawska, 35-205 Rzeszów"
+  },
+  {
+    "ID_Punktu": "ORL-PL-304858899",
+    "Adres": "ul. Kłodzka 20, 57-200 Ząbkowice Śląskie"
+  },
+  {
+    "ID_Punktu": "ORL-PL-310362402",
+    "Adres": "ul. Marii Konopnickiej 12, 32-050 Skawina"
+  },
+  {
+    "ID_Punktu": "ORL-PL-311778212",
+    "Adres": "ul. Plac Wolności 7, 83-130 Pelplin"
+  },
+  {
+    "ID_Punktu": "ORL-PL-314248939",
+    "Adres": "ul. 3 Maja 1A, 87-600 Lipno"
+  },
+  {
+    "ID_Punktu": "ORL-PL-314575292",
+    "Adres": "ul. Generała Kazimierza Pułaskiego 2, 16-400 Suwałki"
+  },
+  {
+    "ID_Punktu": "ORL-PL-319170601",
+    "Adres": "ul. 3 Maja 90, 38-200 Jasło"
+  },
+  {
+    "ID_Punktu": "ORL-PL-320954798",
+    "Adres": "ul. Aleja „Solidarności” 100, 01-016 Warszawa"
+  },
+  {
+    "ID_Punktu": "ORL-PL-325878195",
+    "Adres": "ul. Josepha Conrada 1A, 01-922 Warszawa"
+  },
+  {
+    "ID_Punktu": "ORL-PL-337070014",
+    "Adres": "ul. Wojska Polskiego 24a, 58-533 Mysłakowice"
+  },
+  {
+    "ID_Punktu": "ORL-PL-337143644",
+    "Adres": "ul. Lubiejewska 143, 07-300 Ostrów Mazowiecka"
+  },
+  {
+    "ID_Punktu": "ORL-PL-337984461",
+    "Adres": "ul. Poznańska 61B, 62-045 Pniewy"
+  },
+  {
+    "ID_Punktu": "ORL-PL-344219401",
+    "Adres": "ul. Wincentego Witosa 6B, 88-300 Mogilno"
+  },
+  {
+    "ID_Punktu": "ORL-PL-352654548",
+    "Adres": "ul. Aleja Józefa Piłsudskiego 2, 09-402 Płock"
+  },
+  {
+    "ID_Punktu": "ORL-PL-360106774",
+    "Adres": "ul. Grunwaldzka, 48-340 Głuchołazy"
+  },
+  {
+    "ID_Punktu": "ORL-PL-361244954",
+    "Adres": "ul. Leśna, 97-570 Przedbórz"
+  },
+  {
+    "ID_Punktu": "ORL-PL-362812700",
+    "Adres": "ul. Wolności 69, 87-200 Wąbrzeźno"
+  },
+  {
+    "ID_Punktu": "ORL-PL-367334921",
+    "Adres": "ul. Majora Billa 1, 05-270 Marki"
+  },
+  {
+    "ID_Punktu": "ORL-PL-368143717",
+    "Adres": "ul. Danuty Siedzikówny \"Inki\" 16, 27-100 Iłża"
+  },
+  {
+    "ID_Punktu": "ORL-PL-368426627",
+    "Adres": "ul. Łódzka 51, 97-300 Piotrków Trybunalski"
+  },
+  {
+    "ID_Punktu": "ORL-PL-372188836",
+    "Adres": "ul. Aleja Armii Krajowej 5, 22-100 Chełm"
+  },
+  {
+    "ID_Punktu": "ORL-PL-372362916",
+    "Adres": "ul. Bohaterów Westerplatte 31, 14-400 Pasłęk"
+  },
+  {
+    "ID_Punktu": "ORL-PL-381584182",
+    "Adres": "ul. Olsztyńska 15, 11-700 Mrągowo"
+  },
+  {
+    "ID_Punktu": "ORL-PL-381964630",
+    "Adres": "ul. Przestrzenna 2, 72-100 Goleniów"
+  },
+  {
+    "ID_Punktu": "ORL-PL-385812453",
+    "Adres": "ul. Generała Charles'a de Gaulle'a 72, 82-200 Malbork"
+  },
+  {
+    "ID_Punktu": "ORL-PL-385884425",
+    "Adres": "ul. Wrocławska 44, 56-400 Smardzów"
+  },
+  {
+    "ID_Punktu": "ORL-PL-389919188",
+    "Adres": "ul. Bohaterów Warszawy 25, 75-211 Koszalin"
+  },
+  {
+    "ID_Punktu": "ORL-PL-390435224",
+    "Adres": "ul. Świętego Antoniego 92, 97-200 Tomaszów Mazowiecki"
+  },
+  {
+    "ID_Punktu": "ORL-PL-390992694",
+    "Adres": "ul. Łubuszan 1, 76-004 Sianów"
+  },
+  {
+    "ID_Punktu": "ORL-PL-402400021",
+    "Adres": "ul. Sanocka 27A, 38-480 Rymanów"
+  },
+  {
+    "ID_Punktu": "ORL-PL-408349881",
+    "Adres": "ul. Przemysłowa 1, 73-150 Łobez"
+  },
+  {
+    "ID_Punktu": "ORL-PL-415745963",
+    "Adres": "ul. Plac Wolności, 18-520 Stawiski"
+  },
+  {
+    "ID_Punktu": "ORL-PL-424427258",
+    "Adres": "ul. Hugona Kołłątaja 61, 05-400 Otwock"
+  },
+  {
+    "ID_Punktu": "ORL-PL-427750279",
+    "Adres": "ul. 3 Maja 34, 47-303 Krapkowice"
+  },
+  {
+    "ID_Punktu": "ORL-PL-433046893",
+    "Adres": "ul. Legionów 123, 91-073 Łódź"
+  },
+  {
+    "ID_Punktu": "ORL-PL-438244740",
+    "Adres": "ul. Prudnicka 28B, 47-300 Krapkowice"
+  },
+  {
+    "ID_Punktu": "ORL-PL-440772289",
+    "Adres": "ul. Trójca 56, 27-630 Zawichost"
+  },
+  {
+    "ID_Punktu": "ORL-PL-441249542",
+    "Adres": "ul. Powstańców Śląskich 15, 48-200 Prudnik"
+  },
+  {
+    "ID_Punktu": "ORL-PL-442839059",
+    "Adres": "ul. Wspólna, 86-014 Pawłówek"
+  },
+  {
+    "ID_Punktu": "ORL-PL-445816200",
+    "Adres": "ul. Grójecka, 05-530 Góra Kalwaria"
+  },
+  {
+    "ID_Punktu": "ORL-PL-472601663",
+    "Adres": "ul. Szosa Zambrowska, 18-400 Łomża"
+  },
+  {
+    "ID_Punktu": "ORL-PL-476215876",
+    "Adres": "ul. Wyzwolenia 1b, 06-445 Strzegowo"
+  },
+  {
+    "ID_Punktu": "ORL-PL-481122769",
+    "Adres": "ul. Kapitana Antoniego Kozłowskiego 21, 18-305 Szumowo"
+  },
+  {
+    "ID_Punktu": "ORL-PL-571566421",
+    "Adres": "ul. Jana Sobieskiego 1, 38-100 Strzyżów"
+  },
+  {
+    "ID_Punktu": "ORL-PL-581905501",
+    "Adres": "ul. Krakowska 5, 32-851 Brzesko"
+  },
+  {
+    "ID_Punktu": "ORL-PL-614217423",
+    "Adres": "ul. Komisji Edukacji Narodowej 16A, 37-450 Stalowa Wola"
+  },
+  {
+    "ID_Punktu": "ORL-PL-637431676",
+    "Adres": "ul. Karola Miarki 13D, 41-940 Piekary Śląskie"
+  },
+  {
+    "ID_Punktu": "ORL-PL-660580223",
+    "Adres": "ul. Krakowska 43B, 28-200 Staszów"
+  },
+  {
+    "ID_Punktu": "ORL-PL-673978012",
+    "Adres": "ul. Opatowska 71, 28-200 Staszów"
+  },
+  {
+    "ID_Punktu": "ORL-PL-701684922",
+    "Adres": "ul. Stanisława Grzebskiego 10, 06-500 Mława"
+  },
+  {
+    "ID_Punktu": "ORL-PL-704943876",
+    "Adres": "ul. Generała Leopolda Okulickiego 61, 31-637 Kraków"
+  },
+  {
+    "ID_Punktu": "ORL-PL-1032032191",
+    "Adres": "ul. Romualda Traugutta 51A, 98-300 Wieluń"
+  },
+  {
+    "ID_Punktu": "ORL-PL-1086024483",
+    "Adres": "ul. 1 Maja 7D, 27-200 Starachowice"
+  },
+  {
+    "ID_Punktu": "ORL-PL-1193529825",
+    "Adres": "ul. Żabieńska 12, 33-200 Dąbrowa Tarnowska"
+  },
+  {
+    "ID_Punktu": "ORL-PL-1207469347",
+    "Adres": "ul. Krakowska 198, 38-500 Sanok"
+  },
+  {
+    "ID_Punktu": "ORL-PL-1254656094",
+    "Adres": "ul. Polewana 4, 22-300 Krasnystaw"
+  },
+  {
+    "ID_Punktu": "ORL-PL-1301510897",
+    "Adres": "ul. Juliusza Słowackiego, 82-230 Nowy Staw"
+  },
+  {
+    "ID_Punktu": "ORL-PL-1304234078",
+    "Adres": "ul. Plac Wolności 1, 74-200 Pyrzyce"
+  },
+  {
+    "ID_Punktu": "ORL-PL-1342236922",
+    "Adres": "ul. Marii Curie-Skłodowskiej 28, 76-150 Darłowo"
+  },
+  {
+    "ID_Punktu": "ORL-PL-1437342454",
+    "Adres": "ul. Wylewa 208C, 37-530 Sieniawa"
+  },
+  {
+    "ID_Punktu": "ORL-PL-1460749641",
+    "Adres": "ul. Urzędowska 44b, 23-200 Kraśnik"
+  },
+  {
+    "ID_Punktu": "ORL-PL-1603226360",
+    "Adres": "ul. Opolska 3, 46-053 Chrząstowice"
+  },
+  {
+    "ID_Punktu": "ORL-PL-1694953493",
+    "Adres": "ul. Cypriana Kamila Norwida 10, 55-080 Kąty Wrocławskie"
+  },
+  {
+    "ID_Punktu": "ORL-PL-1820770577",
+    "Adres": "ul. Generała Władysława Sikorskiego 35, 15-667 Białystok"
+  },
+  {
+    "ID_Punktu": "ORL-PL-1905994079",
+    "Adres": "ul. Krakowska 19, 32-640 Zator"
+  },
+  {
+    "ID_Punktu": "ORL-PL-1952894463",
+    "Adres": "ul. Klasztorna 38, 97-215 Inowłódz"
+  },
+  {
+    "ID_Punktu": "ORL-PL-2122174102",
+    "Adres": "ul. Jana Kilińskiego 32, 19-300 Ełk"
+  },
+  {
+    "ID_Punktu": "ORL-PL-2232078868",
+    "Adres": "ul. Wojska Polskiego 10, 87-600 Lipno"
+  },
+  {
+    "ID_Punktu": "ORL-PL-2390133968",
+    "Adres": "ul. Eugeniusza Kwiatkowskiego 1a, 39-400 Tarnobrzeg"
+  },
+  {
+    "ID_Punktu": "ORL-PL-2454593550",
+    "Adres": "ul. Juliusza Słowackiego, 32-400 Myślenice"
+  },
+  {
+    "ID_Punktu": "ORL-PL-2502230732",
+    "Adres": "ul. Stefana Batorego 20, 34-100 Wadowice"
+  },
+  {
+    "ID_Punktu": "ORL-PL-2679091745",
+    "Adres": "ul. Generała Władysława Sikorskiego 60, 18-100 Łapy"
+  },
+  {
+    "ID_Punktu": "ORL-PL-2687702572",
+    "Adres": "ul. Ełcka, 19-200 Grajewo"
+  },
+  {
+    "ID_Punktu": "ORL-PL-2961949773",
+    "Adres": "ul. Wojska Polskiego 75, 18-500 Kolno"
+  },
+  {
+    "ID_Punktu": "ORL-PL-2963338548",
+    "Adres": "ul. Wojska Polskiego 51, 18-500 Kolno"
+  },
+  {
+    "ID_Punktu": "ORL-PL-2998463642",
+    "Adres": "ul. Płońska 6A, 05-190 Nasielsk"
+  },
+  {
+    "ID_Punktu": "ORL-PL-3186981226",
+    "Adres": "ul. Generała Władysława Sikorskiego 1, 39-400 Tarnobrzeg"
+  },
+  {
+    "ID_Punktu": "ORL-PL-4010765186",
+    "Adres": "ul. Grunwaldzka 84, 84-230 Rumia"
+  },
+  {
+    "ID_Punktu": "ORL-PL-4278290414",
+    "Adres": "ul. Armii Krajowej, 05-600 Grójec"
+  },
+  {
+    "ID_Punktu": "ORL-PL-4386325227",
+    "Adres": "ul. Rzeszowska 6, 36-200 Brzozów"
+  },
+  {
+    "ID_Punktu": "ORL-PL-5619456666",
+    "Adres": "ul. Elbląska 28, 14-500 Braniewo"
+  },
+  {
+    "ID_Punktu": "ORL-PL-7019238748",
+    "Adres": "ul. Ząbkowicka 32, 57-100"
+  },
+  {
+    "ID_Punktu": "ORL-PL-7222844792",
+    "Adres": "ul. Aleja NSZZ Solidarność 5, 62-700 Turek"
+  },
+  {
+    "ID_Punktu": "ORL-PL-10258057102",
+    "Adres": "ul. Janusza Kusocińskiego 4, 21-040 Świdnik"
+  },
+  {
+    "ID_Punktu": "ORL-PL-10295817543",
+    "Adres": "ul. Biała Droga 4, 34-120 Andrychów"
+  },
+  {
+    "ID_Punktu": "ORL-PL-10673243327",
+    "Adres": "ul. Aleja Armii Krajowej 116, 05-200 Wołomin"
+  },
+  {
+    "ID_Punktu": "ORL-PL-11247704344",
+    "Adres": "ul. Michała Kajki 61, 11-320 Jeziorany"
+  },
+  {
+    "ID_Punktu": "ORL-PL-11476461513",
+    "Adres": "ul. Wielicka 6, 44-103 Gliwice"
+  }
+]
